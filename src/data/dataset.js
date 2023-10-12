@@ -13,7 +13,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 35,
-        "races": 52
+        "races": 52,
+        "lastTeam": "Maserati"
       }
     },
     {
@@ -30,7 +31,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 155,
-        "races": 306
+        "races": 306,
+        "lastTeam": "Mercedes-AMG Petronas"
       }
     },
     {
@@ -47,7 +49,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 172,
-        "races": 280
+        "races": 280,
+        "lastTeam": "Mercedes-AMG Petronas"
       }
     },
     {
@@ -64,7 +67,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 80,
-        "races": 161
+        "races": 161,
+        "lastTeam": "Williams"
       }
     },
     {
@@ -81,7 +85,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 106,
-        "races": 202
+        "races": 202,
+        "lastTeam": "Prost Grand Prix"
       }
     },
     {
@@ -98,7 +103,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 54,
-        "races": 177
+        "races": 177,
+        "lastTeam": "Jaguar Racing"
       }
     },
     {
@@ -115,7 +121,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 43,
-        "races": 99
+        "races": 99,
+        "lastTeam": "Tyrrell Racing Team"
       }
     },
     {
@@ -132,7 +139,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 25,
-        "races": 72
+        "races": 72,
+        "lastTeam": "Lotus"
       }
     },
     {
@@ -149,7 +157,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 123,
-        "races": 278
+        "races": 278,
+        "lastTeam": "Aston Martin"
       }
     },
     {
@@ -166,7 +175,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 24,
-        "races": 66
+        "races": 66,
+        "lastTeam": "Lotus"
       }
     },
     {
@@ -183,7 +193,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 97,
-        "races": 323
+        "races": 323,
+        "lastTeam": "Aston Martin"
       }
     },
     {
@@ -200,7 +211,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 60,
-        "races": 207
+        "races": 207,
+        "lastTeam": "Benetton"
       }
     },
     {
@@ -217,7 +229,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 35,
-        "races": 144
+        "races": 144,
+        "lastTeam": "Fittipaldi Automotive"
       }
     },
     {
@@ -234,7 +247,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 13,
-        "races": 67
+        "races": 67,
+        "lastTeam": "Ferrari"
       }
     },
     {
@@ -251,7 +265,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 42,
-        "races": 115
+        "races": 115,
+        "lastTeam": "Jordan Grand Prix"
       }
     },
     {
@@ -268,7 +283,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 103,
-        "races": 341
+        "races": 341,
+        "lastTeam": "Alfa Romeo"
       }
     },
     {
@@ -285,7 +301,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 57,
-        "races": 206
+        "races": 206,
+        "lastTeam": "Mercedes-AMG Petronas"
       }
     },
     {
@@ -302,7 +319,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 46,
-        "races": 131
+        "races": 131,
+        "lastTeam": "Red Bull Racing"
       }
     },
     {
@@ -319,7 +337,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 31,
-        "races": 188
+        "races": 188,
+        "lastTeam": "Alpha Tauri"
       }
     },
     {
@@ -336,7 +355,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 64,
-        "races": 182
+        "races": 182,
+        "lastTeam": "Alfa Romeo Racing"
       }
     },
     {
@@ -353,7 +373,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 17,
-        "races": 245
+        "races": 245,
+        "lastTeam": "Red Bull Racing"
       }
     },
     {
@@ -370,7 +391,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 41,
-        "races": 272
+        "races": 272,
+        "lastTeam": "Williams Martini Racing"
       }
     },
     {
@@ -387,7 +409,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 42,
-        "races": 215
+        "races": 215,
+        "lastTeam": "Red Bull Racing"
       }
     },
     {
@@ -404,7 +427,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 11,
-        "races": 256
+        "races": 256,
+        "lastTeam": "Caterham"
       }
     },
     {
@@ -421,7 +445,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 10,
-        "races": 179
+        "races": 179,
+        "lastTeam": "Haas"
       }
     },
     {
@@ -438,7 +463,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 59,
-        "races": 187
+        "races": 187,
+        "lastTeam": "McLaren"
       }
     },
     {
@@ -455,7 +481,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 51,
-        "races": 161
+        "races": 161,
+        "lastTeam": "McLaren"
       }
     },
     {
@@ -472,7 +499,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 17,
-        "races": 32
+        "races": 32,
+        "lastTeam": "Ferrari"
       }
     },
     {
@@ -489,7 +517,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 20,
-        "races": 60
+        "races": 60,
+        "lastTeam": "Lotus"
       }
     },
     {
@@ -506,7 +535,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 50,
-        "races": 306
+        "races": 306,
+        "lastTeam": "McLaren"
       }
     },
     {
@@ -523,7 +553,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 19,
-        "races": 128
+        "races": 128,
+        "lastTeam": "Alfa Romeo"
       }
     },
     {
@@ -540,7 +571,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 68,
-        "races": 323
+        "races": 323,
+        "lastTeam": "Williams"
       }
     },
     {
@@ -557,7 +589,8 @@ export default [
       },
       "extraInfo": {
         "podiums": 62,
-        "races": 247
+        "races": 247,
+        "lastTeam": "Red Bull Racing"
       }
     },
 ];

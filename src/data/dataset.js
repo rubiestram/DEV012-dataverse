@@ -58,6 +58,8 @@ export default [
           "height": "1.80 m"
         }
       },
+
+      
       {
         "id": "mika-hakkinen",
         "name": "Mika Häkkinen",

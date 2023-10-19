@@ -1,19 +1,25 @@
 import alainProst from './images/alain_prost.jpeg';
 import albertoAscari from './images/alberto_ascari.jpeg';
 import ayrtonSenna from './images/ayrton_senna.jpeg';
+import carlosSainzJr from './images/carlos_sainz_jr.jpeg';
 import damonHill from './images/damon_hill.jpeg';
 import danielRicciardo from './images/daniel_ricciardo.jpeg';
 import davidCoulthard from './images/david_coulthard.jpeg';
 import emersonFittipaldi from './images/emerson_fittipaldi.png';
+import estebanOcon from './images/esteban_ocon.jpeg';
 import felipeMassa from './images/felipe_massa.jpeg';
 import fernandoAlonso from './images/fernando_alonso.jpeg';
 import gillesVilleneuve from './images/gilles_villeneuve.jpeg';
+import grahamHill from './images/graham_hill.png';
 import jackieStewart from './images/jackie_stewart.jpg';
+import jamesHunt from './images/james_hunt.jpeg';
 import jarnoTrulli from './images/jarno_trulli.jpeg';
 import jensonButton from './images/jenson_button.jpeg';
 import jimClark from './images/jim_clark.jpeg';
 import jochenRindt from './images/jochen_rindt.jpeg';
 import juanManuelFangio from './images/juan_manuel_fangio.jpeg';
+import juanPabloMontoya from './images/juan_pablo_montoya.jpeg';
+import kekeRosberg from './images/keke_rosberg.jpeg';
 import kimiRaikkonen from './images/kimi_raikkonen.png';
 import lewisHamilton from './images/lewis_hamilton.jpeg';
 import marioAndretti from './images/mario_andretti.jpeg';
@@ -38,7 +44,7 @@ export default [
         "name": "Nigel Mansell",
         "shortDescription": "Campeón de Fórmula 1",
         "description": "Nigel Mansell, campeón de Fórmula 1 en 1992, es conocido por su estilo agresivo de conducción. Es una leyenda de la F1.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": nigelMansell,
         "facts": {
           "yearOfBirth": 1953,
           "yearOfDeath": "sigue vivo",
@@ -57,7 +63,7 @@ export default [
         "name": "Mika Häkkinen",
         "shortDescription": "Doble campeón de Fórmula 1",
         "description": "Mika Häkkinen, doble campeón de Fórmula 1 en 1998 y 1999, es uno de los grandes pilotos finlandeses. Destacó en McLaren.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": mikkaHakkinen,
         "facts": {
           "yearOfBirth": 1968,
           "yearOfDeath": "sigue vivo",
@@ -76,7 +82,7 @@ export default [
         "name": "Emerson Fittipaldi",
         "shortDescription": "Bicampeón de Fórmula 1",
         "description": "Emerson Fittipaldi, bicampeón de Fórmula 1 en la década de 1970, es un destacado piloto brasileño. Compitió para McLaren y Lotus.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": emersonFittipaldi,
         "facts": {
           "yearOfBirth": 1946,
           "yearOfDeath": "sigue vivo",
@@ -95,7 +101,7 @@ export default [
         "name": "Alberto Ascari",
         "shortDescription": "Leyenda temprana de la Fórmula 1",
         "description": "Alberto Ascari, una leyenda temprana de la Fórmula 1, ganó dos campeonatos consecutivos en 1952 y 1953. Compitió para Ferrari.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": albertoAscari,
         "facts": {
           "yearOfBirth": 1918,
           "yearOfDeath": 1955,
@@ -114,7 +120,7 @@ export default [
         "name": "Graham Hill",
         "shortDescription": "Doble campeón de Fórmula 1",
         "description": "Graham Hill, doble campeón de Fórmula 1 y ganador de las 500 Millas de Indianápolis, es una figura legendaria en el automovilismo.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": grahamHill,
         "facts": {
           "yearOfBirth": 1929,
           "yearOfDeath": 1975,
@@ -133,7 +139,7 @@ export default [
         "name": "Kimi Räikkönen",
         "shortDescription": "Campeón de Fórmula 1 y 'Iceman'",
         "description": "Kimi Räikkönen, campeón de Fórmula 1 en 2007 y conocido como 'Iceman', es famoso por su personalidad tranquila y su velocidad en pista.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": kimiRaikkonen,
         "facts": {
           "yearOfBirth": 1979,
           "yearOfDeath": "sigue vivo",
@@ -152,7 +158,7 @@ export default [
         "name": "Damon Hill",
         "shortDescription": "Campeón de Fórmula 1",
         "description": "Damon Hill, campeón de Fórmula 1 en 1996, siguió los pasos de su padre Graham Hill. Es una figura destacada en la F1 británica.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": damonHill,
         "facts": {
           "yearOfBirth": 1960,
           "yearOfDeath": "sigue vivo",
@@ -171,7 +177,7 @@ export default [
         "name": "Gilles Villeneuve",
         "shortDescription": "Carismático piloto de Fórmula 1",
         "description": "Gilles Villeneuve, carismático piloto canadiense, es recordado por su estilo de conducción agresivo y valiente. Compitió para Ferrari.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": gillesVilleneuve,
         "facts": {
           "yearOfBirth": 1950,
           "yearOfDeath": 1982,
@@ -190,7 +196,7 @@ export default [
         "name": "Jochen Rindt",
         "shortDescription": "Campeón póstumo de Fórmula 1",
         "description": "Jochen Rindt, campeón póstumo de Fórmula 1 en 1970, fue un piloto austríaco de gran talento. Su legado perdura en la F1.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": jochenRindt,
         "facts": {
           "yearOfBirth": 1942,
           "yearOfDeath": 1970,
@@ -209,7 +215,7 @@ export default [
         "name": "Keke Rosberg",
         "shortDescription": "Campeón de Fórmula 1",
         "description": "Keke Rosberg, campeón de Fórmula 1 en 1982, es un piloto finlandés conocido por su estilo agresivo. Compitió para Williams y McLaren.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": kekeRosberg,
         "facts": {
           "yearOfBirth": 1948,
           "yearOfDeath": 2017,
@@ -228,7 +234,7 @@ export default [
         "name": "Felipe Massa",
         "shortDescription": "Piloto brasileño de Fórmula 1",
         "description": "Felipe Massa, piloto brasileño, fue subcampeón de Fórmula 1 en 2008. Es conocido por su tiempo en Ferrari y su carácter amigable.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": felipeMassa,
         "facts": {
           "yearOfBirth": 1981,
           "yearOfDeath": "sigue vivo",
@@ -247,7 +253,7 @@ export default [
         "name": "Juan Pablo Montoya",
         "shortDescription": "Piloto colombiano de Fórmula 1",
         "description": "Juan Pablo Montoya, piloto colombiano, impresionó en la Fórmula 1 con Williams y McLaren antes de pasar a la NASCAR y la IndyCar.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": juanPabloMontoya,
         "facts": {
           "yearOfBirth": 1975,
           "yearOfDeath": "sigue vivo",
@@ -266,7 +272,7 @@ export default [
         "name": "Nico Rosberg",
         "shortDescription": "Campeón de Fórmula 1",
         "description": "Nico Rosberg, campeón de Fórmula 1 en 2016, es conocido por su intensa rivalidad con Lewis Hamilton en Mercedes. Se retiró tras su título.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": nicoRosberg,
         "facts": {
           "yearOfBirth": 1985,
           "yearOfDeath": "sigue vivo",
@@ -285,7 +291,7 @@ export default [
         "name": "Jenson Button",
         "shortDescription": "Campeón de Fórmula 1",
         "description": "Jenson Button, campeón de Fórmula 1 en 2009, es un piloto británico conocido por su suavidad en pista. Compitió para equipos como Brawn y McLaren.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": jensonButton,
         "facts": {
           "yearOfBirth": 1980,
           "yearOfDeath": "sigue vivo",
@@ -304,7 +310,7 @@ export default [
         "name": "James Hunt",
         "shortDescription": "Campeón de Fórmula 1",
         "description": "James Hunt, campeón de Fórmula 1 en 1976, es conocido por su personalidad extrovertida y su rivalidad con Niki Lauda. Su vida inspiró la película 'Rush'.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": jamesHunt,
         "facts": {
           "yearOfBirth": 1947,
           "yearOfDeath": 1993,
@@ -323,7 +329,7 @@ export default [
         "name": "Mario Andretti",
         "shortDescription": "Leyenda del automovilismo",
         "description": "Mario Andretti, una leyenda del automovilismo, ganó el campeonato de Fórmula 1 en 1978. Es el último estadounidense en lograrlo.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": marioAndretti,
         "facts": {
           "yearOfBirth": 1940,
           "yearOfDeath": "sigue vivo",
@@ -342,7 +348,7 @@ export default [
         "name": "Rubens Barrichello",
         "shortDescription": "Piloto brasileño de Fórmula 1",
         "description": "Rubens Barrichello, piloto brasileño, es conocido por su longevidad en la Fórmula 1 y su tiempo en equipos como Ferrari y Williams.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": rubenBarrichello,
         "facts": {
           "yearOfBirth": 1972,
           "yearOfDeath": "sigue vivo",
@@ -361,7 +367,7 @@ export default [
         "name": "David Coulthard",
         "shortDescription": "Piloto escocés de Fórmula 1",
         "description": "David Coulthard, piloto escocés, tuvo una exitosa carrera en la Fórmula 1 con equipos como McLaren y Red Bull Racing.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": davidCoulthard,
         "facts": {
           "yearOfBirth": 1971,
           "yearOfDeath": "sigue vivo",
@@ -380,7 +386,7 @@ export default [
         "name": "Juan Manuel Fangio",
         "shortDescription": "Leyenda de la Fórmula 1",
         "description": "Conocido como 'El Maestro', es una leyenda de la Fórmula 1. Ganó cinco campeonatos mundiales, considerado uno de los mejores pilotos de la historia.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": juanManuelFangio,
         "facts": {
           "yearOfBirth": 1911,
           "yearOfDeath": 1995,
@@ -399,7 +405,7 @@ export default [
         "name": "Michael Schumacher",
         "shortDescription": "Siete veces campeón de Fórmula 1",
         "description": "Michael Schumacher, siete veces campeón de Fórmula 1, es una de las leyendas del automovilismo. Compitió para Benetton y Ferrari.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": michaelSchumacher,
         "facts": {
           "yearOfBirth": 1969,
           "yearOfDeath": "sigue vivo",
@@ -418,7 +424,7 @@ export default [
         "name": "Lewis Hamilton",
         "shortDescription": "Siete veces campeón de Fórmula 1",
         "description": "Lewis Hamilton, siete veces campeón de Fórmula 1, es uno de los pilotos más exitosos y populares de la F1. Compite para Mercedes.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": lewisHamilton,
         "facts": {
           "yearOfBirth": 1985,
           "yearOfDeath": "sigue vivo",
@@ -437,7 +443,7 @@ export default [
         "name": "Ayrton Senna",
         "shortDescription": "Tres veces campeón de Fórmula 1",
         "description": "Ayrton Senna, tres veces campeón de Fórmula 1, es una leyenda del automovilismo. Su carisma y velocidad en pista lo convirtieron en un ícono.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": ayrtonSenna,
         "facts": {
           "yearOfBirth": 1960,
           "yearOfDeath": 1994,
@@ -456,7 +462,7 @@ export default [
         "name": "Alain Prost",
         "shortDescription": "Cuatro veces campeón de Fórmula 1",
         "description": "Alain Prost, cuatro veces campeón de Fórmula 1, es conocido por su enfoque metódico en la pista. Compitió para equipos como McLaren y Ferrari.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": alainProst,
         "facts": {
           "yearOfBirth": 1955,
           "yearOfDeath": "sigue vivo",
@@ -475,7 +481,7 @@ export default [
         "name": "Niki Lauda",
         "shortDescription": "Tres veces campeón de Fórmula 1",
         "description": "Niki Lauda, tres veces campeón de Fórmula 1, es una figura legendaria en el automovilismo. Su valentía tras un grave accidente lo hizo aún más grande.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": nikkiLauda,
         "facts": {
           "yearOfBirth": 1949,
           "yearOfDeath": 2019,
@@ -494,7 +500,7 @@ export default [
         "name": "Jackie Stewart",
         "shortDescription": "Tres veces campeón de Fórmula 1",
         "description": "Jackie Stewart, tres veces campeón de Fórmula 1, es un defensor de la seguridad en el automovilismo. Compitió para Matra, Tyrrell y RBS-Ford.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": jackieStewart,
         "facts": {
           "yearOfBirth": 1939,
           "yearOfDeath": "sigue vivo",
@@ -513,7 +519,7 @@ export default [
         "name": "Jim Clark",
         "shortDescription": "Dos veces campeón de Fórmula 1",
         "description": "Jim Clark, dos veces campeón de Fórmula 1 en la década de 1960, es considerado uno de los pilotos más talentosos y suaves de la historia.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": jimClark,
         "facts": {
           "yearOfBirth": 1936,
           "yearOfDeath": 1968,
@@ -532,7 +538,7 @@ export default [
         "name": "Sebastian Vettel",
         "shortDescription": "Cuádruple campeón de Fórmula 1",
         "description": "Sebastian Vettel, cuádruple campeón de Fórmula 1, es conocido por su éxito temprano. Compite para Red Bull Racing.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": sebastianVettel,
         "facts": {
           "yearOfBirth": 1987,
           "yearOfDeath": "sigue vivo",
@@ -551,7 +557,7 @@ export default [
         "name": "Stirling Moss",
         "shortDescription": "Leyenda del automovilismo",
         "description": "Stirling Moss, una leyenda del automovilismo, es considerado uno de los mejores pilotos que nunca ganó un campeonato de Fórmula 1.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": stirlingMoss,
         "facts": {
           "yearOfBirth": 1929,
           "yearOfDeath": 2020,
@@ -570,7 +576,7 @@ export default [
         "name": "Fernando Alonso",
         "shortDescription": "Doble campeón de Fórmula 1",
         "description": "Fernando Alonso, doble campeón de Fórmula 1, es uno de los pilotos más exitosos de España. Ha competido para equipos como Renault y McLaren.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": fernandoAlonso,
         "facts": {
           "yearOfBirth": 1981,
           "yearOfDeath": "sigue vivo",
@@ -589,7 +595,7 @@ export default [
         "name": "Nelson Piquet",
         "shortDescription": "Triple campeón de Fórmula 1",
         "description": "Nelson Piquet, triple campeón de Fórmula 1 en la década de 1980, es uno de los pilotos más exitosos de Brasil. Compitió para Brabham y Williams.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": nelsonPiquet,
         "facts": {
           "yearOfBirth": 1952,
           "yearOfDeath": "sigue vivo",
@@ -608,7 +614,7 @@ export default [
         "name": "Max Verstappen",
         "shortDescription": "Joven talento de Fórmula 1",
         "description": "Max Verstappen, joven talento de la Fórmula 1, ha impresionado con Red Bull Racing y se considera un futuro campeón en el deporte.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": maxVerstappen,
         "facts": {
           "yearOfBirth": 1997,
           "yearOfDeath": "sigue vivo",
@@ -627,7 +633,7 @@ export default [
         "name": "Daniel Ricciardo",
         "shortDescription": "Carismático piloto de Fórmula 1",
         "description": "Daniel Ricciardo, carismático piloto australiano, ha demostrado su habilidad con sonrisas y victorias en Red Bull Racing y Renault.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": danielRicciardo,
         "facts": {
           "yearOfBirth": 1989,
           "yearOfDeath": "sigue vivo",
@@ -646,7 +652,7 @@ export default [
         "name": "Valtteri Bottas",
         "shortDescription": "Piloto finlandés de Fórmula 1",
         "description": "Valtteri Bottas, piloto finlandés, ha sido compañero de Lewis Hamilton en Mercedes. Es conocido por su velocidad en pista y su lealtad al equipo.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": valteriBottas,
         "facts": {
           "yearOfBirth": 1989,
           "yearOfDeath": "sigue vivo",
@@ -665,7 +671,7 @@ export default [
         "name": "Sergio Pérez",
         "shortDescription": "Piloto mexicano de Fórmula 1",
         "description": "Sergio Pérez, piloto mexicano, ha demostrado su valía en equipos como Racing Point y Red Bull Racing. Es un referente para México en la F1.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": sergioPerez,
         "facts": {
           "yearOfBirth": 1990,
           "yearOfDeath": "sigue vivo",
@@ -684,7 +690,7 @@ export default [
         "name": "Carlos Sainz",
         "shortDescription": "Piloto español de Fórmula 1",
         "description": "Carlos Sainz, piloto español, ha competido en equipos como McLaren y Ferrari. Es hijo del famoso piloto de rally Carlos Sainz.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": carlosSainzJr,
         "facts": {
           "yearOfBirth": 1994,
           "yearOfDeath": "sigue vivo",
@@ -703,7 +709,7 @@ export default [
         "name": "Esteban Ocon",
         "shortDescription": "Joven piloto francés de Fórmula 1",
         "description": "Esteban Ocon, joven piloto francés, ha demostrado su talento en equipos como Force India y Alpine. Es considerado una promesa en la Fórmula 1.",
-        "imageUrl": "AQUÍ_VA_LA_IMAGEN",
+        "imageUrl": estebanOcon,
         "facts": {
           "yearOfBirth": 1996,
           "yearOfDeath": "sigue vivo",

@@ -1,660 +1,599 @@
-import alainProst from './images/alain_prost.jpeg';
-import albertoAscari from './images/alberto_ascari.jpeg';
-import ayrtonSenna from './images/ayrton_senna.jpeg';
-import carlosSainzJr from './images/carlos_sainz_jr.jpeg';
-import damonHill from './images/damon_hill.jpeg';
-import danielRicciardo from './images/daniel_ricciardo.jpeg';
-import davidCoulthard from './images/david_coulthard.jpeg';
-import emersonFittipaldi from './images/emerson_fittipaldi.png';
-import estebanOcon from './images/esteban_ocon.jpeg';
-import felipeMassa from './images/felipe_massa.jpeg';
-import fernandoAlonso from './images/fernando_alonso.jpeg';
-import gillesVilleneuve from './images/gilles_villeneuve.jpeg';
-import grahamHill from './images/graham_hill.png';
-import jackieStewart from './images/jackie_stewart.jpg';
-import jamesHunt from './images/james_hunt.jpeg';
-import jarnoTrulli from './images/jarno_trulli.jpeg';
-import jensonButton from './images/jenson_button.jpeg';
-import jimClark from './images/jim_clark.jpeg';
-import jochenRindt from './images/jochen_rindt.jpeg';
-import juanManuelFangio from './images/juan_manuel_fangio.jpeg';
-import juanPabloMontoya from './images/juan_pablo_montoya.jpeg';
-import kekeRosberg from './images/keke_rosberg.jpeg';
-import kimiRaikkonen from './images/kimi_raikkonen.png';
-import lewisHamilton from './images/lewis_hamilton.jpeg';
-import marioAndretti from './images/mario_andretti.jpeg';
-import markWebber from './images/mark_webber.jpeg';
-import maxVerstappen from './images/max_verstappen.jpeg';
-import michaelSchumacher from './images/michael_schumacher.jpeg';
-import mikkaHakkinen from './images/mikka_hakkinen.jpeg';
-import nelsonPiquet from './images/nelson_piquet.jpeg';
-import nicoRosberg from './images/nico_rosberg.jpeg';
-import nigelMansell from './images/nigel_mansell.jpeg';
-import nikkiLauda from './images/nikki_lauda.jpeg';
-import romainGrosjean from './images/romain_grosjean.jpeg';
-import rubenBarrichello from './images/ruben_barrichello.jpeg';
-import sebastianVettel from './images/sebastian_vettel.jpeg';
-import sergioPerez from './images/sergio_perez.jpeg';
-import stirlingMoss from './images/stirling_moss.png';
-import valteriBottas from './images/valteri_bottas.jpeg';
-
 export default [
-      {
-        "id": "nigel-mansell",
-        "name": "Nigel Mansell",
-        "shortDescription": "Campeón de Fórmula 1",
-        "description": "Nigel Mansell, campeón de Fórmula 1 en 1992, es conocido por su estilo agresivo de conducción. Es una leyenda de la F1.",
-        "imageUrl": nigelMansell,
-        "facts": {
-          "yearOfBirth": 1953,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Upton-upon-Severn, Inglaterra",
-          "championshipsWon": 1
-        },
-        "extraInfo": {
-          "podiums": 59,
-          "races": 187,
-          "lastTeam": "Williams",
-          "height": "1.80 m"
-        }
-      },
-
-      
-      {
-        "id": "mika-hakkinen",
-        "name": "Mika Häkkinen",
-        "shortDescription": "Doble campeón de Fórmula 1",
-        "description": "Mika Häkkinen, doble campeón de Fórmula 1 en 1998 y 1999, es uno de los grandes pilotos finlandeses. Destacó en McLaren.",
-        "imageUrl": mikkaHakkinen,
-        "facts": {
-          "yearOfBirth": 1968,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Vantaa, Finlandia",
-          "championshipsWon": 2
-        },
-        "extraInfo": {
-          "podiums": 51,
-          "races": 161,
-          "lastTeam": "McLaren",
-          "height": "1.74 m"
-        }
-      },
-      {
-        "id": "emerson-fittipaldi",
-        "name": "Emerson Fittipaldi",
-        "shortDescription": "Bicampeón de Fórmula 1",
-        "description": "Emerson Fittipaldi, bicampeón de Fórmula 1 en la década de 1970, es un destacado piloto brasileño. Compitió para McLaren y Lotus.",
-        "imageUrl": emersonFittipaldi,
-        "facts": {
-          "yearOfBirth": 1946,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "São Paulo, Brasil",
-          "championshipsWon": 2
-        },
-        "extraInfo": {
-          "podiums": 35,
-          "races": 144,
-          "lastTeam": "Fittipaldi",
-          "height": "1.74 m"
-        }
-      },
-      {
-        "id": "alberto-ascari",
-        "name": "Alberto Ascari",
-        "shortDescription": "Leyenda temprana de la Fórmula 1",
-        "description": "Alberto Ascari, una leyenda temprana de la Fórmula 1, ganó dos campeonatos consecutivos en 1952 y 1953. Compitió para Ferrari.",
-        "imageUrl": albertoAscari,
-        "facts": {
-          "yearOfBirth": 1918,
-          "yearOfDeath": 1955,
-          "placeOfBirth": "Milán, Italia",
-          "championshipsWon": 2
-        },
-        "extraInfo": {
-          "podiums": 17,
-          "races": 32,
-          "lastTeam": "Lancia",
-          "height": "1.73 m"
-        }
-      },
-      {
-        "id": "graham-hill",
-        "name": "Graham Hill",
-        "shortDescription": "Doble campeón de Fórmula 1",
-        "description": "Graham Hill, doble campeón de Fórmula 1 y ganador de las 500 Millas de Indianápolis, es una figura legendaria en el automovilismo.",
-        "imageUrl": grahamHill,
-        "facts": {
-          "yearOfBirth": 1929,
-          "yearOfDeath": 1975,
-          "placeOfBirth": "Hampstead, Inglaterra",
-          "championshipsWon": 2
-        },
-        "extraInfo": {
-          "podiums": 33,
-          "races": 176,
-          "lastTeam": "BRM",
-          "height": "1.73 m"
-        }
-      },
-      {
-        "id": "kimi-raikkonen",
-        "name": "Kimi Räikkönen",
-        "shortDescription": "Campeón de Fórmula 1 y 'Iceman'",
-        "description": "Kimi Räikkönen, campeón de Fórmula 1 en 2007 y conocido como 'Iceman', es famoso por su personalidad tranquila y su velocidad en pista.",
-        "imageUrl": kimiRaikkonen,
-        "facts": {
-          "yearOfBirth": 1979,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Espoo, Finlandia",
-          "championshipsWon": 1
-        },
-        "extraInfo": {
-          "podiums": 103,
-          "races": 341,
-          "lastTeam": "Alfa Romeo",
-          "height": "1.75 m"
-        }
-      },
-      {
-        "id": "damon-hill",
-        "name": "Damon Hill",
-        "shortDescription": "Campeón de Fórmula 1",
-        "description": "Damon Hill, campeón de Fórmula 1 en 1996, siguió los pasos de su padre Graham Hill. Es una figura destacada en la F1 británica.",
-        "imageUrl": damonHill,
-        "facts": {
-          "yearOfBirth": 1960,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Hampstead, Inglaterra",
-          "championshipsWon": 1
-        },
-        "extraInfo": {
-          "podiums": 42,
-          "races": 115,
-          "lastTeam": "Jordan",
-          "height": "1.86 m"
-        }
-      },
-      {
-        "id": "gilles-villeneuve",
-        "name": "Gilles Villeneuve",
-        "shortDescription": "Carismático piloto de Fórmula 1",
-        "description": "Gilles Villeneuve, carismático piloto canadiense, es recordado por su estilo de conducción agresivo y valiente. Compitió para Ferrari.",
-        "imageUrl": gillesVilleneuve,
-        "facts": {
-          "yearOfBirth": 1950,
-          "yearOfDeath": 1982,
-          "placeOfBirth": "Saint-Jean-sur-Richelieu, Canadá",
-          "championshipsWon": 0
-        },
-        "extraInfo": {
-          "podiums": 13,
-          "races": 67,
-          "lastTeam": "Ferrari",
-          "height": "1.64 m"
-        }
-      },
-      {
-        "id": "jochen-rindt",
-        "name": "Jochen Rindt",
-        "shortDescription": "Campeón póstumo de Fórmula 1",
-        "description": "Jochen Rindt, campeón póstumo de Fórmula 1 en 1970, fue un piloto austríaco de gran talento. Su legado perdura en la F1.",
-        "imageUrl": jochenRindt,
-        "facts": {
-          "yearOfBirth": 1942,
-          "yearOfDeath": 1970,
-          "placeOfBirth": "Mainz, Alemania",
-          "championshipsWon": 1
-        },
-        "extraInfo": {
-          "podiums": 13,
-          "races": 60,
-          "lastTeam": "Lotus",
-          "height": "1.82 m"
-        }
-      },
-      {
-        "id": "keke-rosberg",
-        "name": "Keke Rosberg",
-        "shortDescription": "Campeón de Fórmula 1",
-        "description": "Keke Rosberg, campeón de Fórmula 1 en 1982, es un piloto finlandés conocido por su estilo agresivo. Compitió para Williams y McLaren.",
-        "imageUrl": kekeRosberg,
-        "facts": {
-          "yearOfBirth": 1948,
-          "yearOfDeath": 2017,
-          "placeOfBirth": "Estocolmo, Suecia",
-          "championshipsWon": 1
-        },
-        "extraInfo": {
-          "podiums": 17,
-          "races": 114,
-          "lastTeam": "Williams",
-          "height": "1.75 m"
-        }
-      },
-      {
-        "id": "felipe-massa",
-        "name": "Felipe Massa",
-        "shortDescription": "Piloto brasileño de Fórmula 1",
-        "description": "Felipe Massa, piloto brasileño, fue subcampeón de Fórmula 1 en 2008. Es conocido por su tiempo en Ferrari y su carácter amigable.",
-        "imageUrl": felipeMassa,
-        "facts": {
-          "yearOfBirth": 1981,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "São Paulo, Brasil",
-          "championshipsWon": 0
-        },
-        "extraInfo": {
-          "podiums": 41,
-          "races": 272,
-          "lastTeam": "Williams",
-          "height": "1.66 m"
-        }
-      },
-      {
-        "id": "juan-pablo-montoya",
-        "name": "Juan Pablo Montoya",
-        "shortDescription": "Piloto colombiano de Fórmula 1",
-        "description": "Juan Pablo Montoya, piloto colombiano, impresionó en la Fórmula 1 con Williams y McLaren antes de pasar a la NASCAR y la IndyCar.",
-        "imageUrl": juanPabloMontoya,
-        "facts": {
-          "yearOfBirth": 1975,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Bogotá, Colombia",
-          "championshipsWon": 0
-        },
-        "extraInfo": {
-          "podiums": 30,
-          "races": 94,
-          "lastTeam": "Williams",
-          "height": "1.76 m"
-        }
-      },
-      {
-        "id": "nico-rosberg",
-        "name": "Nico Rosberg",
-        "shortDescription": "Campeón de Fórmula 1",
-        "description": "Nico Rosberg, campeón de Fórmula 1 en 2016, es conocido por su intensa rivalidad con Lewis Hamilton en Mercedes. Se retiró tras su título.",
-        "imageUrl": nicoRosberg,
-        "facts": {
-          "yearOfBirth": 1985,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Wiesbaden, Alemania",
-          "championshipsWon": 1
-        },
-        "extraInfo": {
-          "podiums": 57,
-          "races": 206,
-          "lastTeam": "Mercedes",
-          "height": "1.78 m"
-        }
-      },
-      {
-        "id": "jenson-button",
-        "name": "Jenson Button",
-        "shortDescription": "Campeón de Fórmula 1",
-        "description": "Jenson Button, campeón de Fórmula 1 en 2009, es un piloto británico conocido por su suavidad en pista. Compitió para equipos como Brawn y McLaren.",
-        "imageUrl": jensonButton,
-        "facts": {
-          "yearOfBirth": 1980,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Frome, Inglaterra",
-          "championshipsWon": 1
-        },
-        "extraInfo": {
-          "podiums": 50,
-          "races": 306,
-          "lastTeam": "McLaren",
-          "height": "1.83 m"
-        }
-      },
-      {
-        "id": "james-hunt",
-        "name": "James Hunt",
-        "shortDescription": "Campeón de Fórmula 1",
-        "description": "James Hunt, campeón de Fórmula 1 en 1976, es conocido por su personalidad extrovertida y su rivalidad con Niki Lauda. Su vida inspiró la película 'Rush'.",
-        "imageUrl": jamesHunt,
-        "facts": {
-          "yearOfBirth": 1947,
-          "yearOfDeath": 1993,
-          "placeOfBirth": "Belmont, Inglaterra",
-          "championshipsWon": 1
-        },
-        "extraInfo": {
-          "podiums": 23,
-          "races": 92,
-          "lastTeam": "McLaren",
-          "height": "1.83 m"
-        }
-      },
-      {
-        "id": "mario-andretti",
-        "name": "Mario Andretti",
-        "shortDescription": "Leyenda del automovilismo",
-        "description": "Mario Andretti, una leyenda del automovilismo, ganó el campeonato de Fórmula 1 en 1978. Es el último estadounidense en lograrlo.",
-        "imageUrl": marioAndretti,
-        "facts": {
-          "yearOfBirth": 1940,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Montona, Italia",
-          "championshipsWon": 1
-        },
-        "extraInfo": {
-          "podiums": 19,
-          "races": 131,
-          "lastTeam": "Lotus",
-          "height": "1.75 m"
-        }
-      },
-      {
-        "id": "rubens-barrichello",
-        "name": "Rubens Barrichello",
-        "shortDescription": "Piloto brasileño de Fórmula 1",
-        "description": "Rubens Barrichello, piloto brasileño, es conocido por su longevidad en la Fórmula 1 y su tiempo en equipos como Ferrari y Williams.",
-        "imageUrl": rubenBarrichello,
-        "facts": {
-          "yearOfBirth": 1972,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "São Paulo, Brasil",
-          "championshipsWon": 0
-        },
-        "extraInfo": {
-          "podiums": 68,
-          "races": 326,
-          "lastTeam": "Williams",
-          "height": "1.74 m"
-        }
-      },
-      {
-        "id": "david-coulthard",
-        "name": "David Coulthard",
-        "shortDescription": "Piloto escocés de Fórmula 1",
-        "description": "David Coulthard, piloto escocés, tuvo una exitosa carrera en la Fórmula 1 con equipos como McLaren y Red Bull Racing.",
-        "imageUrl": davidCoulthard,
-        "facts": {
-          "yearOfBirth": 1971,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Twynholm, Escocia",
-          "championshipsWon": 0
-        },
-        "extraInfo": {
-          "podiums": 62,
-          "races": 247,
-          "lastTeam": "Red Bull Racing",
-          "height": "1.83 m"
-        }
-      },
-      {
-        "id": "juan-manuel-fangio",
-        "name": "Juan Manuel Fangio",
-        "shortDescription": "Leyenda de la Fórmula 1",
-        "description": "Conocido como 'El Maestro', es una leyenda de la Fórmula 1. Ganó cinco campeonatos mundiales, considerado uno de los mejores pilotos de la historia.",
-        "imageUrl": juanManuelFangio,
-        "facts": {
-          "yearOfBirth": 1911,
-          "yearOfDeath": 1995,
-          "placeOfBirth": "Balcarce, Argentina",
-          "championshipsWon": 5
-        },
-        "extraInfo": {
-          "podiums": 35,
-          "races": 52,
-          "lastTeam": "Maserati",
-          "height": "1.78 m"
-        }
-      },
-      {
-        "id": "michael-schumacher",
-        "name": "Michael Schumacher",
-        "shortDescription": "Siete veces campeón de Fórmula 1",
-        "description": "Michael Schumacher, siete veces campeón de Fórmula 1, es una de las leyendas del automovilismo. Compitió para Benetton y Ferrari.",
-        "imageUrl": michaelSchumacher,
-        "facts": {
-          "yearOfBirth": 1969,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Hürth, Alemania",
-          "championshipsWon": 7
-        },
-        "extraInfo": {
-          "podiums": 155,
-          "races": 308,
-          "lastTeam": "Mercedes",
-          "height": "1.74 m"
-        }
-      },
-      {
-        "id": "lewis-hamilton",
-        "name": "Lewis Hamilton",
-        "shortDescription": "Siete veces campeón de Fórmula 1",
-        "description": "Lewis Hamilton, siete veces campeón de Fórmula 1, es uno de los pilotos más exitosos y populares de la F1. Compite para Mercedes.",
-        "imageUrl": lewisHamilton,
-        "facts": {
-          "yearOfBirth": 1985,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Stevenage, Inglaterra",
-          "championshipsWon": 7
-        },
-        "extraInfo": {
-          "podiums": 175,
-          "races": 271,
-          "lastTeam": "Mercedes",
-          "height": "1.74 m"
-        }
-      },
-      {
+    {
         "id": "ayrton-senna",
         "name": "Ayrton Senna",
-        "shortDescription": "Tres veces campeón de Fórmula 1",
-        "description": "Ayrton Senna, tres veces campeón de Fórmula 1, es una leyenda del automovilismo. Su carisma y velocidad en pista lo convirtieron en un ícono.",
-        "imageUrl": ayrtonSenna,
+        "shortDescription": "Legendario piloto brasileño de Fórmula 1",
+        "description": "Legendario piloto brasileño de Fórmula 1, es ampliamente reconocido como uno de los más grandes de la historia de la Fórmula 1. Su destreza en la pista y carisma fuera de ella lo convirtieron en una verdadera leyenda del deporte.",
+        "imageUrl": "https://example.com/images/ayrton_senna.jpeg",
         "facts": {
-          "yearOfBirth": 1960,
-          "yearOfDeath": 1994,
-          "placeOfBirth": "São Paulo, Brasil",
-          "championshipsWon": 3
+            "yearOfBirth": 1960,
+            "yearOfDeath": 1994,
+            "placeOfBirth": "São Paulo, Brasil",
+            "championshipsWon": 3
         },
         "extraInfo": {
-          "podiums": 80,
-          "races": 161,
-          "lastTeam": "Williams",
-          "height": "1.75 m"
+            "podiums": 80,
+            "races": 161,
+            "lastTeam": "McLaren",
+            "height": "1.75 m"
         }
-      },
-      {
-        "id": "alain-prost",
-        "name": "Alain Prost",
-        "shortDescription": "Cuatro veces campeón de Fórmula 1",
-        "description": "Alain Prost, cuatro veces campeón de Fórmula 1, es conocido por su enfoque metódico en la pista. Compitió para equipos como McLaren y Ferrari.",
-        "imageUrl": alainProst,
+    },
+    {
+        "id": "juan-manuel-fangio",
+        "name": "Juan Manuel Fangio",
+        "shortDescription": "Histórico piloto argentino de Fórmula 1",
+        "description": "Histórico piloto argentino de Fórmula 1, dominó la Fórmula 1 en la década de 1950 y ganó cinco campeonatos mundiales. Su destreza en la pista y su estilo elegante lo convirtieron en un ícono del automovilismo.",
+        "imageUrl": "https://example.com/images/juan_manuel_fangio.jpeg",
         "facts": {
-          "yearOfBirth": 1955,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Lorette, Francia",
-          "championshipsWon": 4
+            "yearOfBirth": 1911,
+            "yearOfDeath": 1995,
+            "placeOfBirth": "Balcarce, Argentina",
+            "championshipsWon": 5
         },
         "extraInfo": {
-          "podiums": 106,
-          "races": 199,
-          "lastTeam": "Ferrari",
-          "height": "1.74 m"
+            "podiums": 35,
+            "races": 51,
+            "lastTeam": "Mercedes",
+            "height": "1.68 m"
         }
-      },
-      {
-        "id": "niki-lauda",
-        "name": "Niki Lauda",
-        "shortDescription": "Tres veces campeón de Fórmula 1",
-        "description": "Niki Lauda, tres veces campeón de Fórmula 1, es una figura legendaria en el automovilismo. Su valentía tras un grave accidente lo hizo aún más grande.",
-        "imageUrl": nikkiLauda,
-        "facts": {
-          "yearOfBirth": 1949,
-          "yearOfDeath": 2019,
-          "placeOfBirth": "Viena, Austria",
-          "championshipsWon": 3
-        },
-        "extraInfo": {
-          "podiums": 54,
-          "races": 171,
-          "lastTeam": "McLaren",
-          "height": "1.74 m"
-        }
-      },
-      {
-        "id": "jackie-stewart",
-        "name": "Jackie Stewart",
-        "shortDescription": "Tres veces campeón de Fórmula 1",
-        "description": "Jackie Stewart, tres veces campeón de Fórmula 1, es un defensor de la seguridad en el automovilismo. Compitió para Matra, Tyrrell y RBS-Ford.",
-        "imageUrl": jackieStewart,
-        "facts": {
-          "yearOfBirth": 1939,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Milton, Escocia",
-          "championshipsWon": 3
-        },
-        "extraInfo": {
-          "podiums": 43,
-          "races": 99,
-          "lastTeam": "Tyrrell",
-          "height": "1.7 m"
-        }
-      },
-      {
+    },
+    {
         "id": "jim-clark",
         "name": "Jim Clark",
-        "shortDescription": "Dos veces campeón de Fórmula 1",
-        "description": "Jim Clark, dos veces campeón de Fórmula 1 en la década de 1960, es considerado uno de los pilotos más talentosos y suaves de la historia.",
-        "imageUrl": jimClark,
+        "shortDescription": "Destacado piloto escocés de Fórmula 1",
+        "description": "Destacado piloto escocés de Fórmula 1, fue conocido por su elegante estilo de manejo y su capacidad para ganar en diferentes condiciones. Ganó dos campeonatos mundiales durante su carrera.",
+        "imageUrl": "https://example.com/images/jim_clark.jpeg",
         "facts": {
-          "yearOfBirth": 1936,
-          "yearOfDeath": 1968,
-          "placeOfBirth": "Kilmany, Escocia",
-          "championshipsWon": 2
+            "yearOfBirth": 1936,
+            "yearOfDeath": 1968,
+            "placeOfBirth": "Kilmany, Escocia",
+            "championshipsWon": 2
         },
         "extraInfo": {
-          "podiums": 25,
-          "races": 72,
-          "lastTeam": "Lotus",
-          "height": "1.73 m"
+            "podiums": 25,
+            "races": 72,
+            "lastTeam": "Lotus",
+            "height": "1.75 m"
         }
-      },
-      {
-        "id": "sebastian-vettel",
-        "name": "Sebastian Vettel",
-        "shortDescription": "Cuádruple campeón de Fórmula 1",
-        "description": "Sebastian Vettel, cuádruple campeón de Fórmula 1, es conocido por su éxito temprano. Compite para Red Bull Racing.",
-        "imageUrl": sebastianVettel,
+    },
+    {
+        "id": "alain-prost",
+        "name": "Alain Prost",
+        "shortDescription": "Exitoso piloto francés de Fórmula 1",
+        "description": "Exitoso piloto francés de Fórmula 1, es conocido por su enfoque metódico y táctico en las carreras. Ganó cuatro campeonatos mundiales durante su carrera en la Fórmula 1.",
+        "imageUrl": "https://example.com/images/alain_prost.jpeg",
         "facts": {
-          "yearOfBirth": 1987,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Heppenheim, Alemania",
-          "championshipsWon": 4
+            "yearOfBirth": 1955,
+            "yearOfDeath": "sigue vivo",
+            "placeOfBirth": "Lorette, Francia",
+            "championshipsWon": 4
         },
         "extraInfo": {
-          "podiums": 123,
-          "races": 266,
-          "lastTeam": "Aston Martin",
-          "height": "1.75 m"
+            "podiums": 106,
+            "races": 199,
+            "lastTeam": "Williams",
+            "height": "1.74 m"
         }
-      },
-      {
-        "id": "stirling-moss",
-        "name": "Stirling Moss",
-        "shortDescription": "Leyenda del automovilismo",
-        "description": "Stirling Moss, una leyenda del automovilismo, es considerado uno de los mejores pilotos que nunca ganó un campeonato de Fórmula 1.",
-        "imageUrl": stirlingMoss,
+    },
+    {
+        "id": "michael-schumacher",
+        "name": "Michael Schumacher",
+        "shortDescription": "Legendario piloto alemán de Fórmula 1",
+        "description": "El legendario piloto alemán de Fórmula 1, es uno de los pilotos más exitosos de la historia de la Fórmula 1. Ganó siete campeonatos mundiales durante su carrera.",
+        "imageUrl": "https://example.com/images/michael_schumacher.jpeg",
         "facts": {
-          "yearOfBirth": 1929,
-          "yearOfDeath": 2020,
-          "placeOfBirth": "Londres, Inglaterra",
-          "championshipsWon": 0
+            "yearOfBirth": 1969,
+            "yearOfDeath": "sigue vivo",
+            "placeOfBirth": "Hürth-Hermülheim, Alemania",
+            "championshipsWon": 7
         },
         "extraInfo": {
-          "podiums": 24,
-          "races": 66,
-          "lastTeam": "Vanwall",
-          "height": "1.73 m"
+            "podiums": 155,
+            "races": 308,
+            "lastTeam": "Mercedes",
+            "height": "1.74 m"
         }
-      },
-      {
+    },
+    {
+        "id": "jackie-stewart",
+        "name": "Jackie Stewart",
+        "shortDescription": "Carismático piloto escocés de Fórmula 1",
+        "description": "El carismático piloto escocés de Fórmula 1, fue un defensor de la seguridad en las carreras y ganó tres campeonatos mundiales. Su personalidad extrovertida lo hizo muy popular.",
+        "imageUrl": "https://example.com/images/jackie_stewart.jpeg",
+        "facts": {
+            "yearOfBirth": 1939,
+            "yearOfDeath": "sigue vivo",
+            "placeOfBirth": "Milton, Escocia",
+            "championshipsWon": 3
+        },
+        "extraInfo": {
+            "podiums": 43,
+            "races": 99,
+            "lastTeam": "Tyrrell",
+            "height": "1.73 m"
+        }
+    },
+    {
         "id": "fernando-alonso",
         "name": "Fernando Alonso",
-        "shortDescription": "Doble campeón de Fórmula 1",
-        "description": "Fernando Alonso, doble campeón de Fórmula 1, es uno de los pilotos más exitosos de España. Ha competido para equipos como Renault y McLaren.",
-        "imageUrl": fernandoAlonso,
+        "shortDescription": "Destacado piloto español de Fórmula 1",
+        "description": "Destacado piloto español de Fórmula 1, es conocido por su tenacidad y habilidades en la pista. Ganó dos campeonatos mundiales y sigue compitiendo en la Fórmula 1.",
+        "imageUrl": "https://example.com/images/fernando_alonso.jpeg",
         "facts": {
-          "yearOfBirth": 1981,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Oviedo, España",
-          "championshipsWon": 2
+            "yearOfBirth": 1981,
+            "yearOfDeath": "sigue vivo",
+            "placeOfBirth": "Oviedo, España",
+            "championshipsWon": 2
         },
         "extraInfo": {
-          "podiums": 97,
-          "races": 329,
-          "lastTeam": "Alpine",
-          "height": "1.71 m"
+            "podiums": 97,
+            "races": 328,
+            "lastTeam": "Aston Martin",
+            "height": "1.71 m"
         }
-      },
-      {
-        "id": "nelson-piquet",
-        "name": "Nelson Piquet",
-        "shortDescription": "Triple campeón de Fórmula 1",
-        "description": "Nelson Piquet, triple campeón de Fórmula 1 en la década de 1980, es uno de los pilotos más exitosos de Brasil. Compitió para Brabham y Williams.",
-        "imageUrl": nelsonPiquet,
-        "facts": {
-          "yearOfBirth": 1952,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Río de Janeiro, Brasil",
-          "championshipsWon": 3
-        },
-        "extraInfo": {
-          "podiums": 60,
-          "races": 204,
-          "lastTeam": "Lotus",
-          "height": "1.75 m"
-        }
-      },
-      {
+    },
+    {
         "id": "max-verstappen",
         "name": "Max Verstappen",
-        "shortDescription": "Joven talento de Fórmula 1",
-        "description": "Max Verstappen, joven talento de la Fórmula 1, ha impresionado con Red Bull Racing y se considera un futuro campeón en el deporte.",
-        "imageUrl": maxVerstappen,
+        "shortDescription": "Joven talento neerlandés de Fórmula 1",
+        "description": "El joven talento neerlandés de Fórmula 1, ha impresionado a todos con su agresividad en la pista. Aunque no ha ganado campeonatos todavía, es considerado una futura estrella.",
+        "imageUrl": "https://example.com/images/max_verstappen.jpeg",
         "facts": {
-          "yearOfBirth": 1997,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Hasselt, Bélgica",
-          "championshipsWon": 0
+            "yearOfBirth": 1997,
+            "yearOfDeath": "sigue vivo",
+            "placeOfBirth": "Hasselt, Bélgica",
+            "championshipsWon": 0
         },
         "extraInfo": {
-          "podiums": 51,
-          "races": 123,
-          "lastTeam": "Red Bull Racing",
-          "height": "1.80 m"
+            "podiums": 32,
+            "races": 109,
+            "lastTeam": "Red Bull Racing",
+            "height": "1.81 m"
         }
+    },
+    {
+        "id": "lewis-hamilton",
+        "name": "Lewis Hamilton",
+        "shortDescription": "Exitoso piloto británico de Fórmula 1",
+        "description": "Exitoso piloto británico de Fórmula 1, ha establecido récords y ganado múltiples campeonatos mundiales. Su activismo y habilidades en la pista lo hacen una figura influyente.",
+        "imageUrl": "https://example.com/images/lewis_hamilton.jpeg",
+        "facts": {
+            "yearOfBirth": 1985,
+            "yearOfDeath": "sigue vivo",
+            "placeOfBirth": "Stevenage, Reino Unido",
+            "championshipsWon": 7
+        },
+        "extraInfo": {
+            "podiums": 109,
+            "races": 269,
+            "lastTeam": "Mercedes",
+            "height": "1.75 m"
+        }
+    },
+    {
+        "id": "niki-lauda",
+        "name": "Niki Lauda",
+        "shortDescription": "Legendario piloto austriaco de Fórmula 1",
+        "description": "El legendario piloto austriaco de Fórmula 1, superó un grave accidente para continuar compitiendo y ganar tres campeonatos mundiales. Su historia es una inspiración para muchos.",
+        "imageUrl": "https://example.com/images/niki_lauda.jpeg",
+        "facts": {
+            "yearOfBirth": 1949,
+            "yearOfDeath": 2019,
+            "placeOfBirth": "Viena, Austria",
+            "championshipsWon": 3
+        },
+        "extraInfo": {
+            "podiums": 54,
+            "races": 171,
+            "lastTeam": "McLaren",
+            "height": "1.73 m"
+        }
+    },
+    {
+        "id": "sebastian-vettel",
+        "name": "Sebastian Vettel",
+        "shortDescription": "Experimentado piloto alemán de Fórmula 1",
+        "description": "El experimentado piloto alemán de Fórmula 1, ganó cuatro campeonatos mundiales con Red Bull Racing. Su inteligencia y capacidad para el liderazgo en pista son destacados.",
+        "imageUrl": "https://example.com/images/sebastian_vettel.jpeg",
+        "facts": {
+            "yearOfBirth": 1987,
+            "yearOfDeath": "sigue vivo",
+            "placeOfBirth": "Heppenheim, Alemania",
+            "championshipsWon": 4
+        },
+        "extraInfo": {
+            "podiums": 122,
+            "races": 274,
+            "lastTeam": "Aston Martin",
+            "height": "1.76 m"
+        }
+    },
+    {
+        "id": "emerson-fittipaldi",
+        "name": "Emerson Fittipaldi",
+        "shortDescription": "Carismático piloto brasileño de Fórmula 1",
+        "description": "El carismático piloto brasileño de Fórmula 1, ganó dos campeonatos mundiales. Su estilo relajado y su sonrisa lo hicieron querido en el paddock.",
+        "imageUrl": "https://example.com/images/emerson_fittipaldi.jpeg",
+        "facts": {
+            "yearOfBirth": 1946,
+            "yearOfDeath": "sigue vivo",
+            "placeOfBirth": "São Paulo, Brasil",
+            "championshipsWon": 2
+        },
+        "extraInfo": {
+            "podiums": 35,
+            "races": 144,
+            "lastTeam": "McLaren",
+            "height": "1.75 m"
+        }
+    },
+    {
+        "id": "stirling-moss",
+        "name": "Stirling Moss",
+        "shortDescription": "Histórico piloto británico de Fórmula 1",
+        "description": "El histórico piloto británico de Fórmula 1, es considerado uno de los mejores pilotos que nunca ganó un campeonato mundial. Su legado perdura en la historia del deporte.",
+        "imageUrl": "https://example.com/images/stirling_moss.jpeg",
+        "facts": {
+            "yearOfBirth": 1929,
+            "yearOfDeath": 2020,
+            "placeOfBirth": "Londres, Reino Unido",
+            "championshipsWon": 0
+        },
+        "extraInfo": {
+            "podiums": 24,
+            "races": 66,
+            "lastTeam": "Mercedes",
+            "height": "1.75 m"
+        }
+    },
+    {
+        "id": "nelson-piquet",
+        "name": "Nelson Piquet",
+        "shortDescription": "Exitoso piloto brasileño de Fórmula 1",
+        "description": "El exitoso piloto brasileño de Fórmula 1, ganó tres campeonatos mundiales. Su estilo agresivo y su rivalidad con otros pilotos lo hicieron destacar en la pista.",
+        "imageUrl": "https://example.com/images/nelson_piquet.jpeg",
+        "facts": {
+            "yearOfBirth": 1952,
+            "yearOfDeath": "sigue vivo",
+            "placeOfBirth": "Río de Janeiro, Brasil",
+            "championshipsWon": 3
+        },
+        "extraInfo": {
+            "podiums": 60,
+            "races": 204,
+            "lastTeam": "Williams",
+            "height": "1.74 m"
+        }
+    },
+    {
+        "id": "john-surtees",
+        "name": "John Surtees",
+        "shortDescription": "Versátil piloto británico de Fórmula 1 y motociclismo",
+        "description": "El versátil piloto británico de Fórmula 1 y motociclismo, es el único piloto en ganar campeonatos mundiales en ambas disciplinas. Su legado es único en la historia del deporte.",
+        "imageUrl": "https://example.com/images/john_surtees.jpeg",
+        "facts": {
+            "yearOfBirth": 1934,
+            "yearOfDeath": 2017,
+            "placeOfBirth": "Tatsfield, Reino Unido",
+            "championshipsWon": 1
+        },
+        "extraInfo": {
+            "podiums": 24,
+            "races": 112,
+            "lastTeam": "Honda",
+            "height": "1.75 m"
+        }
+    },
+    {
+        "id": "gilles-villeneuve",
+        "name": "Gilles Villeneuve",
+        "shortDescription": "Carismático piloto canadiense de Fórmula 1",
+        "description": "El carismático piloto canadiense de Fórmula 1, es recordado por su estilo de manejo agresivo y apasionado. Su legado sigue vivo en el corazón de los fanáticos de la Fórmula 1.",
+        "imageUrl": "https://example.com/images/gilles_villeneuve.jpeg",
+        "facts": {
+            "yearOfBirth": 1950,
+            "yearOfDeath": 1982,
+            "placeOfBirth": "Saint-Jean-sur-Richelieu, Canadá",
+            "championshipsWon": 0
+        },
+        "extraInfo": {
+            "podiums": 13,
+            "races": 67,
+            "lastTeam": "Ferrari",
+            "height": "1.68 m"
+        }
+    },
+    {
+        "id": "jack-brabham",
+        "name": "Jack Brabham",
+        "shortDescription": "Legendario piloto australiano de Fórmula 1",
+        "description": "El legendario piloto australiano de Fórmula 1, ganó tres campeonatos mundiales y fue un pionero en el diseño de autos de Fórmula 1. Su legado perdura en el deporte.",
+        "imageUrl": "https://example.com/images/jack_brabham.jpeg",
+        "facts": {
+            "yearOfBirth": 1926,
+            "yearOfDeath": 2014,
+            "placeOfBirth": "Hurtsville, Australia",
+            "championshipsWon": 3
+        },
+        "extraInfo": {
+            "podiums": 31,
+            "races": 126,
+            "lastTeam": "Brabham",
+            "height": "1.75 m"
+        }
+    },
+    {
+        "id": "alberto-ascari",
+        "name": "Alberto Ascari",
+        "shortDescription": "Histórico piloto italiano de Fórmula 1",
+        "description": "El histórico piloto italiano de Fórmula 1, fue el primer bicampeón de la Fórmula 1. Su estilo de manejo suave lo hizo destacar en la década de 1950.",
+        "imageUrl": "https://example.com/images/alberto_ascari.jpeg",
+        "facts": {
+            "yearOfBirth": 1918,
+            "yearOfDeath": 1955,
+            "placeOfBirth": "Milán, Italia",
+            "championshipsWon": 2
+        },
+        "extraInfo": {
+            "podiums": 17,
+            "races": 32,
+            "lastTeam": "Lancia",
+            "height": "1.74 m"
+        }
+    },
+    {
+        "id": "mario-andretti",
+        "name": "Mario Andretti",
+        "shortDescription": "Versátil piloto ítalo-estadounidense de Fórmula 1",
+        "description": "El versátil piloto ítalo-estadounidense de Fórmula 1, ganó un campeonato mundial en 1978. Su exitosa carrera incluye logros en diversas disciplinas del automovilismo.",
+        "imageUrl": "https://example.com/images/mario_andretti.jpeg",
+        "facts": {
+            "yearOfBirth": 1940,
+            "yearOfDeath": "sigue vivo",
+            "placeOfBirth": "Montona, Italia",
+            "championshipsWon": 1
+        },
+        "extraInfo": {
+            "podiums": 19,
+            "races": 128,
+            "lastTeam": "Lotus",
+            "height": "1.76 m"
+        }
+    },
+    {
+        "id": "jacky-ickx",
+        "name": "Jacky Ickx",
+        "shortDescription": "Versátil piloto belga de Fórmula 1 y resistencia",
+        "description": "El versátil piloto belga de Fórmula 1 y resistencia, es conocido por su habilidad en múltiples disciplinas del automovilismo. Ganó ocho Grandes Premios de Fórmula 1.",
+        "imageUrl": "https://example.com/images/jacky_ickx.jpeg",
+        "facts": {
+            "yearOfBirth": 1945,
+            "yearOfDeath": "sigue vivo",
+            "placeOfBirth": "Bruselas, Bélgica",
+            "championshipsWon": 0
+        },
+        "extraInfo": {
+            "podiums": 25,
+            "races": 116,
+            "lastTeam": "Ferrari",
+            "height": "1.78 m"
+        }
+    },
+    {
+        "id": "graham-hill",
+        "name": "Graham Hill",
+        "shortDescription": "Carismático piloto británico de Fórmula 1",
+        "description": "El carismático piloto británico de Fórmula 1, ganó dos campeonatos mundiales y es el único piloto en ganar la Triple Corona del automovilismo. Su legado es duradero.",
+        "imageUrl": "https://example.com/images/graham_hill.jpeg",
+        "facts": {
+            "yearOfBirth": 1929,
+            "yearOfDeath": 1975,
+            "placeOfBirth": "Londres, Reino Unido",
+            "championshipsWon": 2
+        },
+        "extraInfo": {
+            "podiums": 33,
+            "races": 176,
+            "lastTeam": "Lotus",
+            "height": "1.78 m"
+        }
+    },
+    {
+        "id": "nigel-mansell",
+        "name": "Nigel Mansell",
+        "shortDescription": "Carismático piloto británico de Fórmula 1",
+        "description": "El carismático piloto británico de Fórmula 1, ganó un campeonato mundial y es conocido por su estilo agresivo y su bigote distintivo. Su legado es admirado por los fanáticos.",
+        "imageUrl": "https://example.com/images/nigel_mansell.jpeg",
+        "facts": {
+            "yearOfBirth": 1953,
+            "yearOfDeath": "sigue vivo",
+            "placeOfBirth": "Upton-upon-Severn, Reino Unido",
+            "championshipsWon": 1
+        },
+        "extraInfo": {
+            "podiums": 59,
+            "races": 191,
+            "lastTeam": "Williams",
+            "height": "1.80 m"
+        }
+    },
+    {
+        "id": "bruce-mclaren",
+        "name": "Bruce McLaren",
+        "shortDescription": "Fundador y piloto neozelandés de McLaren",
+        "description": "Fundador y piloto neozelandés de McLaren, dejó un legado duradero en la Fórmula 1. Su equipo, McLaren, se convirtió en uno de los más exitosos de la historia del deporte.",
+        "imageUrl": "https://example.com/images/bruce_mclaren.jpeg",
+        "facts": {
+            "yearOfBirth": 1937,
+            "yearOfDeath": 1970,
+            "placeOfBirth": "Auckland, Nueva Zelanda",
+            "championshipsWon": 0
+        },
+        "extraInfo": {
+            "podiums": 27,
+            "races": 104,
+            "lastTeam": "McLaren",
+            "height": "1.78 m"
+        }
+    },
+    {
+        "id": "mika-hakkinen",
+        "name": "Mika Häkkinen",
+        "shortDescription": "Exitoso piloto finlandés de Fórmula 1",
+        "description": "Exitoso piloto finlandés de Fórmula 1, ganó dos campeonatos mundiales con McLaren. Su estilo sereno y su rivalidad con Michael Schumacher lo hicieron destacar en la década de 1990.",
+        "imageUrl": "https://example.com/images/mika_hakkinen.jpeg",
+        "facts": {
+            "yearOfBirth": 1968,
+            "yearOfDeath": "sigue vivo",
+            "placeOfBirth": "Vantaa, Finlandia",
+            "championshipsWon": 2
+        },
+        "extraInfo": {
+            "podiums": 51,
+            "races": 161,
+            "lastTeam": "McLaren",
+            "height": "1.75 m"
+        }
+    },
+    {
+        "id": "charles-leclerc",
+        "name": "Charles Leclerc",
+        "shortDescription": "Joven piloto monegasco de Fórmula 1",
+        "description": "Joven piloto monegasco de Fórmula 1, es considerado una promesa en el deporte. Su impresionante desempeño y agresividad en la pista lo han destacado en Ferrari.",
+        "imageUrl": "https://example.com/images/charles_leclerc.jpeg",
+        "facts": {
+            "yearOfBirth": 1997,
+            "yearOfDeath": "sigue vivo",
+            "placeOfBirth": "Montecarlo, Mónaco",
+            "championshipsWon": 0
+        },
+        "extraInfo": {
+            "podiums": 9,
+            "races": 68,
+            "lastTeam": "Ferrari",
+            "height": "1.80 m"
+        }
+    },
+    {
+        "id": "jenson-button",
+        "name": "Jenson Button",
+        "shortDescription": "Exitoso piloto británico de Fórmula 1",
+        "description": "Exitoso piloto británico de Fórmula 1, ganó un campeonato mundial en 2009 con Brawn GP. Su longevidad en la Fórmula 1 y carisma lo hicieron querido por los fanáticos.",
+        "imageUrl": "https://example.com/images/jenson_button.jpeg",
+        "facts": {
+            "yearOfBirth": 1980,
+            "yearOfDeath": "sigue vivo",
+            "placeOfBirth": "Frome, Reino Unido",
+            "championshipsWon": 1
+        },
+        "extraInfo": {
+            "podiums": 50,
+            "races": 306,
+            "lastTeam": "McLaren",
+            "height": "1.83 m"
+        }
+    },
+    {
+        "id": "nico-rosberg",
+        "name": "Nico Rosberg",
+        "shortDescription": "Exitoso piloto alemán de Fórmula 1",
+        "description": "Exitoso piloto alemán de Fórmula 1, ganó un campeonato mundial en 2016 con Mercedes. Su rivalidad con Lewis Hamilton es una de las más recordadas en la historia reciente de la Fórmula 1.",
+        "imageUrl": "https://example.com/images/nico_rosberg.jpeg",
+        "facts": {
+            "yearOfBirth": 1985,
+            "yearOfDeath": "sigue vivo",
+            "placeOfBirth": "Wiesbaden, Alemania",
+            "championshipsWon": 1
+        },
+        "extraInfo": {
+            "podiums": 57,
+            "races": 206,
+            "lastTeam": "Mercedes",
+            "height": "1.78 m"
+        }
+    },
+    {
+        "id": "kimi-raikkonen",
+        "name": "Kimi Räikkönen",
+        "shortDescription": "Carismático piloto finlandés de Fórmula 1",
+        "description": "El carismático piloto finlandés de Fórmula 1, ganó un campeonato mundial en 2007 con Ferrari. Conocido como 'Iceman', su actitud relajada lo hizo querido por los fanáticos.",
+        "imageUrl": "https://example.com/images/kimi_raikkonen.jpeg",
+        "facts": {
+            "yearOfBirth": 1979,
+            "yearOfDeath": "sigue vivo",
+            "placeOfBirth": "Espoo, Finlandia",
+            "championshipsWon": 1
+        },
+        "extraInfo": {
+            "podiums": 103,
+            "races": 345,
+            "lastTeam": "Alfa Romeo Racing",
+            "height": "1.75 m"
+        }
+    },
+    {
+        "id": "stefan-bellof",
+        "name": "Stefan Bellof",
+        "shortDescription": "Talento alemán de Fórmula 1 y resistencia",
+        "description": "El talento alemán de Fórmula 1 y resistencia, es recordado por su valentía en la pista y su récord de vuelta más rápida en Nürburgring. Su carrera fue truncada trágicamente en un accidente.",
+        "imageUrl": "https://example.com/images/stefan_bellof.jpeg",
+        "facts": {
+            "yearOfBirth": 1957,
+            "yearOfDeath": 1985,
+            "placeOfBirth": "Gießen, Alemania",
+            "championshipsWon": 0
+        },
+        "extraInfo": {
+            "podiums": 0,
+            "races": 20,
+            "lastTeam": "Tyrrell",
+            "height": "1.80 m"
+        }
+    },
+    {
+        "id": "jean-alesi",
+        "name": "Jean Alesi",
+        "shortDescription": "Carismático piloto francés de Fórmula 1",
+        "description": "El carismático piloto francés de Fórmula 1, es recordado por su pasión y amor por la Fórmula 1. Aunque nunca ganó un campeonato, su legado perdura en el deporte.",
+        "imageUrl": "https://example.com/images/jean_alesi.jpeg",
+        "facts": {
+            "yearOfBirth": 1964,
+            "yearOfDeath": "sigue vivo",
+            "placeOfBirth": "Aviñón, Francia",
+            "championshipsWon": 0
+        },
+        "extraInfo": {
+            "podiums": 32,
+            "races": 202,
+            "lastTeam": "Prost",
+            "height": "1.74 m"
+        }
+    },
+    {
+      "id": "lance-stroll",
+      "name": "Lance Stroll",
+      "shortDescription": "Joven piloto canadiense de Fórmula 1",
+      "description": "Joven piloto canadiense que compite en el equipo Aston Martin Racing. Ha demostrado su talento en la Fórmula 1.",
+      "imageUrl": "URL",
+      "facts": {
+        "yearOfBirth": 1998,
+        "yearOfDeath": "sigue vivo",
+        "placeOfBirth": "Montreal, Canadá",
+        "championshipsWon": 0
       },
-      {
-        "id": "daniel-ricciardo",
-        "name": "Daniel Ricciardo",
-        "shortDescription": "Carismático piloto de Fórmula 1",
-        "description": "Daniel Ricciardo, carismático piloto australiano, ha demostrado su habilidad con sonrisas y victorias en Red Bull Racing y Renault.",
-        "imageUrl": danielRicciardo,
-        "facts": {
-          "yearOfBirth": 1989,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Perth, Australia",
-          "championshipsWon": 0
-        },
-        "extraInfo": {
-          "podiums": 31,
-          "races": 194,
-          "lastTeam": "McLaren",
-          "height": "1.78 m"
-        }
+      "extraInfo": {
+        "podiums": 3,
+        "races": 78,
+        "lastTeam": "Aston Martin",
+        "height": "1.84 m"
+      }
       },
       {
         "id": "valtteri-bottas",
         "name": "Valtteri Bottas",
         "shortDescription": "Piloto finlandés de Fórmula 1",
-        "description": "Valtteri Bottas, piloto finlandés, ha sido compañero de Lewis Hamilton en Mercedes. Es conocido por su velocidad en pista y su lealtad al equipo.",
-        "imageUrl": valteriBottas,
+        "description": "Es un destacado piloto finlandés que ha competido en el equipo Mercedes. Aunque no ha ganado campeonatos, ha sido un fuerte contendiente en la Fórmula 1.",
+        "imageUrl": "URL",
         "facts": {
           "yearOfBirth": 1989,
           "yearOfDeath": "sigue vivo",
@@ -662,56 +601,37 @@ export default [
           "championshipsWon": 0
         },
         "extraInfo": {
-          "podiums": 61,
-          "races": 174,
+          "podiums": 59,
+          "races": 169,
           "lastTeam": "Alfa Romeo",
           "height": "1.73 m"
         }
       },
       {
-        "id": "sergio-perez",
-        "name": "Sergio Pérez",
-        "shortDescription": "Piloto mexicano de Fórmula 1",
-        "description": "Sergio Pérez, piloto mexicano, ha demostrado su valía en equipos como Racing Point y Red Bull Racing. Es un referente para México en la F1.",
-        "imageUrl": sergioPerez,
+        "id": "guanyu-zhou",
+        "name": "Guanyu Zhou",
+        "shortDescription": "Joven piloto chino de Fórmula 1",
+        "description": "Joven piloto chino que ha debutado en la Fórmula 1 con el equipo Alfa Romeo. Representa una promesa para el automovilismo chino.",
+        "imageUrl": "URL",
         "facts": {
-          "yearOfBirth": 1990,
+          "yearOfBirth": 1999,
           "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Guadalajara, México",
+          "placeOfBirth": "Shanghái, China",
           "championshipsWon": 0
         },
         "extraInfo": {
-          "podiums": 12,
-          "races": 230,
-          "lastTeam": "Red Bull Racing",
-          "height": "1.73 m"
-        }
-      },
-      {
-        "id": "carlos-sainz",
-        "name": "Carlos Sainz",
-        "shortDescription": "Piloto español de Fórmula 1",
-        "description": "Carlos Sainz, piloto español, ha competido en equipos como McLaren y Ferrari. Es hijo del famoso piloto de rally Carlos Sainz.",
-        "imageUrl": carlosSainzJr,
-        "facts": {
-          "yearOfBirth": 1994,
-          "yearOfDeath": "sigue vivo",
-          "placeOfBirth": "Madrid, España",
-          "championshipsWon": 0
-        },
-        "extraInfo": {
-          "podiums": 3,
-          "races": 98,
-          "lastTeam": "Ferrari",
-          "height": "1.78 m"
+          "podiums": 0,
+          "races": 3,
+          "lastTeam": "Alfa Romeo",
+          "height": "1.74 m"
         }
       },
       {
         "id": "esteban-ocon",
         "name": "Esteban Ocon",
         "shortDescription": "Joven piloto francés de Fórmula 1",
-        "description": "Esteban Ocon, joven piloto francés, ha demostrado su talento en equipos como Force India y Alpine. Es considerado una promesa en la Fórmula 1.",
-        "imageUrl": estebanOcon,
+        "description": "Piloto francés que compite en el equipo Alpine. Ha demostrado su talento en la Fórmula 1 desde temprana edad.",
+        "imageUrl": "URL",
         "facts": {
           "yearOfBirth": 1996,
           "yearOfDeath": "sigue vivo",
@@ -724,6 +644,233 @@ export default [
           "lastTeam": "Alpine",
           "height": "1.86 m"
         }
-      }
-  
+      },
+      {
+        "id": "pierre-gasly",
+        "name": "Pierre Gasly",
+        "shortDescription": "Piloto francés de Fórmula 1",
+        "description": "Es un piloto francés que ha competido en equipos como Red Bull Racing y AlphaTauri. Ha logrado victorias y podios en su carrera.",
+        "imageUrl": "URL",
+        "facts": {
+          "yearOfBirth": 1996,
+          "yearOfDeath": "sigue vivo",
+          "placeOfBirth": "Rouen, Francia",
+          "championshipsWon": 0
+        },
+        "extraInfo": {
+          "podiums": 2,
+          "races": 94,
+          "lastTeam": "AlphaTauri",
+          "height": "1.78 m"
+        }
+      },
+      {
+        "id": "carlos-sainz",
+        "name": "Carlos Sainz",
+        "shortDescription": "Piloto español de Fórmula 1",
+        "description": "Experimentado piloto español que ha competido en equipos como McLaren y Ferrari. Es hijo del famoso piloto de rally Carlos Sainz.",
+        "imageUrl": "URL",
+        "facts": {
+          "yearOfBirth": 1994,
+          "yearOfDeath": "sigue vivo",
+          "placeOfBirth": "Madrid, España",
+          "championshipsWon": 0
+        },
+        "extraInfo": {
+          "podiums": 3,
+          "races": 134,
+          "lastTeam": "Ferrari",
+          "height": "1.76 m"
+        }
+      },
+      {
+        "id": "kevin-magnussen",
+        "name": "Kevin Magnussen",
+        "shortDescription": "Piloto danés de Fórmula 1",
+        "description": "Es un piloto danés que ha competido en la Fórmula 1 en equipos como Haas F1 Team. Ha demostrado su destreza en la pista.",
+        "imageUrl": "URL",
+        "facts": {
+          "yearOfBirth": 1992,
+          "yearOfDeath": "sigue vivo",
+          "placeOfBirth": "Roskilde, Dinamarca",
+          "championshipsWon": 0
+        },
+        "extraInfo": {
+          "podiums": 0,
+          "races": 119,
+          "lastTeam": "Haas",
+          "height": "1.74 m"
+        }
+      },
+      {
+        "id": "nico-hulkenberg",
+        "name": "Nico Hulkenberg",
+        "shortDescription": "Piloto alemán de Fórmula 1",
+        "description": "Piloto alemán con experiencia en la Fórmula 1. Ha competido en varios equipos y ha sido conocido por sus habilidades bajo la lluvia.",
+        "imageUrl": "URL",
+        "facts": {
+          "yearOfBirth": 1987,
+          "yearOfDeath": "sigue vivo",
+          "placeOfBirth": "Emmerich am Rhein, Alemania",
+          "championshipsWon": 0
+        },
+        "extraInfo": {
+          "podiums": 0,
+          "races": 184,
+          "lastTeam": "Haas",
+          "height": "1.84 m"
+        }
+      },
+      {
+        "id": "lando-norris",
+        "name": "Lando Norris",
+        "shortDescription": "Joven piloto británico de Fórmula 1",
+        "description": "Talentoso piloto británico que compite en el equipo McLaren F1. Ha demostrado su destreza en la Fórmula 1 desde su debut.",
+        "imageUrl": "URL",
+        "facts": {
+          "yearOfBirth": 1999,
+          "yearOfDeath": "sigue vivo",
+          "placeOfBirth": "Bristol, Reino Unido",
+          "championshipsWon": 0
+        },
+        "extraInfo": {
+          "podiums": 9,
+          "races": 77,
+          "lastTeam": "McLaren",
+          "height": "1.71 m"
+        }
+      },
+      {
+        "id": "oscar-piastri",
+        "name": "Oscar Piastri",
+        "shortDescription": "Joven piloto australiano de Fórmula 1",
+        "description": "Joven piloto australiano que ha debutado en la Fórmula 1 con el equipo McLaren. Es considerado una promesa en el automovilismo australiano.",
+        "imageUrl": "URL",
+        "facts": {
+          "yearOfBirth": 2001,
+          "yearOfDeath": "sigue vivo",
+          "placeOfBirth": "Melbourne, Australia",
+          "championshipsWon": 0
+        },
+        "extraInfo": {
+          "podiums": 0,
+          "races": 0,
+          "lastTeam": "McLaren",
+          "height": "1.80 m"
+        }
+      },
+      {
+        "id": "george-russell",
+        "name": "George Russell",
+        "shortDescription": "Joven piloto británico de Fórmula 1",
+        "description": "Talentoso piloto británico que compite en el equipo Mercedes. Ha demostrado su habilidad y promesa en la Fórmula 1.",
+        "imageUrl": "URL",
+        "facts": {
+          "yearOfBirth": 1998,
+          "yearOfDeath": "sigue vivo",
+          "placeOfBirth": "King's Lynn, Reino Unido",
+          "championshipsWon": 0
+        },
+        "extraInfo": {
+          "podiums": 0,
+          "races": 51,
+          "lastTeam": "Mercedes",
+          "height": "1.87 m"
+        }
+      },
+      {
+        "id": "sergio-perez",
+        "name": "Sergio Pérez",
+        "shortDescription": "Piloto mexicano de Fórmula 1",
+        "description": "Es un experimentado piloto mexicano que compite en el equipo Red Bull Racing. Ha logrado varias victorias y es un destacado piloto de la Fórmula 1.",
+        "imageUrl": "URL",
+        "facts": {
+          "yearOfBirth": 1990,
+          "yearOfDeath": "sigue vivo",
+          "placeOfBirth": "Guadalajara, México",
+          "championshipsWon": 0
+        },
+        "extraInfo": {
+          "podiums": 12,
+          "races": 213,
+          "lastTeam": "Red Bull Racing",
+          "height": "1.73 m"
+        }
+      },
+      {
+        "id": "daniel-ricciardo",
+        "name": "Daniel Ricciardo",
+        "shortDescription": "Piloto australiano de Fórmula 1",
+        "description": "Es un carismático piloto australiano que ha competido en equipos como Red Bull Racing y Scuderia AlphaTauri. Es conocido por su sonrisa y estilo único.",
+        "imageUrl": "URL",
+        "facts": {
+          "yearOfBirth": 1989,
+          "yearOfDeath": "sigue vivo",
+          "placeOfBirth": "Perth, Australia",
+          "championshipsWon": 0
+        },
+        "extraInfo": {
+          "podiums": 31,
+          "races": 207,
+          "lastTeam": "AlphaTauri",
+          "height": "1.75 m"
+        }
+      },
+      {
+        "id": "yuki-tsunoda",
+        "name": "Yuki Tsunoda",
+        "shortDescription": "Joven piloto japonés de Fórmula 1",
+        "description": "Joven piloto japonés que compite en el equipo Scuderia AlphaTauri. Ha sido parte del programa de jóvenes pilotos de Red Bull Racing.",
+        "imageUrl": "URL",
+        "facts": {
+          "yearOfBirth": 2000,
+          "yearOfDeath": "sigue vivo",
+          "placeOfBirth": "Sagamihara, Japón",
+          "championshipsWon": 0
+        },
+        "extraInfo": {
+          "podiums": 0,
+          "races": 27,
+          "lastTeam": "AlphaTauri",
+          "height": "1.64 m"
+        }
+      },
+      {
+        "id": "logan-sargeant",
+        "name": "Logan Sargeant",
+        "shortDescription": "Piloto estadounidense de Fórmula 1",
+        "description": "Piloto estadounidense que compite en el equipo Williams. Es una promesa en el automovilismo estadounidense.",
+        "imageUrl": "URL",
+        "facts": {
+          "yearOfBirth": 2000,
+          "yearOfDeath": "sigue vivo",
+          "placeOfBirth": "Fort Lauderdale, Estados Unidos",
+          "championshipsWon": 0
+        },
+        "extraInfo": {
+          "podiums": 0,
+          "races": 2,
+          "lastTeam": "Williams",
+          "height": "1.74 m"
+        }
+      },
+      {
+        "id": "alexander-albon",
+        "name": "Alexander Albon",
+        "shortDescription": "Piloto tailandés de Fórmula 1",
+        "description": "Piloto tailandés que ha competido en equipos como Red Bull Racing y Williams. Ha demostrado su destreza en la Fórmula 1.",
+        "imageUrl": "URL",
+        "facts": {
+          "yearOfBirth": 1996,
+          "yearOfDeath": "sigue vivo",
+          "placeOfBirth": "Londres, Reino Unido",
+          "championshipsWon": 0
+        },
+        "extraInfo": {
+          "podiums": 0,
+          "races": 35,
+          "lastTeam": "Williams",
+          "height": "1.86 m"
+        }
+      }      
 ];

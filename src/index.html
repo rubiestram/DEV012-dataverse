@@ -19,8 +19,52 @@
     </main>
      
     <!-- Todas las etiquetas de controles (inputs, selects, radio, etc) tienen <label></label> -->
-    <label for=""></label>
+  <div>  
+    <label for="escuderia">Escudería:</label>
+    <select id="escuderia" data-testid="select-filter" name="escuderia">
+      <option value="">Todos</option>
+      <option value="Alfa Romeo Racing">Alfa Romeo Racing</option>
+      <option value="AlphaTauri">AlphaTauri</option>
+      <option value="Aston Martin">Aston Martin</option>
+      <option value="Brabham">Brabham</option>
+      <option value="Ferrari">Ferrari</option>
+      <option value="Haas">Haas</option>
+      <option value="Honda">Honda</option>
+      <option value="Lotus">Lotus</option>
+      <option value="Maserati">Maserati</option>
+      <option value="McLaren">McLaren</option>
+      <option value="Mercedes">Mercedes</option>
+      <option value="Prost">Prost</option>
+      <option value="Red Bull Racing">Red Bull Racing</option>
+      <option value="Tyrrell">Tyrrell</option>
+      <option value="Williams">Williams</option>
+    </select>
+  
+    <br>
+
+    <label for="sort-order">Ordenar por:</label>
+    <select id="sort-order" data-testid="select-sort" name="sort-order">
+        <option value="asc">A - Z</option>
+        <option value="desc">Z - A</option>
+        <option value="most-championships">Más campeonatos</option>
+        <option value="least-championships">Menos campeonatos</option>
+    </select>
+
+    <br>
     
+        <label>Filtrar por estado:</label>
+        <input type="radio" name="status" id="alive-filter" value="alive">
+        <label for="alive-filter">Vivos</label>
+        <input type="radio" name="status" id="dead-filter" value="dead">
+        <label for="dead-filter">Fallecidos</label>
+
+    <br>
+
+
+        <label for="clear-filters">Borrar filtros:</label>
+        <button id="clear-filters" data-testid="button-clear">Limpiar</button>
+
+    </div>
     
     <!-- Aquí solo va el elemento con el id -->
     <!-- En view.js se deberá crear el html dinamico de la ul y li -->

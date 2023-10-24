@@ -816,6 +816,7 @@ export default [
           "height": "1.75 m"
         }
       },
+      
       {
         "id": "yuki-tsunoda",
         "name": "Yuki Tsunoda",
@@ -854,6 +855,7 @@ export default [
           "height": "1.74 m"
         }
       },
+
       {
         "id": "alexander-albon",
         "name": "Alexander Albon",

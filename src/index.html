@@ -20,6 +20,9 @@
      
     <!-- Todas las etiquetas de controles (inputs, selects, radio, etc) tienen <label></label> -->
   <div>  
+
+    <p>Filtar</p>
+
     <label for="escuderia">Escudería:</label>
     <select id="escuderia" data-testid="select-filter" name="escuderia">
       <option value="">Todos</option>
@@ -39,29 +42,40 @@
       <option value="Tyrrell">Tyrrell</option>
       <option value="Williams">Williams</option>
     </select>
-  
+    
     <br>
 
-    <label for="sort-order">Ordenar por:</label>
+      <label for="podiums">Podiums</label>
+      <select id="podiums-win" data-testid="select-filter" name="podiums-win">
+        <option value="most-podiums">+ Mas</option>
+        <option value="least-podiums">- Menos</option>
+      </select>
+
+    <br>
+
+      <input type="radio" name="status" id="alive-filter" value="alive">
+      <label for="alive-filter">Activos</label>
+      <input type="radio" name="status" id="dead-filter" value="dead">
+      <label for="dead-filter">Inactivos</label>
+
+    <p>Ordenar</p>>
+
+    <label for="sort-order">Alfabeticamente:</label>
     <select id="sort-order" data-testid="select-sort" name="sort-order">
         <option value="asc">A - Z</option>
         <option value="desc">Z - A</option>
-        <option value="most-championships">Más campeonatos</option>
-        <option value="least-championships">Menos campeonatos</option>
     </select>
 
     <br>
-    
-        <label>Filtrar por estado:</label>
-        <input type="radio" name="status" id="alive-filter" value="alive">
-        <label for="alive-filter">Vivos</label>
-        <input type="radio" name="status" id="dead-filter" value="dead">
-        <label for="dead-filter">Fallecidos</label>
+
+    <label for="sort-order">Campeonatos</label>
+    <select id="sort-order" data-testid="select-sort" name="sort-order-two">
+        <option value="most-championships">Mayor</option>
+        <option value="least-championships">Menor</option>
+    </select>
 
     <br>
 
-
-        <label for="clear-filters">Borrar filtros:</label>
         <button id="clear-filters" data-testid="button-clear">Limpiar</button>
 
     </div>

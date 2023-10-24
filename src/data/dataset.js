@@ -4,7 +4,7 @@ export default [
         "name": "Ayrton Senna",
         "shortDescription": "Legendario piloto brasileño de Fórmula 1",
         "description": "Legendario piloto brasileño de Fórmula 1, es ampliamente reconocido como uno de los más grandes de la historia de la Fórmula 1. Su destreza en la pista y carisma fuera de ella lo convirtieron en una verdadera leyenda del deporte.",
-        "imageUrl": "src/data/images/ayrton_senna.png",
+        "imageUrl": "./data/images/ayrton_senna.png",
         "facts": {
             "yearOfBirth": 1960,
             "yearOfDeath": 1994,
@@ -23,7 +23,7 @@ export default [
         "name": "Juan Manuel Fangio",
         "shortDescription": "Histórico piloto argentino de Fórmula 1",
         "description": "Histórico piloto argentino de Fórmula 1, dominó la Fórmula 1 en la década de 1950 y ganó cinco campeonatos mundiales. Su destreza en la pista y su estilo elegante lo convirtieron en un ícono del automovilismo.",
-        "imageUrl": "src/data/images/juan_manuel_fangio.png",
+        "imageUrl": "./data/images/juan_manuel_fangio.png",
         "facts": {
             "yearOfBirth": 1911,
             "yearOfDeath": 1995,
@@ -42,7 +42,7 @@ export default [
         "name": "Jim Clark",
         "shortDescription": "Destacado piloto escocés de Fórmula 1",
         "description": "Destacado piloto escocés de Fórmula 1, fue conocido por su elegante estilo de manejo y su capacidad para ganar en diferentes condiciones. Ganó dos campeonatos mundiales durante su carrera.",
-        "imageUrl": "src/data/images/jim_clark.png",
+        "imageUrl": "./data/images/jim_clark.png",
         "facts": {
             "yearOfBirth": 1936,
             "yearOfDeath": 1968,
@@ -61,7 +61,7 @@ export default [
         "name": "Alain Prost",
         "shortDescription": "Exitoso piloto francés de Fórmula 1",
         "description": "Exitoso piloto francés de Fórmula 1, es conocido por su enfoque metódico y táctico en las carreras. Ganó cuatro campeonatos mundiales durante su carrera en la Fórmula 1.",
-        "imageUrl": "src/data/images/alain_prost.png",
+        "imageUrl": "./data/images/alain_prost.png",
         "facts": {
             "yearOfBirth": 1955,
             "yearOfDeath": "sigue vivo",
@@ -80,7 +80,7 @@ export default [
         "name": "Michael Schumacher",
         "shortDescription": "Legendario piloto alemán de Fórmula 1",
         "description": "El legendario piloto alemán de Fórmula 1, es uno de los pilotos más exitosos de la historia de la Fórmula 1. Ganó siete campeonatos mundiales durante su carrera.",
-        "imageUrl": "src/data/images/michael_shumacher.png",
+        "imageUrl": "./data/images/michael_shumacher.png",
         "facts": {
             "yearOfBirth": 1969,
             "yearOfDeath": "sigue vivo",
@@ -99,7 +99,7 @@ export default [
         "name": "Jackie Stewart",
         "shortDescription": "Carismático piloto escocés de Fórmula 1",
         "description": "El carismático piloto escocés de Fórmula 1, fue un defensor de la seguridad en las carreras y ganó tres campeonatos mundiales. Su personalidad extrovertida lo hizo muy popular.",
-        "imageUrl": "src/data/images/jackie_stewart.png",
+        "imageUrl": "./data/images/jackie_stewart.png",
         "facts": {
             "yearOfBirth": 1939,
             "yearOfDeath": "sigue vivo",
@@ -118,7 +118,7 @@ export default [
         "name": "Fernando Alonso",
         "shortDescription": "Destacado piloto español de Fórmula 1",
         "description": "Destacado piloto español de Fórmula 1, es conocido por su tenacidad y habilidades en la pista. Ganó dos campeonatos mundiales y sigue compitiendo en la Fórmula 1.",
-        "imageUrl": "src/data/images/fernando_alonso.png",
+        "imageUrl": "./data/images/fernando_alonso.png",
         "facts": {
             "yearOfBirth": 1981,
             "yearOfDeath": "sigue vivo",
@@ -137,7 +137,7 @@ export default [
         "name": "Max Verstappen",
         "shortDescription": "Joven talento neerlandés de Fórmula 1",
         "description": "El joven talento neerlandés de Fórmula 1, ha impresionado a todos con su agresividad en la pista. Aunque no ha ganado campeonatos todavía, es considerado una futura estrella.",
-        "imageUrl": "src/data/images/max_verstappen.png",
+        "imageUrl": "./data/images/max_verstappen.png",
         "facts": {
             "yearOfBirth": 1997,
             "yearOfDeath": "sigue vivo",
@@ -156,7 +156,7 @@ export default [
         "name": "Lewis Hamilton",
         "shortDescription": "Exitoso piloto británico de Fórmula 1",
         "description": "Exitoso piloto británico de Fórmula 1, ha establecido récords y ganado múltiples campeonatos mundiales. Su activismo y habilidades en la pista lo hacen una figura influyente.",
-        "imageUrl": "src/data/images/lewis_hamilton.png",
+        "imageUrl": "./data/images/lewis_hamilton.png",
         "facts": {
             "yearOfBirth": 1985,
             "yearOfDeath": "sigue vivo",
@@ -175,7 +175,7 @@ export default [
         "name": "Niki Lauda",
         "shortDescription": "Legendario piloto austriaco de Fórmula 1",
         "description": "El legendario piloto austriaco de Fórmula 1, superó un grave accidente para continuar compitiendo y ganar tres campeonatos mundiales. Su historia es una inspiración para muchos.",
-        "imageUrl": "src/data/images/niki_lauda.png",
+        "imageUrl": "./data/images/niki_lauda.png",
         "facts": {
             "yearOfBirth": 1949,
             "yearOfDeath": 2019,
@@ -194,7 +194,7 @@ export default [
         "name": "Sebastian Vettel",
         "shortDescription": "Experimentado piloto alemán de Fórmula 1",
         "description": "El experimentado piloto alemán de Fórmula 1, ganó cuatro campeonatos mundiales con Red Bull Racing. Su inteligencia y capacidad para el liderazgo en pista son destacados.",
-        "imageUrl": "src/data/images/sebastian_vettel.png",
+        "imageUrl": "./data/images/sebastian_vettel.png",
         "facts": {
             "yearOfBirth": 1987,
             "yearOfDeath": "sigue vivo",
@@ -213,7 +213,7 @@ export default [
         "name": "Emerson Fittipaldi",
         "shortDescription": "Carismático piloto brasileño de Fórmula 1",
         "description": "El carismático piloto brasileño de Fórmula 1, ganó dos campeonatos mundiales. Su estilo relajado y su sonrisa lo hicieron querido en el paddock.",
-        "imageUrl": "src/data/images/emerson_fittipaldi.png",
+        "imageUrl": "./data/images/emerson_fittipaldi.png",
         "facts": {
             "yearOfBirth": 1946,
             "yearOfDeath": "sigue vivo",
@@ -232,7 +232,7 @@ export default [
         "name": "Stirling Moss",
         "shortDescription": "Histórico piloto británico de Fórmula 1",
         "description": "El histórico piloto británico de Fórmula 1, es considerado uno de los mejores pilotos que nunca ganó un campeonato mundial. Su legado perdura en la historia del deporte.",
-        "imageUrl": "src/data/images/stirling_moss.png",
+        "imageUrl": "./data/images/stirling_moss.png",
         "facts": {
             "yearOfBirth": 1929,
             "yearOfDeath": 2020,
@@ -251,7 +251,7 @@ export default [
         "name": "Nelson Piquet",
         "shortDescription": "Exitoso piloto brasileño de Fórmula 1",
         "description": "El exitoso piloto brasileño de Fórmula 1, ganó tres campeonatos mundiales. Su estilo agresivo y su rivalidad con otros pilotos lo hicieron destacar en la pista.",
-        "imageUrl": "src/data/images/nelson_piquet.png",
+        "imageUrl": "./data/images/nelson_piquet.png",
         "facts": {
             "yearOfBirth": 1952,
             "yearOfDeath": "sigue vivo",
@@ -270,7 +270,7 @@ export default [
         "name": "John Surtees",
         "shortDescription": "Versátil piloto británico de Fórmula 1 y motociclismo",
         "description": "El versátil piloto británico de Fórmula 1 y motociclismo, es el único piloto en ganar campeonatos mundiales en ambas disciplinas. Su legado es único en la historia del deporte.",
-        "imageUrl": "src/data/images/john_surtees.png",
+        "imageUrl": "./data/images/john_surtees.png",
         "facts": {
             "yearOfBirth": 1934,
             "yearOfDeath": 2017,
@@ -289,7 +289,7 @@ export default [
         "name": "Gilles Villeneuve",
         "shortDescription": "Carismático piloto canadiense de Fórmula 1",
         "description": "El carismático piloto canadiense de Fórmula 1, es recordado por su estilo de manejo agresivo y apasionado. Su legado sigue vivo en el corazón de los fanáticos de la Fórmula 1.",
-        "imageUrl": "src/data/images/gilles_villeneuve.png",
+        "imageUrl": "./data/images/gilles_villeneuve.png",
         "facts": {
             "yearOfBirth": 1950,
             "yearOfDeath": 1982,
@@ -308,7 +308,7 @@ export default [
         "name": "Jack Brabham",
         "shortDescription": "Legendario piloto australiano de Fórmula 1",
         "description": "El legendario piloto australiano de Fórmula 1, ganó tres campeonatos mundiales y fue un pionero en el diseño de autos de Fórmula 1. Su legado perdura en el deporte.",
-        "imageUrl": "src/data/images/jack_brabham.png",
+        "imageUrl": "./data/images/jack_brabham.png",
         "facts": {
             "yearOfBirth": 1926,
             "yearOfDeath": 2014,
@@ -327,7 +327,7 @@ export default [
         "name": "Alberto Ascari",
         "shortDescription": "Histórico piloto italiano de Fórmula 1",
         "description": "El histórico piloto italiano de Fórmula 1, fue el primer bicampeón de la Fórmula 1. Su estilo de manejo suave lo hizo destacar en la década de 1950.",
-        "imageUrl": "src/data/images/alberto_ascari.png",
+        "imageUrl": "./data/images/alberto_ascari.png",
         "facts": {
             "yearOfBirth": 1918,
             "yearOfDeath": 1955,
@@ -346,7 +346,7 @@ export default [
         "name": "Mario Andretti",
         "shortDescription": "Versátil piloto ítalo-estadounidense de Fórmula 1",
         "description": "El versátil piloto ítalo-estadounidense de Fórmula 1, ganó un campeonato mundial en 1978. Su exitosa carrera incluye logros en diversas disciplinas del automovilismo.",
-        "imageUrl": "src/data/images/mario_andretti.png",
+        "imageUrl": "./data/images/mario_andretti.png",
         "facts": {
             "yearOfBirth": 1940,
             "yearOfDeath": "sigue vivo",
@@ -365,7 +365,7 @@ export default [
         "name": "Jacky Ickx",
         "shortDescription": "Versátil piloto belga de Fórmula 1 y resistencia",
         "description": "El versátil piloto belga de Fórmula 1 y resistencia, es conocido por su habilidad en múltiples disciplinas del automovilismo. Ganó ocho Grandes Premios de Fórmula 1.",
-        "imageUrl": "src/data/images/jacky_ickx.png",
+        "imageUrl": "./data/images/jacky_ickx.png",
         "facts": {
             "yearOfBirth": 1945,
             "yearOfDeath": "sigue vivo",
@@ -384,7 +384,7 @@ export default [
         "name": "Graham Hill",
         "shortDescription": "Carismático piloto británico de Fórmula 1",
         "description": "El carismático piloto británico de Fórmula 1, ganó dos campeonatos mundiales y es el único piloto en ganar la Triple Corona del automovilismo. Su legado es duradero.",
-        "imageUrl": "src/data/images/graham_hill.png",
+        "imageUrl": "./data/images/graham_hill.png",
         "facts": {
             "yearOfBirth": 1929,
             "yearOfDeath": 1975,
@@ -403,7 +403,7 @@ export default [
         "name": "Nigel Mansell",
         "shortDescription": "Carismático piloto británico de Fórmula 1",
         "description": "El carismático piloto británico de Fórmula 1, ganó un campeonato mundial y es conocido por su estilo agresivo y su bigote distintivo. Su legado es admirado por los fanáticos.",
-        "imageUrl": "src/data/images/nigel_mansell.png",
+        "imageUrl": "./data/images/nigel_mansell.png",
         "facts": {
             "yearOfBirth": 1953,
             "yearOfDeath": "sigue vivo",
@@ -422,7 +422,7 @@ export default [
         "name": "Bruce McLaren",
         "shortDescription": "Fundador y piloto neozelandés de McLaren",
         "description": "Fundador y piloto neozelandés de McLaren, dejó un legado duradero en la Fórmula 1. Su equipo, McLaren, se convirtió en uno de los más exitosos de la historia del deporte.",
-        "imageUrl": "src/data/images/bruce_mclaren.png",
+        "imageUrl": "./data/images/bruce_mclaren.png",
         "facts": {
             "yearOfBirth": 1937,
             "yearOfDeath": 1970,
@@ -441,7 +441,7 @@ export default [
         "name": "Mika Häkkinen",
         "shortDescription": "Exitoso piloto finlandés de Fórmula 1",
         "description": "Exitoso piloto finlandés de Fórmula 1, ganó dos campeonatos mundiales con McLaren. Su estilo sereno y su rivalidad con Michael Schumacher lo hicieron destacar en la década de 1990.",
-        "imageUrl": "src/data/images/mika_hakkinen.png",
+        "imageUrl": "./data/images/mika_hakkinen.png",
         "facts": {
             "yearOfBirth": 1968,
             "yearOfDeath": "sigue vivo",
@@ -460,7 +460,7 @@ export default [
         "name": "Charles Leclerc",
         "shortDescription": "Joven piloto monegasco de Fórmula 1",
         "description": "Joven piloto monegasco de Fórmula 1, es considerado una promesa en el deporte. Su impresionante desempeño y agresividad en la pista lo han destacado en Ferrari.",
-        "imageUrl": "src/data/images/charles_leclerc.png",
+        "imageUrl": "./data/images/charles_leclerc.png",
         "facts": {
             "yearOfBirth": 1997,
             "yearOfDeath": "sigue vivo",
@@ -479,7 +479,7 @@ export default [
         "name": "Jenson Button",
         "shortDescription": "Exitoso piloto británico de Fórmula 1",
         "description": "Exitoso piloto británico de Fórmula 1, ganó un campeonato mundial en 2009 con Brawn GP. Su longevidad en la Fórmula 1 y carisma lo hicieron querido por los fanáticos.",
-        "imageUrl": "src/data/images/jenson_button.png",
+        "imageUrl": "./data/images/jenson_button.png",
         "facts": {
             "yearOfBirth": 1980,
             "yearOfDeath": "sigue vivo",
@@ -498,7 +498,7 @@ export default [
         "name": "Nico Rosberg",
         "shortDescription": "Exitoso piloto alemán de Fórmula 1",
         "description": "Exitoso piloto alemán de Fórmula 1, ganó un campeonato mundial en 2016 con Mercedes. Su rivalidad con Lewis Hamilton es una de las más recordadas en la historia reciente de la Fórmula 1.",
-        "imageUrl": "src/data/images/nico_rosberg.png",
+        "imageUrl": "./data/images/nico_rosberg.png",
         "facts": {
             "yearOfBirth": 1985,
             "yearOfDeath": "sigue vivo",
@@ -517,7 +517,7 @@ export default [
         "name": "Kimi Räikkönen",
         "shortDescription": "Carismático piloto finlandés de Fórmula 1",
         "description": "El carismático piloto finlandés de Fórmula 1, ganó un campeonato mundial en 2007 con Ferrari. Conocido como 'Iceman', su actitud relajada lo hizo querido por los fanáticos.",
-        "imageUrl": "src/data/images/kimi_raikkonen.png",
+        "imageUrl": "./data/images/kimi_raikkonen.png",
         "facts": {
             "yearOfBirth": 1979,
             "yearOfDeath": "sigue vivo",
@@ -536,7 +536,7 @@ export default [
         "name": "Stefan Bellof",
         "shortDescription": "Talento alemán de Fórmula 1 y resistencia",
         "description": "El talento alemán de Fórmula 1 y resistencia, es recordado por su valentía en la pista y su récord de vuelta más rápida en Nürburgring. Su carrera fue truncada trágicamente en un accidente.",
-        "imageUrl": "src/data/images/stefan_bellof.png",
+        "imageUrl": "./data/images/stefan_bellof.png",
         "facts": {
             "yearOfBirth": 1957,
             "yearOfDeath": 1985,
@@ -555,7 +555,7 @@ export default [
         "name": "Jean Alesi",
         "shortDescription": "Carismático piloto francés de Fórmula 1",
         "description": "El carismático piloto francés de Fórmula 1, es recordado por su pasión y amor por la Fórmula 1. Aunque nunca ganó un campeonato, su legado perdura en el deporte.",
-        "imageUrl": "src/data/images/jean_alesi.png",
+        "imageUrl": "./data/images/jean_alesi.png",
         "facts": {
             "yearOfBirth": 1964,
             "yearOfDeath": "sigue vivo",
@@ -574,7 +574,7 @@ export default [
       "name": "Lance Stroll",
       "shortDescription": "Joven piloto canadiense de Fórmula 1",
       "description": "Joven piloto canadiense que compite en el equipo Aston Martin Racing. Ha demostrado su talento en la Fórmula 1.",
-      "imageUrl": "src/data/images/lance_stroll.png",
+      "imageUrl": "./data/images/lance_stroll.png",
       "facts": {
         "yearOfBirth": 1998,
         "yearOfDeath": "sigue vivo",
@@ -593,7 +593,7 @@ export default [
         "name": "Valtteri Bottas",
         "shortDescription": "Piloto finlandés de Fórmula 1",
         "description": "Es un destacado piloto finlandés que ha competido en el equipo Mercedes. Aunque no ha ganado campeonatos, ha sido un fuerte contendiente en la Fórmula 1.",
-        "imageUrl": "src/data/images/valtteri_bottas.png",
+        "imageUrl": "./data/images/valtteri_bottas.png",
         "facts": {
           "yearOfBirth": 1989,
           "yearOfDeath": "sigue vivo",
@@ -612,7 +612,7 @@ export default [
         "name": "Guanyu Zhou",
         "shortDescription": "Joven piloto chino de Fórmula 1",
         "description": "Joven piloto chino que ha debutado en la Fórmula 1 con el equipo Alfa Romeo. Representa una promesa para el automovilismo chino.",
-        "imageUrl": "src/data/images/zhou_guanyu.png",
+        "imageUrl": "./data/images/zhou_guanyu.png",
         "facts": {
           "yearOfBirth": 1999,
           "yearOfDeath": "sigue vivo",
@@ -631,7 +631,7 @@ export default [
         "name": "Esteban Ocon",
         "shortDescription": "Joven piloto francés de Fórmula 1",
         "description": "Piloto francés que compite en el equipo Alpine. Ha demostrado su talento en la Fórmula 1 desde temprana edad.",
-        "imageUrl": "src/data/images/esteban_ocon.png",
+        "imageUrl": "./data/images/esteban_ocon.png",
         "facts": {
           "yearOfBirth": 1996,
           "yearOfDeath": "sigue vivo",
@@ -650,7 +650,7 @@ export default [
         "name": "Pierre Gasly",
         "shortDescription": "Piloto francés de Fórmula 1",
         "description": "Es un piloto francés que ha competido en equipos como Red Bull Racing y AlphaTauri. Ha logrado victorias y podios en su carrera.",
-        "imageUrl": "src/data/images/pierre_Gasly.png",
+        "imageUrl": "./data/images/pierre_Gasly.png",
         "facts": {
           "yearOfBirth": 1996,
           "yearOfDeath": "sigue vivo",
@@ -669,7 +669,7 @@ export default [
         "name": "Carlos Sainz",
         "shortDescription": "Piloto español de Fórmula 1",
         "description": "Experimentado piloto español que ha competido en equipos como McLaren y Ferrari. Es hijo del famoso piloto de rally Carlos Sainz.",
-        "imageUrl": "src/data/images/carlos_sainz.png",
+        "imageUrl": "./data/images/carlos_sainz.png",
         "facts": {
           "yearOfBirth": 1994,
           "yearOfDeath": "sigue vivo",
@@ -688,7 +688,7 @@ export default [
         "name": "Kevin Magnussen",
         "shortDescription": "Piloto danés de Fórmula 1",
         "description": "Es un piloto danés que ha competido en la Fórmula 1 en equipos como Haas F1 Team. Ha demostrado su destreza en la pista.",
-        "imageUrl": "src/data/images/kevin_magnussen.png",
+        "imageUrl": "./data/images/kevin_magnussen.png",
         "facts": {
           "yearOfBirth": 1992,
           "yearOfDeath": "sigue vivo",
@@ -707,7 +707,7 @@ export default [
         "name": "Nico Hulkenberg",
         "shortDescription": "Piloto alemán de Fórmula 1",
         "description": "Piloto alemán con experiencia en la Fórmula 1. Ha competido en varios equipos y ha sido conocido por sus habilidades bajo la lluvia.",
-        "imageUrl": "src/data/images/nico_hulkenberg.png",
+        "imageUrl": "./data/images/nico_hulkenberg.png",
         "facts": {
           "yearOfBirth": 1987,
           "yearOfDeath": "sigue vivo",
@@ -726,7 +726,7 @@ export default [
         "name": "Lando Norris",
         "shortDescription": "Joven piloto británico de Fórmula 1",
         "description": "Talentoso piloto británico que compite en el equipo McLaren F1. Ha demostrado su destreza en la Fórmula 1 desde su debut.",
-        "imageUrl": "src/data/images/lando_norris.png",
+        "imageUrl": "./data/images/lando_norris.png",
         "facts": {
           "yearOfBirth": 1999,
           "yearOfDeath": "sigue vivo",
@@ -745,7 +745,7 @@ export default [
         "name": "Oscar Piastri",
         "shortDescription": "Joven piloto australiano de Fórmula 1",
         "description": "Joven piloto australiano que ha debutado en la Fórmula 1 con el equipo McLaren. Es considerado una promesa en el automovilismo australiano.",
-        "imageUrl": "src/data/images/oscar_piastri.png",
+        "imageUrl": "./data/images/oscar_piastri.png",
         "facts": {
           "yearOfBirth": 2001,
           "yearOfDeath": "sigue vivo",
@@ -764,7 +764,7 @@ export default [
         "name": "George Russell",
         "shortDescription": "Joven piloto británico de Fórmula 1",
         "description": "Talentoso piloto británico que compite en el equipo Mercedes. Ha demostrado su habilidad y promesa en la Fórmula 1.",
-        "imageUrl": "src/data/images/george_russell.png",
+        "imageUrl": "./data/images/george_russell.png",
         "facts": {
           "yearOfBirth": 1998,
           "yearOfDeath": "sigue vivo",
@@ -783,7 +783,7 @@ export default [
         "name": "Sergio Pérez",
         "shortDescription": "Piloto mexicano de Fórmula 1",
         "description": "Es un experimentado piloto mexicano que compite en el equipo Red Bull Racing. Ha logrado varias victorias y es un destacado piloto de la Fórmula 1.",
-        "imageUrl": "src/data/images/sergio_perez.png",
+        "imageUrl": "./data/images/sergio_perez.png",
         "facts": {
           "yearOfBirth": 1990,
           "yearOfDeath": "sigue vivo",
@@ -802,7 +802,7 @@ export default [
         "name": "Daniel Ricciardo",
         "shortDescription": "Piloto australiano de Fórmula 1",
         "description": "Es un carismático piloto australiano que ha competido en equipos como Red Bull Racing y Scuderia AlphaTauri. Es conocido por su sonrisa y estilo único.",
-        "imageUrl": "src/data/images/daniel_ricciardo.png",
+        "imageUrl": "./data/images/daniel_ricciardo.png",
         "facts": {
           "yearOfBirth": 1989,
           "yearOfDeath": "sigue vivo",
@@ -821,7 +821,7 @@ export default [
         "name": "Yuki Tsunoda",
         "shortDescription": "Joven piloto japonés de Fórmula 1",
         "description": "Joven piloto japonés que compite en el equipo Scuderia AlphaTauri. Ha sido parte del programa de jóvenes pilotos de Red Bull Racing.",
-        "imageUrl": "src/data/images/yuki_tsunoda.png",
+        "imageUrl": "./data/images/yuki_tsunoda.png",
         "facts": {
           "yearOfBirth": 2000,
           "yearOfDeath": "sigue vivo",
@@ -840,7 +840,7 @@ export default [
         "name": "Logan Sargeant",
         "shortDescription": "Piloto estadounidense de Fórmula 1",
         "description": "Piloto estadounidense que compite en el equipo Williams. Es una promesa en el automovilismo estadounidense.",
-        "imageUrl": "src/data/images/logan_sargeant.png",
+        "imageUrl": "./data/images/logan_sargeant.png",
         "facts": {
           "yearOfBirth": 2000,
           "yearOfDeath": "sigue vivo",
@@ -859,7 +859,7 @@ export default [
         "name": "Alexander Albon",
         "shortDescription": "Piloto tailandés de Fórmula 1",
         "description": "Piloto tailandés que ha competido en equipos como Red Bull Racing y Williams. Ha demostrado su destreza en la Fórmula 1.",
-        "imageUrl": "src/data/images/alex_albon.png",
+        "imageUrl": "./data/images/alex_albon.png",
         "facts": {
           "yearOfBirth": 1996,
           "yearOfDeath": "sigue vivo",

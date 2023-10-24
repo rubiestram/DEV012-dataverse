@@ -5,33 +5,38 @@ export const renderItems = (data) => {
   // Creando la ul dentro del div con id root
   const ul =  document.createElement("ul");
 
-  // Por medio de appendChild podemos incluir en un nodo un nuevo hijo
-  containerRoot.appendChild(ul);
-
   // For para crear todas las li dentro de la ul
   for(let i = 0; i < data.length; i++){
+    // Variable donde alamacenara la info de cada piloto
+    const element = data[i];
+    // Creamos un li por cada piloto
+    const li = document.createElement("li");
+    li.innerHTML = ""; 
+    li.innerHTML = `
+    <dl class="liPilot" itemscope itemtype="PilotsF1">
+    <img src="${element.imageUrl}"/>
+    <dt>Nombre:</dt><dd itemprop="name">${element.name}</dd>
+    <dt>Descripción corta:</dt><dd itemprop="shortDescription">${element.shortDescription}</dd>
+    <dt>Descripción:</dt><dd itemprop="description">${element.description}</dd>
 
-    // Creamos un li por cada piloto con el bucle
-    let li = document.createElement("li");
-    li.innerHTML = data[i].name;
+    <dt>Año de nacimiento:</dt><dd itemprop="yearOfBirth">${element.facts.yearOfBirth}</dd>
+    <dt>Año de fallecimiento:</dt><dd itemprop="yearOfDeath">${element.facts.yearOfDeath}</dd>
+    <dt>Lugar de Nacimiento:</dt><dd itemprop="placeOfBirth">${element.facts.placeOfBirth}</dd>
+    <dt>Campeonatos:</dt><dd itemprop="championshipsWon">${element.facts.championshipsWon}</dd>
 
-    // Agrego a ul las li
+    <dt>Podios:</dt><dd itemprop="podiums">${element.extraInfo.podiums}</dd>
+    <dt>Carreras:</dt><dd itemprop="races">${element.extraInfo.races}</dd>
+    <dt>Última Escuderia:</dt><dd itemprop="lastTeam">${element.extraInfo.lastTeam}</dd>
+    <dt>Altura:</dt><dd itemprop="height">${element.extraInfo.height}</dd>
+    </dl>
+  `
+   
     ul.appendChild(li);
-      
-
   }
 
-};
+  containerRoot.appendChild(ul);
 
-/* 
-    (Check) 1. Crear un elemento padre <div id="root"> 
-    (Check) 2. Crear una <ul> dentro del elemento padre (div con id root)
-    () 3. Crear una serie de <li>
-    () 4. Crear dentro de los li las propiedades y valores que contiene la data 
-          Imagen, Nombre, Nacionalidad, Escuderia, Etc 
-    () 5. Retornar las card creadas
-    () 6. Llamar la función desde el main para la visualización   
-*/
+};
 
 
 

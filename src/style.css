@@ -1,11 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Poppins&display=swap');
 
 *{
-    padding: 0;
-    margin: 0;
+    padding: 10 px;
+    margin: 10;
 }
 
 body{
     font-family: Poppins;
 }
 
+#conteiner-filter {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-right: 20px;
+    float: left;
+    width: 300px;
+}
+
+/* Estilo para los selects */
+select {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+/* Estilo para los labels */
+label {
+    color: black;
+}
+
+/* Estilo para el botón */
+#clear-filters {
+    background-color: grey;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}

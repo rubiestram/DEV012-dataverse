@@ -23,3 +23,5 @@ function clearFilters() {
 // Agrega un evento para el botón "Limpiar"
 const clearFiltersButton = document.getElementById('clear-filters');
 clearFiltersButton.addEventListener('click', clearFilters);
+
+//tenemos que poner los filtros 

@@ -7,25 +7,21 @@
   <title>Dataverse</title>
 </head>
 <body>
-
-    <!-- Tiene un <header> con <h1></h1> -->
-    <header>
-      <h1> Pilotos Formula 1 </h1>
-    </header>
-    
-    <!-- Tiene un <main> con <h2></h2> dentro estará el subtitulo-->
-    <main>
-      <h2>Los mejores pilotos de F1 de todos los tiempos</h2>
-    </main>
-     
-    <!-- Todas las etiquetas de controles (inputs, selects, radio, etc) tienen <label></label> -->
-  <div id="conteiner-filter">  
-
-    <p>Filtar</p>
-
-    <label for="escuderia">Escudería:</label>
-    <select id="escuderia" data-testid="select-filter" name="escuderia">
-      <option value="">Todos</option>
+  
+  <header>
+    <h1> Pilotos Formula 1 </h1>
+  </header>
+  
+  <main>
+    <h2>Los mejores pilotos de F1 de todos los tiempos</h2>
+  </main>
+  
+  <div id="containerFilter">
+    <!-- Filtramos solo por escudería  -->
+    <p>Filtrar:</p>
+    <label for="select-filter">Escudería:</label>
+    <select id="select-filter" data-testid="select-filter" name="type">
+      <option value="Todos">Todos</option>
       <option value="Alfa Romeo Racing">Alfa Romeo Racing</option>
       <option value="AlphaTauri">AlphaTauri</option>
       <option value="Aston Martin">Aston Martin</option>
@@ -42,54 +38,25 @@
       <option value="Tyrrell">Tyrrell</option>
       <option value="Williams">Williams</option>
     </select>
-    
-    <br>
-
-      <label for="podiums">Podios</label>
-      <select id="podiums-win" data-testid="select-filter" name="podiums-win">
-        <option value="most-podiums">+ Mas</option>
-        <option value="least-podiums">- Menos</option>
-      </select>
-
-    <br>
-
-      <input type="radio" name="status" id="alive-filter" value="alive">
-      <label for="alive-filter">Activos</label>
-      <input type="radio" name="status" id="dead-filter" value="dead">
-      <label for="dead-filter">Inactivos</label>
-
+    <!-- Ordenar solo de forma ascendente y descendente -->
     <p>Ordenar</p>
-
     <label for="sort-order"> Alfabeticamente: </label>
     <select id="sort-order" data-testid="select-sort" name="sort-order">
-        <option value="asc">A - Z</option>
-        <option value="desc">Z - A</option>
+      <option value="asc">A - Z</option>
+      <option value="desc">Z - A</option>
     </select>
-
-    <br>
-
-    <label for="sort-order">Campeonatos</label>
-    <select id="sort-order" data-testid="select-sort" name="sort-order-two">
-        <option value="most-championships">Mayor</option>
-        <option value="least-championships">Menor</option>
-    </select>
-
-    <br>
-
-        <button id="clear-filters" data-testid="button-clear">Limpiar</button>
-
-    </div>
-    
-    <!-- Aquí solo va el elemento con el id -->
-    <!-- En view.js se deberá crear el html dinamico de la ul y li -->
-    <div id="root">
+    <!-- Botón para limpiar filtro y ordenamiento -->
+    <button id="reset" data-testid="button-clear">Eliminar</button>
+  </div>
+  
+  <!-- HTML Dinámico -->
+  <div id="root">
         
-    </div>
+  </div>
     
-    <!-- Tiene un <footer></footer> -->
-    <footer>
-    Desarrollado por Rubi Estrada & Xatzibe Alcantara. 
-    </footer>
+  <footer>
+  Desarrollado por Rubi Estrada & Xatzibe Alcantara. 
+  </footer>
   
   <script src="main.js" type="module"></script>
 </body>

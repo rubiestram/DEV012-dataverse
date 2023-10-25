@@ -25,7 +25,7 @@ export const renderItems = (data) => {
     <dt>Campeonatos:</dt><dd itemprop="championshipsWon">${element.facts.championshipsWon}</dd>
 
     <dt>Podios:</dt><dd itemprop="podiums">${element.extraInfo.podiums}</dd>
-    <dt>Carreras:</dt><dd itemprop="races">${element.extraInfo.races}</dd>
+    <dt>Estado:</dt><dd itemprop="races">${element.extraInfo.state}</dd>
     <dt>Última Escuderia:</dt><dd itemprop="lastTeam">${element.extraInfo.lastTeam}</dd>
     <dt>Altura:</dt><dd itemprop="height">${element.extraInfo.height}</dd>
     </dl>

@@ -9,13 +9,11 @@ export default [
             "yearOfBirth": 1960,
             "yearOfDeath": 1994,
             "placeOfBirth": "São Paulo, Brasil",
-            "championshipsWon": 3
+            "team": "McLaren"
         },
         "extraInfo": {
             "podiums": 80,
-            "state": "Inactivo",
-            "lastTeam": "McLaren",
-            "height": "1.75 m"
+            "championshipsWon": 3
         }
     },
     {
@@ -28,13 +26,11 @@ export default [
             "yearOfBirth": 1911,
             "yearOfDeath": 1995,
             "placeOfBirth": "Balcarce, Argentina",
-            "championshipsWon": 5
+            "team": "Mercedes"
         },
         "extraInfo": {
             "podiums": 35,
-            "state": "Inactivo",
-            "lastTeam": "Mercedes",
-            "height": "1.68 m"
+            "championshipsWon": 5
         }
     },
     {
@@ -47,13 +43,11 @@ export default [
             "yearOfBirth": 1936,
             "yearOfDeath": 1968,
             "placeOfBirth": "Kilmany, Escocia",
-            "championshipsWon": 2
+            "team": "Lotus"
         },
         "extraInfo": {
             "podiums": 25,
-            "state": "Inactivo",
-            "lastTeam": "Lotus",
-            "height": "1.75 m"
+            "championshipsWon": 2
         }
     },
     {
@@ -64,15 +58,13 @@ export default [
         "imageUrl": "./data/images/alain_prost.png",
         "facts": {
             "yearOfBirth": 1955,
-            "yearOfDeath": "sigue vivo",
+            "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Lorette, Francia",
-            "championshipsWon": 4
+            "team": "Williams"
         },
         "extraInfo": {
             "podiums": 106,
-            "state": "Activo",
-            "lastTeam": "Williams",
-            "height": "1.74 m"
+            "championshipsWon": 4
         }
     },
     {
@@ -83,15 +75,13 @@ export default [
         "imageUrl": "./data/images/michael_shumacher.png",
         "facts": {
             "yearOfBirth": 1969,
-            "yearOfDeath": "sigue vivo",
+            "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Hürth-Hermülheim, Alemania",
-            "championshipsWon": 7
+            "team": "Mercedes",
         },
         "extraInfo": {
             "podiums": 155,
-            "state": "Activo",
-            "lastTeam": "Mercedes",
-            "height": "1.74 m"
+            "championshipsWon": 7
         }
     },
     {
@@ -102,15 +92,13 @@ export default [
         "imageUrl": "./data/images/jackie_stewart.png",
         "facts": {
             "yearOfBirth": 1939,
-            "yearOfDeath": "sigue vivo",
+            "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Milton, Escocia",
-            "championshipsWon": 3
+            "team": "Tyrrell",
         },
         "extraInfo": {
             "podiums": 43,
-            "state": "Activo",
-            "lastTeam": "Tyrrell",
-            "height": "1.73 m"
+            "championshipsWon": 3
         }
     },
     {
@@ -121,15 +109,13 @@ export default [
         "imageUrl": "./data/images/fernando_alonso.png",
         "facts": {
             "yearOfBirth": 1981,
-            "yearOfDeath": "sigue vivo",
+            "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Oviedo, España",
-            "championshipsWon": 2
+            "team": "Aston Martin"
         },
         "extraInfo": {
             "podiums": 97,
-            "state": "Activo",
-            "lastTeam": "Aston Martin",
-            "height": "1.71 m"
+            "championshipsWon": 2
         }
     },
     {
@@ -140,15 +126,13 @@ export default [
         "imageUrl": "./data/images/max_verstappen.png",
         "facts": {
             "yearOfBirth": 1997,
-            "yearOfDeath": "sigue vivo",
+            "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Hasselt, Bélgica",
-            "championshipsWon": 0
+            "team": "Red Bull Racing"
         },
         "extraInfo": {
             "podiums": 32,
-            "state": "Activo",
-            "lastTeam": "Red Bull Racing",
-            "height": "1.81 m"
+            "championshipsWon": 0
         }
     },
     {
@@ -159,15 +143,13 @@ export default [
         "imageUrl": "./data/images/lewis_hamilton.png",
         "facts": {
             "yearOfBirth": 1985,
-            "yearOfDeath": "sigue vivo",
+            "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Stevenage, Reino Unido",
-            "championshipsWon": 7
+            "team": "Mercedes"
         },
         "extraInfo": {
             "podiums": 109,
-            "state": "Activo",
-            "lastTeam": "Mercedes",
-            "height": "1.75 m"
+            "championshipsWon": 7
         }
     },
     {
@@ -180,13 +162,11 @@ export default [
             "yearOfBirth": 1949,
             "yearOfDeath": 2019,
             "placeOfBirth": "Viena, Austria",
-            "championshipsWon": 3
+            "team": "McLaren"
         },
         "extraInfo": {
             "podiums": 54,
-            "state": "Inactivo",
-            "lastTeam": "McLaren",
-            "height": "1.73 m"
+            "championshipsWon": 3
         }
     },
     {
@@ -197,15 +177,13 @@ export default [
         "imageUrl": "./data/images/sebastian_vettel.png",
         "facts": {
             "yearOfBirth": 1987,
-            "yearOfDeath": "sigue vivo",
+            "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Heppenheim, Alemania",
-            "championshipsWon": 4
+            "team": "Aston Martin"
         },
         "extraInfo": {
             "podiums": 122,
-            "state": "Activo",
-            "lastTeam": "Aston Martin",
-            "height": "1.76 m"
+            "championshipsWon": 4
         }
     },
     {
@@ -216,15 +194,13 @@ export default [
         "imageUrl": "./data/images/emerson_fittipaldi.png",
         "facts": {
             "yearOfBirth": 1946,
-            "yearOfDeath": "sigue vivo",
+            "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "São Paulo, Brasil",
-            "championshipsWon": 2
+            "team": "McLaren"
         },
         "extraInfo": {
             "podiums": 35,
-            "state": "Activo",
-            "lastTeam": "McLaren",
-            "height": "1.75 m"
+            "championshipsWon": 2
         }
     },
     {
@@ -237,13 +213,11 @@ export default [
             "yearOfBirth": 1929,
             "yearOfDeath": 2020,
             "placeOfBirth": "Londres, Reino Unido",
-            "championshipsWon": 0
+            "team": "Mercedes"
         },
         "extraInfo": {
             "podiums": 24,
-            "state": "Inactivo",
-            "lastTeam": "Mercedes",
-            "height": "1.75 m"
+            "championshipsWon": 0
         }
     },
     {
@@ -254,15 +228,13 @@ export default [
         "imageUrl": "./data/images/nelson_piquet.png",
         "facts": {
             "yearOfBirth": 1952,
-            "yearOfDeath": "sigue vivo",
+            "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Río de Janeiro, Brasil",
-            "championshipsWon": 3
+            "team": "Williams"
         },
         "extraInfo": {
             "podiums": 60,
-            "state": "Activo",
-            "lastTeam": "Williams",
-            "height": "1.74 m"
+            "championshipsWon": 3
         }
     },
     {
@@ -275,13 +247,11 @@ export default [
             "yearOfBirth": 1934,
             "yearOfDeath": 2017,
             "placeOfBirth": "Tatsfield, Reino Unido",
-            "championshipsWon": 1
+            "team": "Honda"
         },
         "extraInfo": {
             "podiums": 24,
-            "state": "Inactivo",
-            "lastTeam": "Honda",
-            "height": "1.75 m"
+            "championshipsWon": 1
         }
     },
     {
@@ -294,13 +264,11 @@ export default [
             "yearOfBirth": 1950,
             "yearOfDeath": 1982,
             "placeOfBirth": "Saint-Jean-sur-Richelieu, Canadá",
-            "championshipsWon": 0
+            "team": "Ferrari"
         },
         "extraInfo": {
             "podiums": 13,
-            "state": "Inactivo",
-            "lastTeam": "Ferrari",
-            "height": "1.68 m"
+            "championshipsWon": 0
         }
     },
     {
@@ -313,13 +281,11 @@ export default [
             "yearOfBirth": 1926,
             "yearOfDeath": 2014,
             "placeOfBirth": "Hurtsville, Australia",
-            "championshipsWon": 3
+            "team": "Brabham"
         },
         "extraInfo": {
             "podiums": 31,
-            "state": "Inactivo",
-            "lastTeam": "Brabham",
-            "height": "1.75 m"
+            "championshipsWon": 3
         }
     },
     {
@@ -332,13 +298,12 @@ export default [
             "yearOfBirth": 1918,
             "yearOfDeath": 1955,
             "placeOfBirth": "Milán, Italia",
-            "championshipsWon": 2
+            "team": "Lancia"
+            
         },
         "extraInfo": {
             "podiums": 17,
-            "state": "Inactivo",
-            "lastTeam": "Lancia",
-            "height": "1.74 m"
+            "championshipsWon": 2
         }
     },
     {
@@ -349,15 +314,13 @@ export default [
         "imageUrl": "./data/images/mario_andretti.png",
         "facts": {
             "yearOfBirth": 1940,
-            "yearOfDeath": "sigue vivo",
+            "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Montona, Italia",
-            "championshipsWon": 1
+            "team": "Lotus"
         },
         "extraInfo": {
             "podiums": 19,
-            "state": "Activo",
-            "lastTeam": "Lotus",
-            "height": "1.76 m"
+            "championshipsWon": 1
         }
     },
     {
@@ -368,15 +331,13 @@ export default [
         "imageUrl": "./data/images/jacky_ickx.png",
         "facts": {
             "yearOfBirth": 1945,
-            "yearOfDeath": "sigue vivo",
+            "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Bruselas, Bélgica",
-            "championshipsWon": 0
+            "team": "Ferrari"
         },
         "extraInfo": {
             "podiums": 25,
-            "state": "Activo",
-            "lastTeam": "Ferrari",
-            "height": "1.78 m"
+            "championshipsWon": 0
         }
     },
     {
@@ -389,13 +350,12 @@ export default [
             "yearOfBirth": 1929,
             "yearOfDeath": 1975,
             "placeOfBirth": "Londres, Reino Unido",
-            "championshipsWon": 2
+            "team": "Lotus"
+            
         },
         "extraInfo": {
             "podiums": 33,
-            "state": "Inactivo",
-            "lastTeam": "Lotus",
-            "height": "1.78 m"
+            "championshipsWon": 2
         }
     },
     {
@@ -406,15 +366,14 @@ export default [
         "imageUrl": "./data/images/nigel_mansell.png",
         "facts": {
             "yearOfBirth": 1953,
-            "yearOfDeath": "sigue vivo",
+            "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Upton-upon-Severn, Reino Unido",
-            "championshipsWon": 1
+            "team": "Williams"
+            
         },
         "extraInfo": {
             "podiums": 59,
-            "state": "Activo",
-            "lastTeam": "Williams",
-            "height": "1.80 m"
+            "championshipsWon": 1
         }
     },
     {
@@ -427,13 +386,11 @@ export default [
             "yearOfBirth": 1937,
             "yearOfDeath": 1970,
             "placeOfBirth": "Auckland, Nueva Zelanda",
-            "championshipsWon": 0
+            "team": "McLaren"
         },
         "extraInfo": {
             "podiums": 27,
-            "state": "Inactivo",
-            "lastTeam": "McLaren",
-            "height": "1.78 m"
+            "championshipsWon": 0
         }
     },
     {
@@ -444,15 +401,13 @@ export default [
         "imageUrl": "./data/images/mika_hakkinen.png",
         "facts": {
             "yearOfBirth": 1968,
-            "yearOfDeath": "sigue vivo",
+            "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Vantaa, Finlandia",
-            "championshipsWon": 2
+            "team": "McLaren"
         },
         "extraInfo": {
             "podiums": 51,
-            "state": "Activo",
-            "lastTeam": "McLaren",
-            "height": "1.75 m"
+            "championshipsWon": 2
         }
     },
     {
@@ -463,15 +418,13 @@ export default [
         "imageUrl": "./data/images/charles_leclerc.png",
         "facts": {
             "yearOfBirth": 1997,
-            "yearOfDeath": "sigue vivo",
+            "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Montecarlo, Mónaco",
-            "championshipsWon": 0
+            
         },
         "extraInfo": {
             "podiums": 9,
-            "state": "Activo",
-            "lastTeam": "Ferrari",
-            "height": "1.80 m"
+            "championshipsWon": 0
         }
     },
     {
@@ -482,15 +435,14 @@ export default [
         "imageUrl": "./data/images/jenson_button.png",
         "facts": {
             "yearOfBirth": 1980,
-            "yearOfDeath": "sigue vivo",
+            "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Frome, Reino Unido",
-            "championshipsWon": 1
+            "team": "McLaren"
+            
         },
         "extraInfo": {
             "podiums": 50,
-            "state": "Activo",
-            "lastTeam": "McLaren",
-            "height": "1.83 m"
+            "championshipsWon": 1
         }
     },
     {
@@ -501,15 +453,13 @@ export default [
         "imageUrl": "./data/images/nico_rosberg.png",
         "facts": {
             "yearOfBirth": 1985,
-            "yearOfDeath": "sigue vivo",
+            "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Wiesbaden, Alemania",
-            "championshipsWon": 1
+            "team": "Mercedes"
         },
         "extraInfo": {
             "podiums": 57,
-            "state": "Activo",
-            "lastTeam": "Mercedes",
-            "height": "1.78 m"
+            "championshipsWon": 1
         }
     },
     {
@@ -520,15 +470,14 @@ export default [
         "imageUrl": "./data/images/kimi_raikkonen.png",
         "facts": {
             "yearOfBirth": 1979,
-            "yearOfDeath": "sigue vivo",
+            "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Espoo, Finlandia",
-            "championshipsWon": 1
+            "team": "Alfa Romeo Racing"
+            
         },
         "extraInfo": {
             "podiums": 103,
-            "state": "Activo",
-            "lastTeam": "Alfa Romeo Racing",
-            "height": "1.75 m"
+            "championshipsWon": 1
         }
     },
     {
@@ -541,13 +490,11 @@ export default [
             "yearOfBirth": 1957,
             "yearOfDeath": 1985,
             "placeOfBirth": "Gießen, Alemania",
-            "championshipsWon": 0
+            "team": "Tyrrell"
         },
         "extraInfo": {
             "podiums": 0,
-            "state": "Inactivo",
-            "lastTeam": "Tyrrell",
-            "height": "1.80 m"
+            "championshipsWon": 0
         }
     },
     {
@@ -558,15 +505,13 @@ export default [
         "imageUrl": "./data/images/jean_alesi.png",
         "facts": {
             "yearOfBirth": 1964,
-            "yearOfDeath": "sigue vivo",
+            "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Aviñón, Francia",
-            "championshipsWon": 0
+            "team": "Prost"
         },
         "extraInfo": {
             "podiums": 32,
-            "state": "Activo",
-            "lastTeam": "Prost",
-            "height": "1.74 m"
+            "championshipsWon": 0
         }
     },
     {
@@ -577,15 +522,13 @@ export default [
       "imageUrl": "./data/images/lance_stroll.png",
       "facts": {
         "yearOfBirth": 1998,
-        "yearOfDeath": "sigue vivo",
+        "yearOfDeath": "Sigue vivo",
         "placeOfBirth": "Montreal, Canadá",
-        "championshipsWon": 0
+        "team": "Aston Martin"
       },
       "extraInfo": {
         "podiums": 3,
-        "state": "Activo",
-        "lastTeam": "Aston Martin",
-        "height": "1.84 m"
+        "championshipsWon": 0
       }
       },
       {
@@ -596,15 +539,13 @@ export default [
         "imageUrl": "./data/images/valtteri_bottas.png",
         "facts": {
           "yearOfBirth": 1989,
-          "yearOfDeath": "sigue vivo",
+          "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Nastola, Finlandia",
-          "championshipsWon": 0
+          "team": "Alfa Romeo Racing"
         },
         "extraInfo": {
           "podiums": 59,
-          "state": "Activo",
-          "lastTeam": "Alfa Romeo Racing",
-          "height": "1.73 m"
+          "championshipsWon": 0
         }
       },
       {
@@ -615,15 +556,14 @@ export default [
         "imageUrl": "./data/images/zhou_guanyu.png",
         "facts": {
           "yearOfBirth": 1999,
-          "yearOfDeath": "sigue vivo",
+          "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Shanghái, China",
-          "championshipsWon": 0
+          "team": "Alfa Romeo Racing"
+          
         },
         "extraInfo": {
           "podiums": 0,
-          "state": "Activo",
-          "lastTeam": "Alfa Romeo Racing",
-          "height": "1.74 m"
+          "championshipsWon": 0
         }
       },
       {
@@ -634,15 +574,13 @@ export default [
         "imageUrl": "./data/images/esteban_ocon.png",
         "facts": {
           "yearOfBirth": 1996,
-          "yearOfDeath": "sigue vivo",
+          "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Évreux, Francia",
-          "championshipsWon": 0
+          "team": "Alpine"
         },
         "extraInfo": {
           "podiums": 1,
-          "state": "Activo",
-          "lastTeam": "Alpine",
-          "height": "1.86 m"
+          "championshipsWon": 0
         }
       },
       {
@@ -653,15 +591,13 @@ export default [
         "imageUrl": "./data/images/pierre_Gasly.png",
         "facts": {
           "yearOfBirth": 1996,
-          "yearOfDeath": "sigue vivo",
+          "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Rouen, Francia",
-          "championshipsWon": 0
+          "team": "AlphaTauri"
         },
         "extraInfo": {
-          "podiums": 2,
-          "state": "Activo",
-          "lastTeam": "AlphaTauri",
-          "height": "1.78 m"
+          "podiums": 3,
+          "championshipsWon": 0
         }
       },
       {
@@ -672,15 +608,13 @@ export default [
         "imageUrl": "./data/images/carlos_sainz.png",
         "facts": {
           "yearOfBirth": 1994,
-          "yearOfDeath": "sigue vivo",
+          "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Madrid, España",
-          "championshipsWon": 0
+          "team": "Ferrari"
         },
         "extraInfo": {
-          "podiums": 3,
-          "state": "Activo",
-          "lastTeam": "Ferrari",
-          "height": "1.76 m"
+          "podiums": 18,
+          "championshipsWon": 0
         }
       },
       {
@@ -691,15 +625,14 @@ export default [
         "imageUrl": "./data/images/kevin_magnussen.png",
         "facts": {
           "yearOfBirth": 1992,
-          "yearOfDeath": "sigue vivo",
+          "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Roskilde, Dinamarca",
-          "championshipsWon": 0
+          "team": "Haas"
+          
         },
         "extraInfo": {
           "podiums": 0,
-          "state": "Activo",
-          "lastTeam": "Haas",
-          "height": "1.74 m"
+          "championshipsWon": 0
         }
       },
       {
@@ -710,15 +643,13 @@ export default [
         "imageUrl": "./data/images/nico_hulkenberg.png",
         "facts": {
           "yearOfBirth": 1987,
-          "yearOfDeath": "sigue vivo",
+          "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Emmerich am Rhein, Alemania",
-          "championshipsWon": 0
+          "team": "Haas"
         },
         "extraInfo": {
           "podiums": 0,
-          "state": "Activo",
-          "lastTeam": "Haas",
-          "height": "1.84 m"
+          "championshipsWon": 0
         }
       },
       {
@@ -729,15 +660,13 @@ export default [
         "imageUrl": "./data/images/lando_norris.png",
         "facts": {
           "yearOfBirth": 1999,
-          "yearOfDeath": "sigue vivo",
+          "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Bristol, Reino Unido",
-          "championshipsWon": 0
+          "team": "McLaren"
         },
         "extraInfo": {
           "podiums": 9,
-          "state": "Activo",
-          "lastTeam": "McLaren",
-          "height": "1.71 m"
+          "championshipsWon": 0
         }
       },
       {
@@ -748,15 +677,13 @@ export default [
         "imageUrl": "./data/images/oscar_piastri.png",
         "facts": {
           "yearOfBirth": 2001,
-          "yearOfDeath": "sigue vivo",
+          "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Melbourne, Australia",
-          "championshipsWon": 0
+          "team": "McLaren"
         },
         "extraInfo": {
           "podiums": 0,
-          "state": "Activo",
-          "lastTeam": "McLaren",
-          "height": "1.80 m"
+          "championshipsWon": 0
         }
       },
       {
@@ -767,15 +694,13 @@ export default [
         "imageUrl": "./data/images/george_russell.png",
         "facts": {
           "yearOfBirth": 1998,
-          "yearOfDeath": "sigue vivo",
+          "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "King's Lynn, Reino Unido",
-          "championshipsWon": 0
+          "team": "Mercedes"
         },
         "extraInfo": {
           "podiums": 0,
-          "state": "Activo",
-          "lastTeam": "Mercedes",
-          "height": "1.87 m"
+          "championshipsWon": 0
         }
       },
       {
@@ -786,15 +711,13 @@ export default [
         "imageUrl": "./data/images/sergio_perez.png",
         "facts": {
           "yearOfBirth": 1990,
-          "yearOfDeath": "sigue vivo",
+          "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Guadalajara, México",
-          "championshipsWon": 0
+          "team": "Red Bull Racing"
         },
         "extraInfo": {
-          "podiums": 12,
-          "state": "Activo",
-          "lastTeam": "Red Bull Racing",
-          "height": "1.73 m"
+          "podiums": 32,
+          "championshipsWon": 0
         }
       },
       {
@@ -805,15 +728,13 @@ export default [
         "imageUrl": "./data/images/daniel_ricciardo.png",
         "facts": {
           "yearOfBirth": 1989,
-          "yearOfDeath": "sigue vivo",
+          "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Perth, Australia",
-          "championshipsWon": 0
+          "team": "AlphaTauri"
         },
         "extraInfo": {
           "podiums": 31,
-          "state": "Activo",
-          "lastTeam": "AlphaTauri",
-          "height": "1.75 m"
+          "championshipsWon": 0
         }
       },
       {
@@ -824,15 +745,14 @@ export default [
         "imageUrl": "./data/images/yuki_tsunoda.png",
         "facts": {
           "yearOfBirth": 2000,
-          "yearOfDeath": "sigue vivo",
+          "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Sagamihara, Japón",
-          "championshipsWon": 0
+          "team": "AlphaTauri"
+          
         },
         "extraInfo": {
           "podiums": 0,
-          "state": "Activo",
-          "lastTeam": "AlphaTauri",
-          "height": "1.64 m"
+          "championshipsWon": 0
         }
       },
       {
@@ -843,15 +763,13 @@ export default [
         "imageUrl": "./data/images/logan_sargeant.png",
         "facts": {
           "yearOfBirth": 2000,
-          "yearOfDeath": "sigue vivo",
+          "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Fort Lauderdale, Estados Unidos",
-          "championshipsWon": 0
+          "team": "Williams"
         },
         "extraInfo": {
           "podiums": 0,
-          "state": "Activo",
-          "lastTeam": "Williams",
-          "height": "1.74 m"
+          "championshipsWon": 0
         }
       },
 
@@ -863,15 +781,14 @@ export default [
         "imageUrl": "./data/images/alex_albon.png",
         "facts": {
           "yearOfBirth": 1996,
-          "yearOfDeath": "sigue vivo",
+          "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Londres, Reino Unido",
-          "championshipsWon": 0
+          "team": "Williams"
+          
         },
         "extraInfo": {
           "podiums": 0,
-          "state": "Activo",
-          "lastTeam": "Williams",
-          "height": "1.86 m"
+          "championshipsWon": 0
         }
       }      
 ];

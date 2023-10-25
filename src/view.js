@@ -1,15 +1,9 @@
 export const renderItems = (data) => {
-  // Llamando al elemento padre que se encuentra en index.html
   const containerRoot  = document.getElementById("root");
-  
-  // Creando la ul dentro del div con id root
   const ul =  document.createElement("ul");
 
-  // For para crear todas las li dentro de la ul
   for(let i = 0; i < data.length; i++){
-    // Variable donde alamacenara la info de cada piloto
-    const element = data[i];
-    // Creamos un li por cada piloto
+    const element = data[i]; // Variable donde alamacenara la info de cada piloto
     const li = document.createElement("li");
     li.innerHTML = ""; 
     li.innerHTML = `
@@ -22,18 +16,16 @@ export const renderItems = (data) => {
     <dt>Año de nacimiento:</dt><dd itemprop="yearOfBirth">${element.facts.yearOfBirth}</dd>
     <dt>Año de fallecimiento:</dt><dd itemprop="yearOfDeath">${element.facts.yearOfDeath}</dd>
     <dt>Lugar de Nacimiento:</dt><dd itemprop="placeOfBirth">${element.facts.placeOfBirth}</dd>
-    <dt>Campeonatos:</dt><dd itemprop="championshipsWon">${element.facts.championshipsWon}</dd>
+    <dt>Escudería:</dt><dd itemprop="team">${element.facts.team}</dd>
 
     <dt>Podios:</dt><dd itemprop="podiums">${element.extraInfo.podiums}</dd>
-    <dt>Estado:</dt><dd itemprop="races">${element.extraInfo.state}</dd>
-    <dt>Última Escuderia:</dt><dd itemprop="lastTeam">${element.extraInfo.lastTeam}</dd>
-    <dt>Altura:</dt><dd itemprop="height">${element.extraInfo.height}</dd>
+    <dt>Campeonatos:</dt><dd itemprop="championshipsWon">${element.extraInfo.championshipsWon}</dd>
     </dl>
   `
    
     ul.appendChild(li);
   }
-
+  
   containerRoot.appendChild(ul);
 
 };

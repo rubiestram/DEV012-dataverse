@@ -13,7 +13,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 80,
-            "races": 161,
+            "state": "Inactivo",
             "lastTeam": "McLaren",
             "height": "1.75 m"
         }
@@ -32,7 +32,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 35,
-            "races": 51,
+            "state": "Inactivo",
             "lastTeam": "Mercedes",
             "height": "1.68 m"
         }
@@ -51,7 +51,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 25,
-            "races": 72,
+            "state": "Inactivo",
             "lastTeam": "Lotus",
             "height": "1.75 m"
         }
@@ -70,7 +70,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 106,
-            "races": 199,
+            "state": "Activo",
             "lastTeam": "Williams",
             "height": "1.74 m"
         }
@@ -89,7 +89,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 155,
-            "races": 308,
+            "state": "Activo",
             "lastTeam": "Mercedes",
             "height": "1.74 m"
         }
@@ -108,7 +108,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 43,
-            "races": 99,
+            "state": "Activo",
             "lastTeam": "Tyrrell",
             "height": "1.73 m"
         }
@@ -127,7 +127,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 97,
-            "races": 328,
+            "state": "Activo",
             "lastTeam": "Aston Martin",
             "height": "1.71 m"
         }
@@ -146,7 +146,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 32,
-            "races": 109,
+            "state": "Activo",
             "lastTeam": "Red Bull Racing",
             "height": "1.81 m"
         }
@@ -165,7 +165,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 109,
-            "races": 269,
+            "state": "Activo",
             "lastTeam": "Mercedes",
             "height": "1.75 m"
         }
@@ -184,7 +184,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 54,
-            "races": 171,
+            "state": "Inactivo",
             "lastTeam": "McLaren",
             "height": "1.73 m"
         }
@@ -203,7 +203,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 122,
-            "races": 274,
+            "state": "Activo",
             "lastTeam": "Aston Martin",
             "height": "1.76 m"
         }
@@ -222,7 +222,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 35,
-            "races": 144,
+            "state": "Activo",
             "lastTeam": "McLaren",
             "height": "1.75 m"
         }
@@ -241,7 +241,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 24,
-            "races": 66,
+            "state": "Inactivo",
             "lastTeam": "Mercedes",
             "height": "1.75 m"
         }
@@ -260,7 +260,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 60,
-            "races": 204,
+            "state": "Activo",
             "lastTeam": "Williams",
             "height": "1.74 m"
         }
@@ -279,7 +279,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 24,
-            "races": 112,
+            "state": "Inactivo",
             "lastTeam": "Honda",
             "height": "1.75 m"
         }
@@ -298,7 +298,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 13,
-            "races": 67,
+            "state": "Inactivo",
             "lastTeam": "Ferrari",
             "height": "1.68 m"
         }
@@ -317,7 +317,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 31,
-            "races": 126,
+            "state": "Inactivo",
             "lastTeam": "Brabham",
             "height": "1.75 m"
         }
@@ -336,7 +336,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 17,
-            "races": 32,
+            "state": "Inactivo",
             "lastTeam": "Lancia",
             "height": "1.74 m"
         }
@@ -355,7 +355,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 19,
-            "races": 128,
+            "state": "Activo",
             "lastTeam": "Lotus",
             "height": "1.76 m"
         }
@@ -374,7 +374,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 25,
-            "races": 116,
+            "state": "Activo",
             "lastTeam": "Ferrari",
             "height": "1.78 m"
         }
@@ -393,7 +393,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 33,
-            "races": 176,
+            "state": "Inactivo",
             "lastTeam": "Lotus",
             "height": "1.78 m"
         }
@@ -412,7 +412,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 59,
-            "races": 191,
+            "state": "Activo",
             "lastTeam": "Williams",
             "height": "1.80 m"
         }
@@ -431,7 +431,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 27,
-            "races": 104,
+            "state": "Inactivo",
             "lastTeam": "McLaren",
             "height": "1.78 m"
         }
@@ -450,7 +450,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 51,
-            "races": 161,
+            "state": "Activo",
             "lastTeam": "McLaren",
             "height": "1.75 m"
         }
@@ -469,7 +469,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 9,
-            "races": 68,
+            "state": "Activo",
             "lastTeam": "Ferrari",
             "height": "1.80 m"
         }
@@ -488,7 +488,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 50,
-            "races": 306,
+            "state": "Activo",
             "lastTeam": "McLaren",
             "height": "1.83 m"
         }
@@ -507,7 +507,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 57,
-            "races": 206,
+            "state": "Activo",
             "lastTeam": "Mercedes",
             "height": "1.78 m"
         }
@@ -526,7 +526,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 103,
-            "races": 345,
+            "state": "Activo",
             "lastTeam": "Alfa Romeo Racing",
             "height": "1.75 m"
         }
@@ -545,7 +545,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 0,
-            "races": 20,
+            "state": "Inactivo",
             "lastTeam": "Tyrrell",
             "height": "1.80 m"
         }
@@ -564,7 +564,7 @@ export default [
         },
         "extraInfo": {
             "podiums": 32,
-            "races": 202,
+            "state": "Activo",
             "lastTeam": "Prost",
             "height": "1.74 m"
         }
@@ -583,7 +583,7 @@ export default [
       },
       "extraInfo": {
         "podiums": 3,
-        "races": 78,
+        "state": "Activo",
         "lastTeam": "Aston Martin",
         "height": "1.84 m"
       }
@@ -602,7 +602,7 @@ export default [
         },
         "extraInfo": {
           "podiums": 59,
-          "races": 169,
+          "state": "Activo",
           "lastTeam": "Alfa Romeo Racing",
           "height": "1.73 m"
         }
@@ -621,7 +621,7 @@ export default [
         },
         "extraInfo": {
           "podiums": 0,
-          "races": 3,
+          "state": "Activo",
           "lastTeam": "Alfa Romeo Racing",
           "height": "1.74 m"
         }
@@ -640,7 +640,7 @@ export default [
         },
         "extraInfo": {
           "podiums": 1,
-          "races": 90,
+          "state": "Activo",
           "lastTeam": "Alpine",
           "height": "1.86 m"
         }
@@ -659,7 +659,7 @@ export default [
         },
         "extraInfo": {
           "podiums": 2,
-          "races": 94,
+          "state": "Activo",
           "lastTeam": "AlphaTauri",
           "height": "1.78 m"
         }
@@ -678,7 +678,7 @@ export default [
         },
         "extraInfo": {
           "podiums": 3,
-          "races": 134,
+          "state": "Activo",
           "lastTeam": "Ferrari",
           "height": "1.76 m"
         }
@@ -697,7 +697,7 @@ export default [
         },
         "extraInfo": {
           "podiums": 0,
-          "races": 119,
+          "state": "Activo",
           "lastTeam": "Haas",
           "height": "1.74 m"
         }
@@ -716,7 +716,7 @@ export default [
         },
         "extraInfo": {
           "podiums": 0,
-          "races": 184,
+          "state": "Activo",
           "lastTeam": "Haas",
           "height": "1.84 m"
         }
@@ -735,7 +735,7 @@ export default [
         },
         "extraInfo": {
           "podiums": 9,
-          "races": 77,
+          "state": "Activo",
           "lastTeam": "McLaren",
           "height": "1.71 m"
         }
@@ -754,7 +754,7 @@ export default [
         },
         "extraInfo": {
           "podiums": 0,
-          "races": 0,
+          "state": "Activo",
           "lastTeam": "McLaren",
           "height": "1.80 m"
         }
@@ -773,7 +773,7 @@ export default [
         },
         "extraInfo": {
           "podiums": 0,
-          "races": 51,
+          "state": "Activo",
           "lastTeam": "Mercedes",
           "height": "1.87 m"
         }
@@ -792,7 +792,7 @@ export default [
         },
         "extraInfo": {
           "podiums": 12,
-          "races": 213,
+          "state": "Activo",
           "lastTeam": "Red Bull Racing",
           "height": "1.73 m"
         }
@@ -811,12 +811,11 @@ export default [
         },
         "extraInfo": {
           "podiums": 31,
-          "races": 207,
+          "state": "Activo",
           "lastTeam": "AlphaTauri",
           "height": "1.75 m"
         }
       },
-      
       {
         "id": "yuki-tsunoda",
         "name": "Yuki Tsunoda",
@@ -831,7 +830,7 @@ export default [
         },
         "extraInfo": {
           "podiums": 0,
-          "races": 27,
+          "state": "Activo",
           "lastTeam": "AlphaTauri",
           "height": "1.64 m"
         }
@@ -850,7 +849,7 @@ export default [
         },
         "extraInfo": {
           "podiums": 0,
-          "races": 2,
+          "state": "Activo",
           "lastTeam": "Williams",
           "height": "1.74 m"
         }
@@ -870,7 +869,7 @@ export default [
         },
         "extraInfo": {
           "podiums": 0,
-          "races": 35,
+          "state": "Activo",
           "lastTeam": "Williams",
           "height": "1.86 m"
         }

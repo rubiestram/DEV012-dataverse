@@ -7,7 +7,7 @@ export const renderItems = (data) => {
     const li = document.createElement("li");
     li.innerHTML = ""; 
     li.innerHTML = `
-    <dl class="liPilot" itemscope itemtype="PilotsF1">
+    <dl class="cards" itemscope itemtype="PilotsF1">
     <img src="${element.imageUrl}"/>
     <dt>Nombre:</dt><dd itemprop="name">${element.name}</dd>
     <dt>Descripción corta:</dt><dd itemprop="shortDescription">${element.shortDescription}</dd>

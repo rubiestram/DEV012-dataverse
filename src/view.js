@@ -33,6 +33,4 @@ export const renderItems = (data) => {
 
 
 
-
-
  

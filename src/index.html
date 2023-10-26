@@ -18,8 +18,7 @@
   
   <div id="containerFilter">
     <!-- Filtramos solo por escudería  -->
-    <p>Filtrar</p>
-    <label for="select-filter">Escudería:</label>
+    <label>Filtra por Escudería:
     <select id="select-filter" data-testid="select-filter" name="type">
       <option value="Todos">Todos</option>
       <option value="Alfa Romeo Racing">Alfa Romeo Racing</option>
@@ -38,13 +37,14 @@
       <option value="Tyrrell">Tyrrell</option>
       <option value="Williams">Williams</option>
     </select>
+    </label>
     <!-- Ordenar solo de forma ascendente y descendente -->
-    <p>Ordenar</p>
-    <label for="sort-order"> Alfabeticamente: </label>
+    <label> Ordenar: 
     <select id="sort-order" data-testid="select-sort" name="sort-order">
       <option value="asc">A - Z</option>
       <option value="desc">Z - A</option>
     </select>
+    </label>
     <!-- Botón para limpiar filtro y ordenamiento -->
     <button id="reset" data-testid="button-clear">Eliminar</button>
   </div>

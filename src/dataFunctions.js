@@ -1,21 +1,18 @@
-//Dentro de dataFuntions irán todas las funciones de como filtrar, ordenar, etc
-import data from './data/dataset.js';
+export const filterData = (data, filterBy, value) => {
+    const result = data.filter((item) => item.facts[filterBy] === value);
+    return result;
+}
 
 
-export function filterData (data, filterBy ,value){
-
-  if (!Array.isArray(data) || typeof filterBy !==`string`) {
-    return[];
-  }
+// Función para ordenar el arreglo por un campo específico y en un orden dado (ascendente o descendente)
+function sortData(data, sortBy, sortOrder) {
   
-  const filteredData = data.filter(item => {
-    if (item.hasOwnProperty (filterBy)){
-      return item[filterBy]=== value;
-    }
-    return false;
-});
-    return filteredData;
+};
 
+
+// Función estadistica
+function computeStats(data) {
+  
 }
 
 

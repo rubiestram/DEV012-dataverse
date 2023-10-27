@@ -1,25 +1,24 @@
-import {filterData} from './dataFunctions.js';
+import { filterData } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
+ 
+let arregloPilotos = data;
+// renderItems(arregloPilotos);
 
-const arregloPilotos = data;
-renderItems(arregloPilotos);
+// HTML dinámico
+const containerRoot  = document.querySelector("#root");
+containerRoot.appendChild(renderItems(arregloPilotos));
 
-// Aquí deberemos llamar a las funciones incluidas en dataFuntions.js
+// DOM
+const filter = document.getElementById("select-filter");
+filter.addEventListener('change', function (event) {
+    arregloPilotos = filterData(arregloPilotos, "team", event.target.value);
+    console.log(event.target.value);
+    console.log(arregloPilotos);
+    containerRoot.innerHTML = "";
+    containerRoot.appendChild(renderItems(arregloPilotos));
+});
 
-const selectFilter = document.querySelector('#select-filter'); //Llamando al elemento del dom
-selectFilter.addEventListener('change', function () {
-    const selected = selectFilter.value; // Obtiene el valor seleccionado
-    //const filteredData = filterData(data, `team`, result);
 
-    renderItems(filteredData)
-}); 
 
-//const teamFilter = document.querySelector('#select-filter'); //Llamando al elemento del dom
-//selectElement.addEventListener('change', (event) => {
-  //  const result = event.target.value;
-  //  const filteredData = filterData(data, `escuderia`, result);
-
-    // renderItems(filteredData)
-    //}); 
 

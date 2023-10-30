@@ -1,5 +1,4 @@
 export const renderItems = (data) => {
-  
   const ul =  document.createElement("ul");
 
   for(let i = 0; i < data.length; i++){
@@ -15,12 +14,9 @@ export const renderItems = (data) => {
     <dt>Campeonatos:</dt><dd itemprop="championshipsWon">${element.extraInfo.championshipsWon}</dd>
     </dl>
   `
-   
     ul.appendChild(li);
   }
-  
   return ul;
-
 };
 
 

@@ -26,7 +26,7 @@ export default [
             "yearOfBirth": 1911,
             "yearOfDeath": 1995,
             "placeOfBirth": "Balcarce, Argentina",
-            "team": "Mercedes"
+            "team": "Maserati"
         },
         "extraInfo": {
             "podiums": 35,
@@ -87,7 +87,7 @@ export default [
     {
         "id": "jackie-stewart",
         "name": "Jackie Stewart",
-        "shortDescription": "Carismático piloto escocés de Fórmula 1",
+        "shortDescription": "Conocido como el mejor piloto de la historia",
         "description": "El carismático piloto escocés de Fórmula 1, fue un defensor de la seguridad en las carreras y ganó tres campeonatos mundiales. Su personalidad extrovertida lo hizo muy popular.",
         "imageUrl": "./data/images/jackie_stewart.png",
         "facts": {
@@ -104,7 +104,7 @@ export default [
     {
         "id": "fernando-alonso",
         "name": "Fernando Alonso",
-        "shortDescription": "Destacado piloto español de Fórmula 1",
+        "shortDescription": "El mejor piloto español de la historia",
         "description": "Destacado piloto español de Fórmula 1, es conocido por su tenacidad y habilidades en la pista. Ganó dos campeonatos mundiales y sigue compitiendo en la Fórmula 1.",
         "imageUrl": "./data/images/fernando_alonso.png",
         "facts": {
@@ -121,7 +121,7 @@ export default [
     {
         "id": "max-verstappen",
         "name": "Max Verstappen",
-        "shortDescription": "Joven talento neerlandés de Fórmula 1",
+        "shortDescription": "El ganador más joven de la historia",
         "description": "El joven talento neerlandés de Fórmula 1, ha impresionado a todos con su agresividad en la pista. Aunque no ha ganado campeonatos todavía, es considerado una futura estrella.",
         "imageUrl": "./data/images/max_verstappen.png",
         "facts": {
@@ -138,7 +138,7 @@ export default [
     {
         "id": "lewis-hamilton",
         "name": "Lewis Hamilton",
-        "shortDescription": "Exitoso piloto británico de Fórmula 1",
+        "shortDescription": "Piloto con más victorias y más poles en la historia de la F1",
         "description": "Exitoso piloto británico de Fórmula 1, ha establecido récords y ganado múltiples campeonatos mundiales. Su activismo y habilidades en la pista lo hacen una figura influyente.",
         "imageUrl": "./data/images/lewis_hamilton.png",
         "facts": {
@@ -155,7 +155,7 @@ export default [
     {
         "id": "niki-lauda",
         "name": "Niki Lauda",
-        "shortDescription": "Legendario piloto austriaco de Fórmula 1",
+        "shortDescription": "Niki es considerado el primer piloto moderno de la Fórmula 1",
         "description": "El legendario piloto austriaco de Fórmula 1, superó un grave accidente para continuar compitiendo y ganar tres campeonatos mundiales. Su historia es una inspiración para muchos.",
         "imageUrl": "./data/images/niki_lauda.png",
         "facts": {
@@ -189,7 +189,7 @@ export default [
     {
         "id": "emerson-fittipaldi",
         "name": "Emerson Fittipaldi",
-        "shortDescription": "Carismático piloto brasileño de Fórmula 1",
+        "shortDescription": "El astro brasileño fue un emblema durante la década de los 70",
         "description": "El carismático piloto brasileño de Fórmula 1, ganó dos campeonatos mundiales. Su estilo relajado y su sonrisa lo hicieron querido en el paddock.",
         "imageUrl": "./data/images/emerson_fittipaldi.png",
         "facts": {
@@ -206,8 +206,8 @@ export default [
     {
         "id": "stirling-moss",
         "name": "Stirling Moss",
-        "shortDescription": "Histórico piloto británico de Fórmula 1",
-        "description": "El histórico piloto británico de Fórmula 1, es considerado uno de los mejores pilotos que nunca ganó un campeonato mundial. Su legado perdura en la historia del deporte.",
+        "shortDescription": "El gran campeón de los no campeones.",
+        "description": "Moss se retiró de la Fórmula 1 sin ningún Mundial, pero con cuatro subcampeonatos consecutivos y tres terceros puestos seguidos en la clasificación final.",
         "imageUrl": "./data/images/stirling_moss.png",
         "facts": {
             "yearOfBirth": 1929,
@@ -223,14 +223,14 @@ export default [
     {
         "id": "nelson-piquet",
         "name": "Nelson Piquet",
-        "shortDescription": "Exitoso piloto brasileño de Fórmula 1",
+        "shortDescription": "Piquet es el tercer brasileño considerado uno de los mejores pilotos de la historia.",
         "description": "El exitoso piloto brasileño de Fórmula 1, ganó tres campeonatos mundiales. Su estilo agresivo y su rivalidad con otros pilotos lo hicieron destacar en la pista.",
         "imageUrl": "./data/images/nelson_piquet.png",
         "facts": {
             "yearOfBirth": 1952,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Río de Janeiro, Brasil",
-            "team": "Williams"
+            "team": "Benetton"
         },
         "extraInfo": {
             "podiums": 60,
@@ -240,14 +240,14 @@ export default [
     {
         "id": "john-surtees",
         "name": "John Surtees",
-        "shortDescription": "Versátil piloto británico de Fórmula 1 y motociclismo",
-        "description": "El versátil piloto británico de Fórmula 1 y motociclismo, es el único piloto en ganar campeonatos mundiales en ambas disciplinas. Su legado es único en la historia del deporte.",
+        "shortDescription": "El único ganador del Mundial de Motociclismo y de F1 al mismo tiempo.",
+        "description": "El versátil piloto británico es el único piloto en ganar campeonatos mundiales en ambas disciplinas. Su legado es único en la historia del deporte.",
         "imageUrl": "./data/images/john_surtees.png",
         "facts": {
             "yearOfBirth": 1934,
             "yearOfDeath": 2017,
             "placeOfBirth": "Tatsfield, Reino Unido",
-            "team": "Honda"
+            "team": "British Racing Motors"
         },
         "extraInfo": {
             "podiums": 24,
@@ -257,7 +257,7 @@ export default [
     {
         "id": "gilles-villeneuve",
         "name": "Gilles Villeneuve",
-        "shortDescription": "Carismático piloto canadiense de Fórmula 1",
+        "shortDescription": "Es conocido por ser el gran campeón sin corona de la F1",
         "description": "El carismático piloto canadiense de Fórmula 1, es recordado por su estilo de manejo agresivo y apasionado. Su legado sigue vivo en el corazón de los fanáticos de la Fórmula 1.",
         "imageUrl": "./data/images/gilles_villeneuve.png",
         "facts": {
@@ -274,7 +274,7 @@ export default [
     {
         "id": "jack-brabham",
         "name": "Jack Brabham",
-        "shortDescription": "Legendario piloto australiano de Fórmula 1",
+        "shortDescription": "Brabham, marcó una era desde finales de los años 50 hasta su retirada en 1970.",
         "description": "El legendario piloto australiano de Fórmula 1, ganó tres campeonatos mundiales y fue un pionero en el diseño de autos de Fórmula 1. Su legado perdura en el deporte.",
         "imageUrl": "./data/images/jack_brabham.png",
         "facts": {
@@ -291,15 +291,14 @@ export default [
     {
         "id": "alberto-ascari",
         "name": "Alberto Ascari",
-        "shortDescription": "Histórico piloto italiano de Fórmula 1",
-        "description": "El histórico piloto italiano de Fórmula 1, fue el primer bicampeón de la Fórmula 1. Su estilo de manejo suave lo hizo destacar en la década de 1950.",
+        "shortDescription": "El primer piloto en llevar a Ferrari a la gloria.",
+        "description": "El histórico piloto italiano, fue el primer bicampeón de la Fórmula 1. Su estilo de manejo suave lo hizo destacar en la década de 1950.",
         "imageUrl": "./data/images/alberto_ascari.png",
         "facts": {
             "yearOfBirth": 1918,
             "yearOfDeath": 1955,
             "placeOfBirth": "Milán, Italia",
             "team": "Lancia"
-            
         },
         "extraInfo": {
             "podiums": 17,
@@ -309,7 +308,7 @@ export default [
     {
         "id": "mario-andretti",
         "name": "Mario Andretti",
-        "shortDescription": "Versátil piloto ítalo-estadounidense de Fórmula 1",
+        "shortDescription": "Piloto estadounidense más influyente de la historia",
         "description": "El versátil piloto ítalo-estadounidense de Fórmula 1, ganó un campeonato mundial en 1978. Su exitosa carrera incluye logros en diversas disciplinas del automovilismo.",
         "imageUrl": "./data/images/mario_andretti.png",
         "facts": {
@@ -326,7 +325,7 @@ export default [
     {
         "id": "jacky-ickx",
         "name": "Jacky Ickx",
-        "shortDescription": "Versátil piloto belga de Fórmula 1 y resistencia",
+        "shortDescription": "Piloto todoterreno, versátil y resistencia",
         "description": "El versátil piloto belga de Fórmula 1 y resistencia, es conocido por su habilidad en múltiples disciplinas del automovilismo. Ganó ocho Grandes Premios de Fórmula 1.",
         "imageUrl": "./data/images/jacky_ickx.png",
         "facts": {
@@ -369,7 +368,6 @@ export default [
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Upton-upon-Severn, Reino Unido",
             "team": "Williams"
-            
         },
         "extraInfo": {
             "podiums": 59,
@@ -420,7 +418,7 @@ export default [
             "yearOfBirth": 1997,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Montecarlo, Mónaco",
-            
+            "team": "Ferrari"
         },
         "extraInfo": {
             "podiums": 9,
@@ -438,7 +436,6 @@ export default [
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Frome, Reino Unido",
             "team": "McLaren"
-            
         },
         "extraInfo": {
             "podiums": 50,
@@ -473,7 +470,6 @@ export default [
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Espoo, Finlandia",
             "team": "Alfa Romeo Racing"
-            
         },
         "extraInfo": {
             "podiums": 103,
@@ -593,7 +589,7 @@ export default [
           "yearOfBirth": 1996,
           "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Rouen, Francia",
-          "team": "AlphaTauri"
+          "team": "Alpine"
         },
         "extraInfo": {
           "podiums": 3,
@@ -628,7 +624,6 @@ export default [
           "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Roskilde, Dinamarca",
           "team": "Haas"
-          
         },
         "extraInfo": {
           "podiums": 0,

@@ -11,20 +11,24 @@ let arrayPilots = data;
 const containerRoot  = document.querySelector("#root");
 containerRoot.appendChild(renderItems(arrayPilots));
 
+
+const updateAndRender = () =>{
+    containerRoot.innerHTML = "";
+    containerRoot.appendChild(renderItems(arrayPilots));
+};
+
 // DOM filtrar
 const filter = document.getElementById("select-filter");
 filter.addEventListener('change', function (event) {
     arrayPilots = filterData(arrayPilots, "team", event.target.value);
-    containerRoot.innerHTML = "";
-    containerRoot.appendChild(renderItems(arrayPilots));
+    updateAndRender();
 });
 
 // DOM Order
 const order = document.getElementById("sort-order");
 order.addEventListener('change', function (event) {
     arrayPilots = sortData(arrayPilots, "name", event.target.value);
-    containerRoot.innerHTML = "";
-    containerRoot.appendChild(renderItems(arrayPilots));
+    updateAndRender();
 });
 
 

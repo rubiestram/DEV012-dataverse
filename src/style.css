@@ -11,14 +11,24 @@ body{
     font-family: Poppins, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#menu {
-    position: fixed;
-    top: 0;
-    left: 10;
+:root {
+    --black-color: #000000;
+    --grey-color: #3E3636;
+    --red-color: #D72323;
+    --white-color: #F5EDED;
+  }
+
+/* Contenedor principal */
+#flex-container {
+    display: flex;
+}
+
+/* Aside */
+.menu {
     width: 20%; /* Ancho del menú, ajusta según tus necesidades */
     height: 100vh; /* Alto del menú que ocupa toda la altura de la ventana */
-    background: #F5EDED; 
-    color: #000000; 
+    background: var(--white-color); 
+    color: var(--black-color); 
     padding: 35px 25px; /* Espacio interno en el menú */
     margin-bottom: 25px;
 }
@@ -26,15 +36,14 @@ body{
 label {
     display: block;
     margin-bottom: 5px;
-
 }
 
 select {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #D72323;
-    color: #fff;
+    background-color: var(--red-color);
+    color: var(--white-color);
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
@@ -45,40 +54,49 @@ button {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #3E3636;
-    color: #fff;
+    background-color: var(--grey-color);
+    color: var(--white-color);
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
     cursor: pointer;
 }
-
-
 button:hover {
         font-weight: 800;
     }
 
-:root {
-    --black-color: #000000;
-    --grey-color: #3E3636;
-    --red-color: #D72323;
-    --white-color: #F5EDED;
-  }
 
-header{
+/* Content */
+.content {
+    width: 80%;
+}
+
+.content header{
     background-color: var(--red-color);
     color: var(--white-color);
     text-align: center;
 }
 
-main {
+.content main {
     color: var(--grey-color);
     text-align: center;
 }
 
-/* Trabajando con las cards */
+.content .containerComputeStats {
+    background-color: #3e3636a2;
+} 
+
+footer{
+    background-color: var(--red-color);
+    color: var(--white-color);
+}
+
+/* Cards */
 #root {
-    margin-top: 50px;
+    width: 100%;
+    margin-top: 10px;
+    overflow: scroll;
+    height: 60%;
 }
 
 ul {
@@ -93,8 +111,8 @@ ul {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 325px;
-    margin: 20px;
+    width: 250px;
+    margin: 40px;
     overflow: hidden;
     color: var(--white-color);
     background-color: var(--black-color);
@@ -129,7 +147,4 @@ ul {
 
 
 
-footer{
-    background-color: var(--red-color);
-    color: var(--white-color);
-}
+

@@ -7,66 +7,72 @@
   <title>Dataverse</title>
 </head>
 <body>
-  
-  <header>
-    <h1> Pilotos Formula 1 </h1>
-  </header>
-  
-  <main>
-    <h2>Los mejores pilotos de F1 de todos los tiempos</h2>
-  </main>
 
-  <div id="containerComputeStats">
-    <p>Estadistica:</p>
-  </div>
+  <div id="flex-container">
+    <aside class="menu">
+      <!-- Filtramos solo por escudería  -->
+      <label>Filtra por Escudería:
+      <select id="select-filter" data-testid="select-filter" name="type">
+        <option value="Todos">Todas las Escuderías</option>
+        <option value="Alfa Romeo Racing">Alfa Romeo Racing</option>
+        <option value="AlphaTauri">AlphaTauri</option>
+        <option value="Alpine">Alpine</option>
+        <option value="Aston Martin">Aston Martin</option>
+        <option value="Benetton">Benetton</option>
+        <option value="Brabham">Brabham</option>
+        <option value="British Racing Motors">British Racing Motors</option>
+        <option value="Ferrari">Ferrari</option>
+        <option value="Haas">Haas</option>
+        <option value="Lancia">Lancia</option>
+        <option value="Lotus">Lotus</option>
+        <option value="Maserati">Maserati</option>
+        <option value="McLaren">McLaren</option>
+        <option value="Mercedes">Mercedes</option>
+        <option value="Prost">Prost</option>
+        <option value="Red Bull Racing">Red Bull Racing</option>
+        <option value="Tyrrell">Tyrrell</option>
+        <option value="Williams">Williams</option>
+      </select>
+      </label>
+      <!-- Ordenar solo de forma ascendente y descendente -->
+      <label> Ordenar: 
+      <select id="sort-order" data-testid="select-sort" name="sort-order">
+        <option value="sin ordenar">Sin ordenar</option>
+        <option value="asc">A - Z</option>
+        <option value="desc">Z - A</option>
+      </select>
+      </label>
   
-  
-  <div id="menu">
-    <!-- Filtramos solo por escudería  -->
-    <label>Filtra por Escudería:
-    <select id="select-filter" data-testid="select-filter" name="type">
-      <option value="Todos">Todas las Escuderías</option>
-      <option value="Alfa Romeo Racing">Alfa Romeo Racing</option>
-      <option value="AlphaTauri">AlphaTauri</option>
-      <option value="Alpine">Alpine</option>
-      <option value="Aston Martin">Aston Martin</option>
-      <option value="Benetton">Benetton</option>
-      <option value="Brabham">Brabham</option>
-      <option value="British Racing Motors">British Racing Motors</option>
-      <option value="Ferrari">Ferrari</option>
-      <option value="Haas">Haas</option>
-      <option value="Lancia">Lancia</option>
-      <option value="Lotus">Lotus</option>
-      <option value="Maserati">Maserati</option>
-      <option value="McLaren">McLaren</option>
-      <option value="Mercedes">Mercedes</option>
-      <option value="Prost">Prost</option>
-      <option value="Red Bull Racing">Red Bull Racing</option>
-      <option value="Tyrrell">Tyrrell</option>
-      <option value="Williams">Williams</option>
-    </select>
-    </label>
-    <!-- Ordenar solo de forma ascendente y descendente -->
-    <label> Ordenar: 
-    <select id="sort-order" data-testid="select-sort" name="sort-order">
-      <option value="sin ordenar">Sin ordenar</option>
-      <option value="asc">A - Z</option>
-      <option value="desc">Z - A</option>
-    </select>
-    </label>
-    <!-- Botón para limpiar filtro y ordenamiento -->
-    <button data-testid="button-clear">Eliminar</button>
-  </div>
-  
-  
-  <!-- HTML Dinámico -->
-  <div id="root">
-        
-  </div>
+      <!-- Botón para limpiar filtro y ordenamiento -->
+      <button data-testid="button-clear">Eliminar</button>
+    </aside>
+
+    <div class="content">
+      <header>
+        <h1> Pilotos Formula 1 </h1>
+      </header>
+      
+      <main>
+        <h2>Los mejores pilotos de F1 de todos los tiempos</h2>
+      </main>
     
-  <footer>
-  Desarrollado por Rubi Estrada & Xatzibe Alcantara. 
-  </footer>
+      <div class="containerComputeStats">
+        <p>Estadistica:</p>
+      </div>
+
+      <!-- HTML Dinámico -->
+      <div id="root">
+            
+      </div>
+
+      <footer>
+        Desarrollado por Rubi Estrada & Xatzibe Alcantara. 
+      </footer>
+    </div>
+    
+    
+  </div>
+
   
   <script src="main.js" type="module"></script>
 </body>

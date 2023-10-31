@@ -114,7 +114,7 @@ export default [
             "team": "Aston Martin"
         },
         "extraInfo": {
-            "podiums": 97,
+            "podiums": 105,
             "championshipsWon": 2
         }
     },
@@ -131,8 +131,8 @@ export default [
             "team": "Red Bull Racing"
         },
         "extraInfo": {
-            "podiums": 32,
-            "championshipsWon": 0
+            "podiums": 77,
+            "championshipsWon": 3
         }
     },
     {
@@ -148,7 +148,7 @@ export default [
             "team": "Mercedes"
         },
         "extraInfo": {
-            "podiums": 109,
+            "podiums": 196,
             "championshipsWon": 7
         }
     },
@@ -421,7 +421,7 @@ export default [
             "team": "Ferrari"
         },
         "extraInfo": {
-            "podiums": 9,
+            "podiums": 10,
             "championshipsWon": 0
         }
     },

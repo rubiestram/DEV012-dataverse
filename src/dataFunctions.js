@@ -4,12 +4,10 @@ export const filterData = (data, filterBy, value) => {
     return result;
 }
 
-
-// Función para ordenar el arreglo por un campo específico y en un orden dado (ascendente o descendente)
+// Función para ordenar (ascendente o descendente)
 export const sortData = (data, sortBy, sortOrder) => {
     // Verificamos si el orden es ascendente (A - Z) o descendente (Z - A)
     const orderFactor = sortOrder === 'asc' ? 1 : -1;
-
     // Utilizamos el método sort() para ordenar los datos según el campo especificado (sortBy)
     data.sort((a, b) => {
         const itemA = a[sortBy].toLowerCase(); // Convertimos a minúsculas para una comparación insensible a mayúsculas

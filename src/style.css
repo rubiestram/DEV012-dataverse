@@ -11,6 +11,53 @@ body{
     font-family: Poppins, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#menu {
+    position: fixed;
+    top: 0;
+    left: 10;
+    width: 20%; /* Ancho del menú, ajusta según tus necesidades */
+    height: 100vh; /* Alto del menú que ocupa toda la altura de la ventana */
+    background: #F5EDED; 
+    color: #000000; 
+    padding: 35px 25px; /* Espacio interno en el menú */
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #D72323;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #3E3636;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+button:hover {
+        font-weight: 800;
+    }
+
 :root {
     --black-color: #000000;
     --grey-color: #3E3636;

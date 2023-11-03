@@ -24,23 +24,66 @@ body{
 }
 
 /* Aside */
-.menu {
-    width: 20%; 
-    background: var(--white-color); 
-    color: var(--black-color); 
-    padding: 35px 25px; 
-    margin-bottom: 25px;
+
+.cajamenu {
+    background: var(--grey-color);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    width: 20%;
+    height: 100vh; 
+    }
+    .menu {
+        width: 75%; 
+        height: 85%;
+        background: var(--white-color); 
+        color: var(--black-color); 
+        padding: 30px 25px; 
+        margin-bottom: 0;
+    }
+
+
+.abrir-menu{
+    display: none;
 }
+
+
+/* Menu responsive*/ 
+@media screen and (max-width: 558px){
+   .abrir-menu{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+    /*.cajamenu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgb(0, 0, 0, .5);
+        background-color: #3E3636;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: end;   
+    }
+}*/
+    
+
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
+    margin-top: 15px;
 }
 
 select {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     background-color: var(--red-color);
     color: var(--white-color);
     border: none;
@@ -50,20 +93,23 @@ select {
 }
 
 button {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+    width:100%;
     background-color: var(--grey-color);
     color: var(--white-color);
     border: none;
-    padding: 10px 20px;
-    border-radius: 10px;
+    padding: 15px 10px;
+    border-radius: 30px;
     cursor: pointer;
+    align-items: center;
+    margin-top:60px;
 }
 button:hover {
         font-weight: 800;
     }
 
+.imagen-footer {
+    margin-top: 40px;
+}
 
 /* Content */
 .content {

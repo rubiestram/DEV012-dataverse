@@ -8,44 +8,52 @@
 </head>
 <body>
 
+ 
   <div id="flex-container">
-    <aside class="menu">
-      <!-- Filtramos solo por escudería  -->
-      <label>Filtra por Escudería:
-      <select id="select-filter" data-testid="select-filter" name="type">
-        <option value="Todos">Todas las Escuderías</option>
-        <option value="Alfa Romeo Racing">Alfa Romeo Racing</option>
-        <option value="AlphaTauri">AlphaTauri</option>
-        <option value="Alpine">Alpine</option>
-        <option value="Aston Martin">Aston Martin</option>
-        <option value="Benetton">Benetton</option>
-        <option value="Brabham">Brabham</option>
-        <option value="British Racing Motors">British Racing Motors</option>
-        <option value="Ferrari">Ferrari</option>
-        <option value="Haas">Haas</option>
-        <option value="Lancia">Lancia</option>
-        <option value="Lotus">Lotus</option>
-        <option value="Maserati">Maserati</option>
-        <option value="McLaren">McLaren</option>
-        <option value="Mercedes">Mercedes</option>
-        <option value="Prost">Prost</option>
-        <option value="Red Bull Racing">Red Bull Racing</option>
-        <option value="Tyrrell">Tyrrell</option>
-        <option value="Williams">Williams</option>
-      </select>
-      </label>
-      <!-- Ordenar solo de forma ascendente y descendente -->
-      <label> Ordenar: 
-      <select id="sort-order" data-testid="select-sort" name="sort-order">
-        <option value="sin ordenar">Sin ordenar</option>
-        <option value="asc">A - Z</option>
-        <option value="desc">Z - A</option>
-      </select>
-      </label>
-  
-      <!-- Botón para limpiar filtro y ordenamiento -->
-      <button data-testid="button-clear">Eliminar</button>
-    </aside>
+    
+    <div class="cajamenu">
+      <buttom class="abrir-menu">Abrir</buttom>
+        <aside class="menu">
+          <!-- Filtramos solo por escudería  -->
+            <label>Filtra por:
+            <select id="select-filter" data-testid="select-filter" name="type">
+              <option value="Todos">Escuderias</option>
+              <option value="Alfa Romeo Racing">Alfa Romeo Racing</option>
+              <option value="AlphaTauri">AlphaTauri</option>
+              <option value="Alpine">Alpine</option>
+              <option value="Aston Martin">Aston Martin</option>
+              <option value="Benetton">Benetton</option>
+              <option value="Brabham">Brabham</option>
+              <option value="British Racing Motors">British Racing Motors</option>
+              <option value="Ferrari">Ferrari</option>
+              <option value="Haas">Haas</option>
+              <option value="Lancia">Lancia</option>
+              <option value="Lotus">Lotus</option>
+              <option value="Maserati">Maserati</option>
+              <option value="McLaren">McLaren</option>
+              <option value="Mercedes">Mercedes</option>
+              <option value="Prost">Prost</option>
+              <option value="Red Bull Racing">Red Bull Racing</option>
+              <option value="Tyrrell">Tyrrell</option>
+              <option value="Williams">Williams</option>
+            </select>
+            </label>
+          <!-- Ordenar solo de forma ascendente y descendente -->
+            <label> Ordenar: 
+            <select id="sort-order" data-testid="select-sort" name="sort-order">
+              <option value="sin ordenar">Sin ordenar</option>
+              <option value="asc">A - Z</option>
+              <option value="desc">Z - A</option>
+            </select>
+            </label>
+      
+          <!-- Botón para limpiar filtro y ordenamiento -->
+            <button data-testid="button-clear">Eliminar</button>
+
+            <img src="New_era_F1_logo.png" alt="Logo formula 1" class="imagen-footer">
+      </aside>
+
+    </div>
 
     <!-- Contenedor de header, main, estadistica, root y footer -->
     <div class="content">

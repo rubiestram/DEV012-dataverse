@@ -43,18 +43,4 @@ clearButton.addEventListener('click', function () {
   containerRoot.appendChild(renderItems(arrayPilots));
 });
 
-// Agrega funcionalidad del menú
-const menu = document.querySelector('.menu');
-const hamburgerMenu = document.querySelector('.hamburger-menu');
 
-hamburgerMenu.addEventListener('click', function () {
-  menu.classList.toggle('opened');
-});
-
-// Cerrar el menú al hacer clic en un elemento del menú (puedes personalizarlo según tu estructura de menú)
-const menuItems = document.querySelectorAll('.menu-item');
-menuItems.forEach(function (item) {
-  item.addEventListener('click', function () {
-    menu.classList.remove('opened');
-  });
-});

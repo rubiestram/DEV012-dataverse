@@ -27,7 +27,11 @@ export const sortData = (data, sortBy, sortOrder) => {
 
 // Función estadistica
 export const computeStats = (data) => {
-  
+    // Calcula el promedio de podios
+    const podiums = data.map(item => item.extraInfo.podiums);
+    const totalPodiums = podiums.reduce((acc, podium) => acc + podium, 0);
+    const averagePodiums = totalPodiums / data.length;
+    return averagePodiums;
 }
 
 

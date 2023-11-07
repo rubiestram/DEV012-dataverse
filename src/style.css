@@ -70,8 +70,8 @@ body{
         display: flex;
         flex-direction: column;
         align-items: end;   
-    }
-}*/
+    }*/
+}
     
 
 
@@ -132,7 +132,7 @@ main {
     font-size: 14px;
 }
 
-.containerComputeStats {
+.computeStats {
     height: 5%; /* Rubi: Agregue este cambio*/
     background-color: #3e36367c;
     color: var(--white-color);
@@ -195,10 +195,6 @@ ul {
     font-weight: bolder;
     color: var(--red-color);
 }
-
-
-
-
 
 
 

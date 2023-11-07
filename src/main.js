@@ -9,6 +9,15 @@ let sortOption = null; // Para mantener el estado de la opción de ordenamiento
 const containerRoot = document.querySelector("#root");
 containerRoot.appendChild(renderItems(arrayPilots));
 
+// Rubi: DOM Estadística inicial 
+updateAveragePodiums(arrayPilots);
+// Función para actualizar el promedio de podios
+function updateAveragePodiums(data) {
+  const averagePodiumsElement = document.getElementById('averagePodiums');
+  const averagePodiums = computeStats(data);
+  averagePodiumsElement.textContent = averagePodiums;
+}
+
 // DOM filtrar
 const filter = document.getElementById("select-filter");
 filter.addEventListener('change', function (event) {
@@ -20,6 +29,8 @@ filter.addEventListener('change', function (event) {
   }
   containerRoot.innerHTML = "";
   containerRoot.appendChild(renderItems(arrayPilots));
+  // Rubi: Probando estadistica
+  updateAveragePodiums(arrayPilots);
 });
 
 // DOM Order
@@ -28,7 +39,10 @@ order.addEventListener('change', function (event) {
   arrayPilots = sortData(arrayPilots, "name", event.target.value);
   containerRoot.innerHTML = "";
   containerRoot.appendChild(renderItems(arrayPilots));
+  // Rubi: probando estadistica
+  updateAveragePodiums(arrayPilots);
 });
+
 
 // DOM limpiar (reiniciar la aplicación)
 const clearButton = document.querySelector('[data-testid="button-clear"]');
@@ -41,6 +55,8 @@ clearButton.addEventListener('click', function () {
   sortOption = null;
   containerRoot.innerHTML = "";
   containerRoot.appendChild(renderItems(arrayPilots));
+  // Probando estadistica
+  updateAveragePodiums(arrayPilots);
 });
 
 

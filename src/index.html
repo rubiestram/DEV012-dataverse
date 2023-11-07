@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/13ba319f57.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css" />
   <title>Dataverse</title>
 </head>
@@ -11,11 +12,12 @@
  
   <div id="flex-container">
     
-    <div class="cajamenu">
-      <buttom class="abrir-menu">Abrir</buttom>
+    <i class="fa-solid fa-bars display" id="hamburguer"></i>
+    <i class="fa-solid fa-xmark noDisplay" id="close"></i>
+    <div class="cajamenu noWidth">
         <aside class="menu">
           <!-- Filtramos solo por escudería  -->
-            <label>Filtra por:
+            <label>Filtra por:</label>
             <select id="select-filter" data-testid="select-filter" name="type">
               <option value="Todos">Escuderias</option>
               <option value="Alfa Romeo Racing">Alfa Romeo Racing</option>
@@ -37,20 +39,19 @@
               <option value="Tyrrell">Tyrrell</option>
               <option value="Williams">Williams</option>
             </select>
-            </label>
+            
           <!-- Ordenar solo de forma ascendente y descendente -->
-            <label> Ordenar: 
+            <label> Ordenar: </label>
             <select id="sort-order" data-testid="select-sort" name="sort-order">
               <option value="sin ordenar">Sin ordenar</option>
               <option value="asc">A - Z</option>
               <option value="desc">Z - A</option>
             </select>
-            </label>
-      
+            
           <!-- Botón para limpiar filtro y ordenamiento -->
             <button data-testid="button-clear">Eliminar</button>
 
-            <img src="New_era_F1_logo.png" alt="Logo formula 1" class="imagen-footer">
+            <img src="./data/images/New_era_F1_logo.png" alt="Logo formula 1" class="imagen-footer">
       </aside>
 
     </div>

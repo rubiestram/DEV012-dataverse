@@ -13,7 +13,7 @@ export const renderItems = (data) => {
         <dd itemprop="name">${element.name}</dd>
         <dd itemprop="placeOfBirth">${element.facts.placeOfBirth}</dd>
         <dd itemprop="team">${element.facts.team}</dd>
-        <dt>Campeonatos:<dd itemprop="championshipsWon">${element.extraInfo.championshipsWon}</dd></dt>
+        <dt><dd itemprop="championshipsWon">Campeonatos: ${element.extraInfo.championshipsWon}</dd></dt>
       </dl>
     `;
 

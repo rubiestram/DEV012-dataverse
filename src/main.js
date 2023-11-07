@@ -59,4 +59,43 @@ clearButton.addEventListener('click', function () {
   updateAveragePodiums(arrayPilots);
 });
 
+const filters = document.querySelector('.cajamenu');
+const hamburguerButton = document.getElementById('hamburguer');
+const closeButton = document.getElementById('close');
+
+function handleResize() {
+  if (window.innerWidth > 768) {
+    filters.classList.remove('noWidth');
+    filters.classList.add('haflWidth');
+    hamburguerButton.classList.add('noDisplay');
+    closeButton.classList.add('noDisplay');
+  } else {
+    filters.classList.add('noWidth');
+    filters.classList.remove('haflWidth');
+    hamburguerButton.classList.remove('noDisplay');
+    closeButton.classList.add('noDisplay');
+  }
+}
+
+// Llama a la función handleResize en la carga inicial de la página
+handleResize();
+
+// Agrega un evento de redimensionamiento para manejar cambios en el tamaño de la ventana
+window.addEventListener('resize', handleResize);
+
+hamburguerButton.addEventListener('click', function () {
+  filters.classList.add('haflWidth');
+  filters.classList.remove('noWidth');
+  hamburguerButton.classList.add('noDisplay');
+  closeButton.classList.remove('noDisplay');
+});
+
+closeButton.addEventListener('click', function () {
+  filters.classList.remove('haflWidth');
+  filters.classList.add('noWidth');
+  closeButton.classList.add('noDisplay');
+  hamburguerButton.classList.remove('noDisplay');
+});
+
+
 

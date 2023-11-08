@@ -8,7 +8,6 @@
   <title>Dataverse</title>
 </head>
 <body>
-
  
   <div id="flex-container">
     
@@ -17,7 +16,7 @@
     <div class="noWidth cajamenu ">
         <aside class="menu">
           <!-- Filtramos solo por escudería  -->
-            <label>Filtra por:</label>
+            <label for="select-filter">Filtra por:</label>
             <select id="select-filter" data-testid="select-filter" name="type">
               <option value="Todos">Escuderias</option>
               <option value="Alfa Romeo Racing">Alfa Romeo Racing</option>
@@ -41,7 +40,7 @@
             </select>
             
           <!-- Ordenar solo de forma ascendente y descendente -->
-            <label> Ordenar: </label>
+            <label for="sort-order"> Ordenar: </label>
             <select id="sort-order" data-testid="select-sort" name="sort-order">
               <option value="sin ordenar">Sin ordenar</option>
               <option value="asc">A - Z</option>
@@ -59,7 +58,7 @@
      <!-- Contenedor de header, main, estadistica, root y footer -->
      <div class="content">
 
-      <header>
+      <header class="title">
         <h1>Los mejores pilotos de Fórmula 1 de la historia</h1>
       </header>
 
@@ -68,7 +67,7 @@
         <p>Promedio de Podios: <span id="averagePodiums">--</span></p>
       </div>
       
-      <main>
+      <main class="subtitle">
         <h2>Desde Fangio hasta Verstappen, pasando por leyendas como Lauda y Senna.</h2>
       </main>
     
@@ -82,11 +81,8 @@
       </footer>
       </div>
     </div>
-    
-    
   </div>
 
-  
   <script src="main.js" type="module"></script>
 </body>
 </html>

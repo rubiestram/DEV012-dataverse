@@ -59,12 +59,13 @@ clearButton.addEventListener('click', function () {
   updateAveragePodiums(arrayPilots);
 });
 
+// Menú hamburguesa
 const filters = document.querySelector('.cajamenu');
 const hamburguerButton = document.getElementById('hamburguer');
 const closeButton = document.getElementById('close');
 
 function handleResize() {
-  if (window.innerWidth > 768) {
+  if (window.innerWidth > 600) {
     filters.classList.remove('noWidth');
     filters.classList.add('haflWidth');
     hamburguerButton.classList.add('noDisplay');

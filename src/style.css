@@ -4,11 +4,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Poppins, Arial, sans-serif;
 }
 
 body{
     background-color: var(--white-color);
-    font-family: Poppins, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 :root {
@@ -24,7 +24,6 @@ body{
 }
 
 /* Aside */
-
 .cajamenu {
     background: var(--grey-color);
     display: flex; 
@@ -45,7 +44,6 @@ body{
         & label {
             margin-bottom: 25px;
             margin-top: 15px;
-
         }
         & select {
             width: 100%;
@@ -62,45 +60,24 @@ body{
             background-color: var(--grey-color);
             color: var(--white-color);
             border: none;
-            padding: 15px 10px;
-            border-radius: 30px;
+            padding: 10px 5px;
+            border-radius: 15px;
             cursor: pointer;
             align-items: center;
-            margin-top:60px;
+            margin-top:30px;
         }
         & button:hover {
-            font-weight: 800;
+            box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
+            font-weight: bold;
         }
-        & .imagen-footer {
-            margin-top: 90%;
+        & .logo {
+            margin-top: 100px;
             width: 100%;
             height: 5%;
-            bottom: 0;
             position: center;
-        
-        }
-        /* Estilos para el grupo de radio buttons */
-        &.radio-container {
-            display: flex;
-            align-items: center;
-            gap: 10px; /* Espacio entre los radio buttons y las etiquetas */
-        }
-        
-        /* Estilos para los radio buttons */
-        & input[type="radio"] {
-            margin-right: 5px; /* Espacio entre los radio buttons */;
-        }
-
-        & #vivo {
-            margin-top: 8%;
-        }
-        & #fallecido {
-            margin-bottom: 30%;
         }
     }
 }
-
-
 
 .noDisplay {
     display: none;
@@ -124,7 +101,7 @@ body{
     top: 0;
     left: 0;
     padding: 2%;
-    color: #F5EDED;
+    color: var(--white-color);
     cursor: pointer;
     z-index: 1000;
     font-size: 20px; 
@@ -139,65 +116,53 @@ body{
     top: 0;
     left: 0;
     padding: 2%;
-    color: #F5EDED;
+    color: var(--white-color);
     cursor: pointer;
     z-index: 1000;
 }
 
-/* Menu responsive*/ 
-@media screen and (max-width: 768px){
-    .cajamenu {
-       position: absolute;
-       display:none;
-    }
-    .haflWidth {
-        width: 50%;
-        display: flex;
-    }
-}
 .fa-bars.noDisplay {
     display: none; /* Botón de hamburguesa inicialmente oculto */
   }
 
-
-
 /* Content */
 .content {
-    width: 100%;
-    height: 100vh; /* Rubi: Agregue este cambio*/
+    width: 80%;
+    height: 100vh; 
 }
 
 header{
-    height: auto; /* Rubi: Agregue este cambio*/
+    height: 10%; 
     background-color: var(--red-color);
     color: var(--white-color);
     text-align: center;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 18px;
 }
 
 main {
-    height: auto; /* Rubi: Agregue este cambio*/
+    height: 5%; 
     color: var(--grey-color);
     text-align: center;
     font-size: 14px;
 }
 
 .computeStats {
-    height: auto;
-    background-color: #3e36367c;
-    color: var(--white-color);
-    text-align: center;
-    align-items: center;
-    font-size: 24px;
-
-} 
-
-footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10%; /* Rubi: Agregue este cambio*/
+    height: 5%;
+    background-color: #37353588;
+    color: var(--white-color);
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+} 
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%; 
     background-color: var(--red-color);
     color: var(--white-color);
     text-align: center;
@@ -206,8 +171,8 @@ footer{
 /* Cards */
 #root {
     width: 100%;
-    overflow: auto; /* Rubi: Cambie el scrooll (Probando) */
-    height: 73%;
+    overflow: auto; 
+    height: 70%;
 }
 
 /* HTML Dinámico */
@@ -229,7 +194,7 @@ ul {
     color: var(--white-color);
     background-color: var(--black-color);
     box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.2);
-    border-radius: 5%;
+    border-radius: 5px;
 }
 
 [itemscope] img {
@@ -251,8 +216,17 @@ ul {
     color: var(--red-color);
 }
 
-
-
+/* Media Querys*/ 
+@media only screen and (max-width: 600px){
+    .cajamenu {
+        position: absolute;
+        display:none;
+     }
+     .haflWidth {
+         width: 100%;
+         display: flex;
+     }
+}
 
 
 

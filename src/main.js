@@ -59,7 +59,6 @@ clearButton.addEventListener('click', function () {
   updateAveragePodiums(arrayPilots);
 });
 
-// Menú hamburguesa
 const filters = document.querySelector('.cajamenu');
 const hamburguerButton = document.getElementById('hamburguer');
 const closeButton = document.getElementById('close');

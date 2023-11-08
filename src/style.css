@@ -4,11 +4,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Poppins, Arial, sans-serif;
 }
 
 body{
     background-color: var(--white-color);
+    font-family: Poppins, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 :root {
@@ -24,13 +24,13 @@ body{
 }
 
 /* Aside */
+
 .cajamenu {
     background: var(--grey-color);
     display: flex; 
     flex-direction: column; 
     align-items: center; 
     justify-content: center; 
-    width: 20%;
     height: 100vh; 
 
     & .menu {
@@ -44,6 +44,7 @@ body{
         & label {
             margin-bottom: 25px;
             margin-top: 15px;
+
         }
         & select {
             width: 100%;
@@ -51,7 +52,7 @@ body{
             background-color: var(--red-color);
             color: var(--white-color);
             border: none;
-            padding: 10px 20px;
+            padding: 10px 15px;
             border-radius: 10px;
             cursor: pointer;
         }
@@ -60,24 +61,27 @@ body{
             background-color: var(--grey-color);
             color: var(--white-color);
             border: none;
-            padding: 10px 5px;
-            border-radius: 15px;
+            padding: 15px 10px;
+            border-radius: 30px;
             cursor: pointer;
             align-items: center;
-            margin-top:30px;
+            margin-top:60px;
         }
         & button:hover {
-            box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
-            font-weight: bold;
+            font-weight: 800;
         }
-        & .logo {
-            margin-top: 100px;
+        & .imagen-footer {
+            margin-top: 90%;
             width: 100%;
             height: 5%;
+            bottom: 0;
             position: center;
+        
         }
     }
 }
+
+
 
 .noDisplay {
     display: none;
@@ -101,7 +105,7 @@ body{
     top: 0;
     left: 0;
     padding: 2%;
-    color: var(--white-color);
+    color: #F5EDED;
     cursor: pointer;
     z-index: 1000;
     font-size: 20px; 
@@ -116,62 +120,76 @@ body{
     top: 0;
     left: 0;
     padding: 2%;
-    color: var(--white-color);
+    color: #F5EDED;
     cursor: pointer;
     z-index: 1000;
 }
 
+/* Menu responsive*/ 
+@media screen and (max-width: 600px){
+    .cajamenu {
+       position: absolute;
+       display: none;
+    }
+    .haflWidth {
+        width: 90%;
+        display: flex;
+    }
+
+}
 .fa-bars.noDisplay {
     display: none; /* Botón de hamburguesa inicialmente oculto */
   }
 
+
 /* Content */
 .content {
-    width: 80%;
-    height: 100vh; 
+    width: 100%;
+    height: 100vh; /* Rubi: Agregue este cambio*/
 }
 
 header{
-    height: 10%; 
+    height: auto; /* Rubi: Agregue este cambio*/
     background-color: var(--red-color);
     color: var(--white-color);
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
+    padding: 20px;
 }
 
 main {
-    height: 5%; 
+    height: auto; /* Rubi: Agregue este cambio*/
     color: var(--grey-color);
     text-align: center;
     font-size: 14px;
+    padding: 1%;
 }
 
 .computeStats {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5%;
-    background-color: #37353588;
+    height: auto;
+    background-color: #3e36367c;
     color: var(--white-color);
     text-align: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 24px;
+
 } 
 
-.footer{
+footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10%; 
+    height: auto; /* Rubi: Agregue este cambio*/
     background-color: var(--red-color);
     color: var(--white-color);
     text-align: center;
+    padding: .95%;
 }
 
 /* Cards */
 #root {
     width: 100%;
-    overflow: auto; 
+    overflow: auto; /* Rubi: Cambie el scrooll (Probando) */
     height: 70%;
 }
 
@@ -194,7 +212,7 @@ ul {
     color: var(--white-color);
     background-color: var(--black-color);
     box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.2);
-    border-radius: 5px;
+    border-radius: 5%;
 }
 
 [itemscope] img {
@@ -216,17 +234,8 @@ ul {
     color: var(--red-color);
 }
 
-/* Media Querys*/ 
-@media only screen and (max-width: 600px){
-    .cajamenu {
-        position: absolute;
-        display:none;
-     }
-     .haflWidth {
-         width: 100%;
-         display: flex;
-     }
-}
+
+
 
 
 

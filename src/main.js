@@ -59,12 +59,12 @@ clearButton.addEventListener('click', function () {
   updateAveragePodiums(arrayPilots);
 });
 
-const filters = document.querySelector('.cajamenu');
+const filters = document.querySelector('.cajaMenu');
 const hamburguerButton = document.getElementById('hamburguer');
 const closeButton = document.getElementById('close');
 
 function handleResize() {
-  if (window.innerWidth > 600) {
+  if (window.innerWidth > 768) {
     filters.classList.remove('noWidth');
     filters.classList.add('haflWidth');
     hamburguerButton.classList.add('noDisplay');

@@ -2,8 +2,8 @@ export default [
     {
         "id": "ayrton-senna",
         "name": "Ayrton Senna",
-        "shortDescription": "Legendario piloto brasileño de Fórmula 1",
-        "description": "Legendario piloto brasileño de Fórmula 1, es ampliamente reconocido como uno de los más grandes de la historia de la Fórmula 1. Su destreza en la pista y carisma fuera de ella lo convirtieron en una verdadera leyenda del deporte.",
+        "shortDescription": "Ayrton Senna, el legendario piloto brasileño de Fórmula 1, un ícono del deporte con 3 campeonatos y 80 podios",
+        "description": "Ayrton Senna, el inolvidable piloto brasileño de Fórmula 1, nació en São Paulo en 1960 y dejó una huella imborrable en el automovilismo. Ampliamente considerado uno de los mejores pilotos de la historia, su destreza en la pista era legendaria. Con un carisma magnético, Senna no solo era un maestro detrás del volante, sino también un icono fuera de la pista. Durante su tiempo con el equipo McLaren, logró un asombroso récord de 80 podios y ganó tres campeonatos mundiales, asegurando su lugar en la historia de la Fórmula 1 como un verdadero campeón y una inspiración eterna para los amantes del automovilismo",
         "imageUrl": "./data/images/ayrton_senna.png",
         "facts": {
             "yearOfBirth": 1960,
@@ -19,8 +19,8 @@ export default [
     {
         "id": "juan-manuel-fangio",
         "name": "Juan Manuel Fangio",
-        "shortDescription": "Histórico piloto argentino de Fórmula 1",
-        "description": "Histórico piloto argentino de Fórmula 1, dominó la Fórmula 1 en la década de 1950 y ganó cinco campeonatos mundiales. Su destreza en la pista y su estilo elegante lo convirtieron en un ícono del automovilismo.",
+        "shortDescription": "Leyenda de Fórmula 1 con 5 campeonatos mundiales, el piloto argentino es un ícono del automovilismo.",
+        "description": "Nacido en Balcarce, Argentina, en 1911, este piloto legendario dejó una marca imborrable en la historia del automovilismo. Su destreza en la pista y su capacidad para superar desafíos lo llevaron a ganar cinco campeonatos mundiales, un logro impresionante que lo convierte en uno de los pilotos de Formula 1 más exitosos de todos los tiempos. Su habilidad para adaptarse a diferentes equipos y condiciones extremas lo destacó, y su legado perdura como un ícono del deporte a nivel global.",
         "imageUrl": "./data/images/juan_manuel_fangio.png",
         "facts": {
             "yearOfBirth": 1911,
@@ -36,8 +36,8 @@ export default [
     {
         "id": "jim-clark",
         "name": "Jim Clark",
-        "shortDescription": "Destacado piloto escocés de Fórmula 1",
-        "description": "Destacado piloto escocés de Fórmula 1, fue conocido por su elegante estilo de manejo y su capacidad para ganar en diferentes condiciones. Ganó dos campeonatos mundiales durante su carrera.",
+        "shortDescription": "Talentoso piloto escocés, dominó la Fórmula 1 en la década de 1960 con dos campeonatos mundiales.",
+        "description": "Piloto escocés, dejó una huella imborrable en la Fórmula 1 en la década de 1960. Con su destreza en la pista y su estilo suave, se convirtió en uno de los pilotos más exitosos de su tiempo, ganando dos campeonatos mundiales. Su habilidad para adaptarse a diferentes tipos de autos y circuitos lo destacó, y su trágica muerte en un accidente en Hockenheim en 1968 conmocionó al mundo del automovilismo, pero su legado perdura como uno de los más grandes pilotos de todos los tiempos.",
         "imageUrl": "./data/images/jim_clark.png",
         "facts": {
             "yearOfBirth": 1936,
@@ -53,8 +53,8 @@ export default [
     {
         "id": "alain-prost",
         "name": "Alain Prost",
-        "shortDescription": "Exitoso piloto francés de Fórmula 1",
-        "description": "Exitoso piloto francés de Fórmula 1, es conocido por su enfoque metódico y táctico en las carreras. Ganó cuatro campeonatos mundiales durante su carrera en la Fórmula 1.",
+        "shortDescription": "Piloto francés conocido como: El Profesor. Con 4 campeonatos mundiales, es una leyenda de la Fórmula 1.",
+        "description": "Apodado: El Profesor, este piloto legendario es ampliamente considerado uno de los mejores pilotos en la historia de la Fórmula 1. Con una astucia estratégica y un estilo de conducción calculado, ganó 4 campeonatos mundiales y es una verdadera leyenda del deporte. Su rivalidad con Ayrton Senna se ha convertido en un capítulo legendario en la historia del automovilismo. A lo largo de su carrera, demostró una habilidad excepcional para gestionar carreras y equipos, consolidando su estatus como una verdadera leyenda del deporte.",
         "imageUrl": "./data/images/alain_prost.png",
         "facts": {
             "yearOfBirth": 1955,
@@ -70,8 +70,8 @@ export default [
     {
         "id": "michael-schumacher",
         "name": "Michael Schumacher",
-        "shortDescription": "Legendario piloto alemán de Fórmula 1",
-        "description": "El legendario piloto alemán de Fórmula 1, es uno de los pilotos más exitosos de la historia de la Fórmula 1. Ganó siete campeonatos mundiales durante su carrera.",
+        "shortDescription": "Icónico piloto alemán con 7 campeonatos mundiales y un legado duradero en la Fórmula 1.",
+        "description": "el legendario piloto alemán de Fórmula 1, es conocido por sus 7 campeonatos mundiales y su destacado paso por Ferrari, marcando una era dorada en la escudería italiana. Su regreso a la Fórmula 1 con Mercedes, aunque menos exitoso, resaltó su pasión por las carreras. Trágicamente, en 2013, sufrió un grave accidente de esquí que cambió su vida. Desde entonces, su salud es motivo de privacidad y preocupación. A pesar de las adversidades, Schumacher sigue siendo un símbolo de valentía y determinación, dejando un legado duradero como uno de los más grandes en la historia de la Fórmula 1.",
         "imageUrl": "./data/images/michael_shumacher.png",
         "facts": {
             "yearOfBirth": 1969,
@@ -87,8 +87,8 @@ export default [
     {
         "id": "jackie-stewart",
         "name": "Jackie Stewart",
-        "shortDescription": "Conocido como el mejor piloto de la historia",
-        "description": "El carismático piloto escocés de Fórmula 1, fue un defensor de la seguridad en las carreras y ganó tres campeonatos mundiales. Su personalidad extrovertida lo hizo muy popular.",
+        "shortDescription": "Carismático piloto escocés con 3 campeonatos mundiales y defensor de la seguridad en la Fórmula 1.",
+        "description": "Este carismático piloto escocés dejó una huella imborrable en la Fórmula 1. Ganador de 3 campeonatos mundiales, no solo destacó en la pista sino que también abogó enérgicamente por la seguridad en el automovilismo. Su compromiso con la mejora de las condiciones de seguridad en la Fórmula 1 lo convirtió en un defensor de renombre. Su estilo de conducción suave y su enfoque profesional en el automovilismo lo hicieron querido por los fanáticos y respetado por sus colegas. Es una figura icónica en la historia del deporte.",
         "imageUrl": "./data/images/jackie_stewart.png",
         "facts": {
             "yearOfBirth": 1939,
@@ -104,8 +104,8 @@ export default [
     {
         "id": "fernando-alonso",
         "name": "Fernando Alonso",
-        "shortDescription": "El mejor piloto español de la historia",
-        "description": "Destacado piloto español de Fórmula 1, es conocido por su tenacidad y habilidades en la pista. Ganó dos campeonatos mundiales y sigue compitiendo en la Fórmula 1.",
+        "shortDescription": "Destacado piloto español con 2 campeonatos mundiales y un regreso emocionante a la Fórmula 1.",
+        "description": "Este destacado piloto español es reconocido por su impresionante carrera en la Fórmula 1. Ganador de dos campeonatos mundiales, es admirado por su habilidad en la pista y su enfoque incansable para alcanzar el éxito. Su versatilidad y capacidad para adaptarse a diferentes equipos y desafíos lo destacan como uno de los pilotos más respetados de su generación. Su regreso a la Fórmula 1 después de un retiro temporal emocionó a los fanáticos y demostró su pasión continua por las carreras.",
         "imageUrl": "./data/images/fernando_alonso.png",
         "facts": {
             "yearOfBirth": 1981,
@@ -121,8 +121,8 @@ export default [
     {
         "id": "max-verstappen",
         "name": "Max Verstappen",
-        "shortDescription": "El ganador más joven de la historia",
-        "description": "El joven talento neerlandés de Fórmula 1, ha impresionado a todos con su agresividad en la pista. Aunque no ha ganado campeonatos todavía, es considerado una futura estrella.",
+        "shortDescription": "Joven piloto neerlandés con conducción audaz y emocionante en la Fórmula 1.",
+        "description": "Conducido por una pasión inquebrantable y una audacia intrépida, este joven piloto neerlandés se ha convertido en uno de los contendientes más emocionantes de la Fórmula 1 en la actualidad. Su estilo de manejo audaz y arriesgado ha emocionado a los fanáticos y desafiado a los mejores. A pesar de su relativa juventud en el mundo de las carreras de autos, ha demostrado una capacidad excepcional para competir en el más alto nivel. Su determinación y carácter competitivo lo hacen destacar como un piloto con un futuro brillante en el automovilismo.",
         "imageUrl": "./data/images/max_verstappen.png",
         "facts": {
             "yearOfBirth": 1997,
@@ -138,8 +138,8 @@ export default [
     {
         "id": "lewis-hamilton",
         "name": "Lewis Hamilton",
-        "shortDescription": "Piloto con más victorias y más poles en la historia de la F1",
-        "description": "Exitoso piloto británico de Fórmula 1, ha establecido récords y ganado múltiples campeonatos mundiales. Su activismo y habilidades en la pista lo hacen una figura influyente.",
+        "shortDescription": "Piloto británico con múltiples campeonatos mundiales y un compromiso por la igualdad y el activismo.",
+        "description": "Este piloto británico es mucho más que un campeón de la Fórmula 1. Con una impresionante colección de campeonatos mundiales, ha dejado su marca como uno de los pilotos más exitosos de todos los tiempos. Pero su influencia trasciende las pistas, ya que se ha convertido en un defensor apasionado de la igualdad y un activista en temas sociales importantes. Su habilidad en la pista se combina con un compromiso por causas como el cambio climático y la diversidad en el automovilismo, lo que lo hace único en el mundo del deporte de motor.",
         "imageUrl": "./data/images/lewis_hamilton.png",
         "facts": {
             "yearOfBirth": 1985,
@@ -155,8 +155,8 @@ export default [
     {
         "id": "niki-lauda",
         "name": "Niki Lauda",
-        "shortDescription": "Niki es considerado el primer piloto moderno de la Fórmula 1",
-        "description": "El legendario piloto austriaco de Fórmula 1, superó un grave accidente para continuar compitiendo y ganar tres campeonatos mundiales. Su historia es una inspiración para muchos.",
+        "shortDescription": "Piloto austriaco con una increíble historia de superación y 3 campeonatos mundiales en la Fórmula 1.",
+        "description": "La vida y carrera de este piloto austriaco son una inspiración. Ganador de 3 campeonatos mundiales en la Fórmula 1, su historia es aún más asombrosa debido a su valentía y determinación para regresar a las carreras después de un grave accidente en Nürburgring en 1976. Su espíritu indomable y su dedicación al automovilismo lo convirtieron en una leyenda. Además, su franqueza y autenticidad en un mundo a menudo lleno de secretos lo hicieron querido por los fanáticos. Lauda dejó un legado duradero tanto en la pista como fuera de ella.",
         "imageUrl": "./data/images/niki_lauda.png",
         "facts": {
             "yearOfBirth": 1949,
@@ -172,8 +172,8 @@ export default [
     {
         "id": "sebastian-vettel",
         "name": "Sebastian Vettel",
-        "shortDescription": "Experimentado piloto alemán de Fórmula 1",
-        "description": "El experimentado piloto alemán de Fórmula 1, ganó cuatro campeonatos mundiales con Red Bull Racing. Su inteligencia y capacidad para el liderazgo en pista son destacados.",
+        "shortDescription": "Piloto alemán con 4 campeonatos mundiales y un estilo elegante en la Fórmula 1.",
+        "description": "Con un estilo de conducción elegante y controlado, este piloto alemán ha demostrado ser un competidor formidable en la Fórmula 1. Ganador de 4 campeonatos mundiales, Vettel es conocido por su inteligencia táctica y habilidad para liderar equipos. Su ascenso en Red Bull Racing lo convirtió en uno de los mejores pilotos de su generación. Además de sus logros en la pista, es admirado por su personalidad carismática y su compromiso con causas humanitarias y sociales, lo que lo hace respetado tanto dentro como fuera de las carreras.",
         "imageUrl": "./data/images/sebastian_vettel.png",
         "facts": {
             "yearOfBirth": 1987,
@@ -189,8 +189,8 @@ export default [
     {
         "id": "emerson-fittipaldi",
         "name": "Emerson Fittipaldi",
-        "shortDescription": "El astro brasileño fue un emblema durante la década de los 70",
-        "description": "El carismático piloto brasileño de Fórmula 1, ganó dos campeonatos mundiales. Su estilo relajado y su sonrisa lo hicieron querido en el paddock.",
+        "shortDescription": "Piloto brasileño con 2 campeonatos mundiales y un legado en la Fórmula 1 y las carreras de autos.",
+        "description": "Originario de Brasil, este piloto dejó una huella imborrable en la Fórmula 1 y las carreras de autos. Ganador de 2 campeonatos mundiales, su estilo agresivo y valiente en la pista lo destacó. Su legado en el automovilismo también incluye éxitos en otras categorías, como las 500 Millas de Indianápolis. Fittipaldi se convirtió en un referente de Brasil en las carreras de autos y sigue siendo una figura respetada en el mundo del automovilismo. Su pasión por las carreras y su enfoque en la competencia lo convierten en una verdadera leyenda del deporte.",
         "imageUrl": "./data/images/emerson_fittipaldi.png",
         "facts": {
             "yearOfBirth": 1946,
@@ -206,8 +206,8 @@ export default [
     {
         "id": "stirling-moss",
         "name": "Stirling Moss",
-        "shortDescription": "El gran campeón de los no campeones.",
-        "description": "Moss se retiró de la Fórmula 1 sin ningún Mundial, pero con cuatro subcampeonatos consecutivos y tres terceros puestos seguidos en la clasificación final.",
+        "shortDescription": "Piloto británico con una carrera brillante en las carreras de autos, conocido por su versatilidad y valentía.",
+        "description": "Icónico piloto británico, dejó una huella indeleble en las carreras de autos. Reconocido por su versatilidad y valentía en diversas categorías, su carrera brillante trascendió las fronteras de la Fórmula 1. A pesar de no haber ganado un campeonato mundial de Fórmula 1, Moss es considerado uno de los pilotos más talentosos de su generación. Su estilo audaz y su dedicación al automovilismo lo convirtieron en un referente. Su legado perdura como un icono del deporte de la Formula 1.",
         "imageUrl": "./data/images/stirling_moss.png",
         "facts": {
             "yearOfBirth": 1929,
@@ -223,8 +223,8 @@ export default [
     {
         "id": "nelson-piquet",
         "name": "Nelson Piquet",
-        "shortDescription": "Piquet es el tercer brasileño considerado uno de los mejores pilotos de la historia.",
-        "description": "El exitoso piloto brasileño de Fórmula 1, ganó tres campeonatos mundiales. Su estilo agresivo y su rivalidad con otros pilotos lo hicieron destacar en la pista.",
+        "shortDescription": "Piloto brasileño con 3 campeonatos mundiales, destacó por su astucia en las pistas.",
+        "description": "Talentoso piloto brasileño, es un nombre destacado en la historia de las carreras de autos. Ganador de 3 campeonatos mundiales, su astucia en las pistas y su capacidad para enfrentar desafíos lo hicieron sobresalir. Su rivalidad con otros pilotos icónicos añadió emoción al deporte y su paso por diferentes equipos lo consolidó como un referente. Además de su éxito en la Fórmula 1, Piquet también compitió en otras categorías y demostró su versatilidad. Su legado en las carreras perdura como un testimonio de su excepcional habilidad.",
         "imageUrl": "./data/images/nelson_piquet.png",
         "facts": {
             "yearOfBirth": 1952,
@@ -240,8 +240,8 @@ export default [
     {
         "id": "john-surtees",
         "name": "John Surtees",
-        "shortDescription": "El único ganador del Mundial de Motociclismo y de F1 al mismo tiempo.",
-        "description": "El versátil piloto británico es el único piloto en ganar campeonatos mundiales en ambas disciplinas. Su legado es único en la historia del deporte.",
+        "shortDescription": "Piloto británico con un raro logro de campeonatos mundiales en motociclismo y autos, es una leyenda del motor.",
+        "description": "Legendario piloto británico, es conocido por su raro logro de campeonatos mundiales tanto en el motociclismo como en las carreras de autos. Su versatilidad y habilidades excepcionales lo convirtieron en una verdadera leyenda del motor. En las pistas de Fórmula 1, demostró su destreza y valentía, ganando el campeonato mundial. Además, su exitosa carrera en el motociclismo lo distinguió como un atleta sobresaliente. Su pasión por las carreras y su influencia en ambos deportes lo hacen destacar como una figura única e influyente.",
         "imageUrl": "./data/images/john_surtees.png",
         "facts": {
             "yearOfBirth": 1934,
@@ -257,8 +257,8 @@ export default [
     {
         "id": "gilles-villeneuve",
         "name": "Gilles Villeneuve",
-        "shortDescription": "Es conocido por ser el gran campeón sin corona de la F1",
-        "description": "El carismático piloto canadiense de Fórmula 1, es recordado por su estilo de manejo agresivo y apasionado. Su legado sigue vivo en el corazón de los fanáticos de la Fórmula 1.",
+        "shortDescription": "Piloto canadiense apasionado y valiente, dejó una marca indeleble en las carreras de autos.",
+        "description": "Apasionado piloto canadiense, es recordado por su valentía en las pistas. Su estilo de manejo audaz y su dedicación al automovilismo lo convirtieron en un favorito de los fanáticos. Aunque no ganó un campeonato mundial de Fórmula 1, su legado perdura como un testimonio de su talento y pasión. Su muerte trágica en un accidente durante las prácticas para el Gran Premio de Bélgica en 1982 conmocionó al mundo del automovilismo, pero su espíritu intrépido sigue inspirando a generaciones de amantes de las carreras.",
         "imageUrl": "./data/images/gilles_villeneuve.png",
         "facts": {
             "yearOfBirth": 1950,
@@ -274,8 +274,8 @@ export default [
     {
         "id": "jack-brabham",
         "name": "Jack Brabham",
-        "shortDescription": "Brabham, marcó una era desde finales de los años 50 hasta su retirada en 1970.",
-        "description": "El legendario piloto australiano de Fórmula 1, ganó tres campeonatos mundiales y fue un pionero en el diseño de autos de Fórmula 1. Su legado perdura en el deporte.",
+        "shortDescription": "Piloto australiano con 3 campeonatos mundiales, influyó en las carreras de autos como piloto y constructor.",
+        "description": "Ganador de 3 campeonatos mundiales, su destreza en la pista lo convirtió en un verdadero campeón. Pero su legado va más allá, ya que también se destacó como constructor de autos de Fórmula 1, influyendo en el deporte de maneras significativas. Era conocido por su espíritu competitivo y su dedicación al automovilismo. Su contribución al deporte perdura, y su nombre es sinónimo de éxito y perseverancia en las carreras de autos. Brabham, con su enfoque innovador, cambió la forma en que se abordaba la ingeniería en la Fórmula 1 y estableció un legado duradero en el automovilismo. Su influencia como piloto y constructor sigue siendo relevante en la historia de las carreras.",
         "imageUrl": "./data/images/jack_brabham.png",
         "facts": {
             "yearOfBirth": 1926,
@@ -291,8 +291,8 @@ export default [
     {
         "id": "alberto-ascari",
         "name": "Alberto Ascari",
-        "shortDescription": "El primer piloto en llevar a Ferrari a la gloria.",
-        "description": "El histórico piloto italiano, fue el primer bicampeón de la Fórmula 1. Su estilo de manejo suave lo hizo destacar en la década de 1950.",
+        "shortDescription": "Piloto italiano con un estilo agresivo y 2 campeonatos mundiales, primero en llevar a Ferrari a la gloria.",
+        "description": "Recordado por su estilo de manejo agresivo y sus 2 campeonatos mundiales en la Fórmula 1. Su destreza en las pistas lo convirtió en un competidor formidable y su legado perdura por su habilidad en el automovilismo. Ascari demostró una capacidad impresionante para dominar los desafíos de la Fórmula 1 en una época en la que la competencia era intensa. Con su estilo arriesgado, destacó por su valentía en las pistas, enfrentando curvas cerradas y condiciones adversas con determinación. Su prematuro fallecimiento en un accidente durante una prueba privada en Monza en 1955 conmovió al mundo del automovilismo.",
         "imageUrl": "./data/images/alberto_ascari.png",
         "facts": {
             "yearOfBirth": 1918,
@@ -308,8 +308,8 @@ export default [
     {
         "id": "mario-andretti",
         "name": "Mario Andretti",
-        "shortDescription": "Piloto estadounidense más influyente de la historia",
-        "description": "El versátil piloto ítalo-estadounidense de Fórmula 1, ganó un campeonato mundial en 1978. Su exitosa carrera incluye logros en diversas disciplinas del automovilismo.",
+        "shortDescription": "Piloto estadounidense con un campeonato mundial en Fórmula 1 y una carrera versátil en el automovilismo.",
+        "description": "El versátil piloto ítalo-estadounidense de Fórmula 1, Ganador de un campeonato mundial en la Fórmula 1, su legado trasciende las pistas. Su dedicación al automovilismo lo destacan como uno de los mejores pilotos de su generación.  Compitió en eventos de resistencia, IndyCar y más. Su pasión por las carreras sigue siendo una fuente de inspiración para los amantes del automovilismo. Fuera de las pistas, Mario Andretti también se convirtió en un embajador del automovilismo, llevando su carisma y experiencia a una audiencia global, lo que lo convierte en un ícono del deporte de motor en todo el mundo.",
         "imageUrl": "./data/images/mario_andretti.png",
         "facts": {
             "yearOfBirth": 1940,
@@ -325,8 +325,8 @@ export default [
     {
         "id": "jacky-ickx",
         "name": "Jacky Ickx",
-        "shortDescription": "Piloto todoterreno, versátil y resistencia",
-        "description": "El versátil piloto belga de Fórmula 1 y resistencia, es conocido por su habilidad en múltiples disciplinas del automovilismo. Ganó ocho Grandes Premios de Fórmula 1.",
+        "shortDescription": "Piloto belga destacado en resistencia y Fórmula 1, con logros notables en las 24 Horas de Le Mans.",
+        "description": "Destacó en la Fórmula 1 y eventos de resistencia a partir de principios de la década de 1960. Sus victorias más notables se produjeron en las 24 Horas de Le Mans, donde obtuvo múltiples triunfos y estableció récords. A lo largo de su carrera, compitió en diferentes escuderías, mostrando su versatilidad y adaptabilidad. Su meticuloso enfoque táctico y valentía bajo condiciones extremas, como el Gran Premio de Francia de 1969, lo convirtieron en un piloto respetado. Ickx es un ícono del automovilismo belga y una inspiración para pilotos posteriores, dejando un legado duradero en el deporte de motor.",
         "imageUrl": "./data/images/jacky_ickx.png",
         "facts": {
             "yearOfBirth": 1945,
@@ -342,8 +342,8 @@ export default [
     {
         "id": "graham-hill",
         "name": "Graham Hill",
-        "shortDescription": "Carismático piloto británico de Fórmula 1",
-        "description": "El carismático piloto británico de Fórmula 1, ganó dos campeonatos mundiales y es el único piloto en ganar la Triple Corona del automovilismo. Su legado es duradero.",
+        "shortDescription": "Piloto británico con 2 campeonatos mundiales en Fórmula 1 y una personalidad carismática en las pistas.",
+        "description": "Carismático piloto británico, dejó una huella indeleble en el mundo de las carreras. Comenzó su carrera a principios de la década de 1950 y se destacó en la Fórmula 1 con dos campeonatos mundiales, demostrando su destreza en la pista. Además de su éxito en la Fórmula 1, Hill compitió en resistencia y en otros eventos, mostrando su versatilidad en diferentes disciplinas del automovilismo. Su estilo de conducción suave y su habilidad para enfrentar desafíos lo destacaron. Hill también se distinguió por su personalidad carismática, que lo convirtió en un favorito de los fanáticos. ",
         "imageUrl": "./data/images/graham_hill.png",
         "facts": {
             "yearOfBirth": 1929,
@@ -360,8 +360,8 @@ export default [
     {
         "id": "nigel-mansell",
         "name": "Nigel Mansell",
-        "shortDescription": "Carismático piloto británico de Fórmula 1",
-        "description": "El carismático piloto británico de Fórmula 1, ganó un campeonato mundial y es conocido por su estilo agresivo y su bigote distintivo. Su legado es admirado por los fanáticos.",
+        "shortDescription": "Piloto británico de Fórmula 1 con un campeonato mundial y un espíritu competitivo feroz en las pistas de carreras.",
+        "description": "apasionado piloto británico de Fórmula 1, logró un campeonato mundial y compitió para escuderías notables como Williams, Ferrari y Lotus. Su estilo de conducción agresivo y valentía en las pistas lo convirtieron en un luchador incansable. Uno de los momentos icónicos de su carrera fue su victoria en el Gran Premio de Gran Bretaña de 1987 en Silverstone, donde logró una memorable victoria en casa. Mansell era admirado por su carisma y determinación en las carreras. Su legado perdura como un testimonio de su excepcional talento y su contribución al automovilismo británico.",
         "imageUrl": "./data/images/nigel_mansell.png",
         "facts": {
             "yearOfBirth": 1953,
@@ -377,8 +377,8 @@ export default [
     {
         "id": "bruce-mclaren",
         "name": "Bruce McLaren",
-        "shortDescription": "Fundador y piloto neozelandés de McLaren",
-        "description": "Fundador y piloto neozelandés de McLaren, dejó un legado duradero en la Fórmula 1. Su equipo, McLaren, se convirtió en uno de los más exitosos de la historia del deporte.",
+        "shortDescription": "Talentoso piloto y fundador del equipo de Fórmula 1 McLaren, dejó una huella perdurable en el automovilismo.",
+        "description": "Piloto y fundador del equipo de Fórmula 1 McLaren, dejó una huella imborrable en el automovilismo. Comenzando en la década de 1950 con Cooper, su ambición lo impulsó a establecer McLaren, una de las escuderías más exitosas en la historia de la Fórmula 1. Demostrando versatilidad en varias categorías, su pasión por la Fórmula 1 resaltó su legado. Trágicamente, su vida se vio truncada en un accidente en Goodwood en 1970, pero su innovación y excelencia perduran en el equipo McLaren, un testimonio de su visión y determinación en el automovilismo.",
         "imageUrl": "./data/images/bruce_mclaren.png",
         "facts": {
             "yearOfBirth": 1937,
@@ -394,8 +394,8 @@ export default [
     {
         "id": "mika-hakkinen",
         "name": "Mika Häkkinen",
-        "shortDescription": "Exitoso piloto finlandés de Fórmula 1",
-        "description": "Exitoso piloto finlandés de Fórmula 1, ganó dos campeonatos mundiales con McLaren. Su estilo sereno y su rivalidad con Michael Schumacher lo hicieron destacar en la década de 1990.",
+        "shortDescription": "Piloto finlandés de Fórmula 1, es conocido por sus 2 campeonatos mundiales y su destreza en las pistas.",
+        "description": "Eforjó su camino con determinación y talento. Debutó en 1991 con Lotus y enfrentó desafíos iniciales. Sin embargo, su apogeo llegó en McLaren, ganando dos campeonatos mundiales en 1998 y 1999. Su enfoque meticuloso y manejo en situaciones de alta presión lo convirtieron en un competidor formidable. Trágicamente, en 2001, sorprendió al mundo anunciando su retiro. Aunque regresó brevemente en 2002, nunca volvió a competir a tiempo completo. Su retiro marcó el final de una era en la Fórmula 1, dejando un legado de respeto y carisma en el deporte de motor.",
         "imageUrl": "./data/images/mika_hakkinen.png",
         "facts": {
             "yearOfBirth": 1968,
@@ -411,8 +411,8 @@ export default [
     {
         "id": "charles-leclerc",
         "name": "Charles Leclerc",
-        "shortDescription": "Joven piloto monegasco de Fórmula 1",
-        "description": "Joven piloto monegasco de Fórmula 1, es considerado una promesa en el deporte. Su impresionante desempeño y agresividad en la pista lo han destacado en Ferrari.",
+        "shortDescription": "joven piloto monegasco de Fórmula 1, es una de las promesas más brillantes del deporte, compitiendo para Ferrari",
+        "description": "Debutó en 2018 con Sauber y en 2019 se unió a Ferrari, donde ha deslumbrado con su estilo de conducción agresivo y valentía en situaciones complicadas. Su capacidad para competir en la lucha por el campeonato lo convierte en uno de los pilotos más emocionantes de la parrilla. A pesar de su juventud, Leclerc ya ha dejado una marca significativa en la Fórmula 1 y promete un futuro brillante en el deporte de motor, siendo una fuente de emoción para los fanáticos de todo el mundo.",
         "imageUrl": "./data/images/charles_leclerc.png",
         "facts": {
             "yearOfBirth": 1997,
@@ -428,8 +428,8 @@ export default [
     {
         "id": "jenson-button",
         "name": "Jenson Button",
-        "shortDescription": "Exitoso piloto británico de Fórmula 1",
-        "description": "Exitoso piloto británico de Fórmula 1, ganó un campeonato mundial en 2009 con Brawn GP. Su longevidad en la Fórmula 1 y carisma lo hicieron querido por los fanáticos.",
+        "shortDescription": "Piloto británico de Fórmula 1, es conocido por su carisma y su campeonato mundial en 2009.",
+        "description": "ha dejado una huella perdurable en el deporte de motor. Su carrera comenzó en 2000, pero fue en 2009 cuando alcanzó la cima al ganar el campeonato mundial con Brawn GP. Su enfoque metódico y su habilidad para adaptarse a diferentes circunstancias lo convirtieron en un competidor consistente. Button compitió para equipos notables como McLaren y BAR Honda, ganando múltiples Grandes Premios a lo largo de su carrera. Su carisma y profesionalismo lo hicieron un favorito de los fanáticos y un embajador del deporte. Aunque se retiró de la Fórmula 1 en 2016.",
         "imageUrl": "./data/images/jenson_button.png",
         "facts": {
             "yearOfBirth": 1980,
@@ -445,8 +445,8 @@ export default [
     {
         "id": "nico-rosberg",
         "name": "Nico Rosberg",
-        "shortDescription": "Exitoso piloto alemán de Fórmula 1",
-        "description": "Exitoso piloto alemán de Fórmula 1, ganó un campeonato mundial en 2016 con Mercedes. Su rivalidad con Lewis Hamilton es una de las más recordadas en la historia reciente de la Fórmula 1.",
+        "shortDescription": "Ex piloto alemán de Fórmula 1, conocido por ganar el campeonato mundial en 2016 y su rivalidad con Lewis Hamilton.",
+        "description": "Hijo del campeón mundial Keke Rosberg, siguió los pasos de su padre en la Fórmula 1. En 2016, alcanzó la cima al ganar el campeonato mundial, superando a su feroz rival Lewis Hamilton. Su estilo de conducción calculador y dedicación al deporte lo llevaron al éxito. Sorprendió al mundo al anunciar su retiro inmediato después de lograr su sueño de campeón, dejando un legado de determinación y excelencia. Su contribución al automovilismo es admirada, y su rivalidad con Hamilton es parte fundamental de la historia de la Fórmula 1.",
         "imageUrl": "./data/images/nico_rosberg.png",
         "facts": {
             "yearOfBirth": 1985,
@@ -462,8 +462,8 @@ export default [
     {
         "id": "kimi-raikkonen",
         "name": "Kimi Räikkönen",
-        "shortDescription": "Carismático piloto finlandés de Fórmula 1",
-        "description": "El carismático piloto finlandés de Fórmula 1, ganó un campeonato mundial en 2007 con Ferrari. Conocido como 'Iceman', su actitud relajada lo hizo querido por los fanáticos.",
+        "shortDescription": "Piloto finlandés de Fórmula 1, es conocido por su apodo Iceman y su campeonato mundial en 2007.",
+        "description": "una figura icónica en el deporte. Su apodo Iceman, refleja su enfoque sereno en las pistas. Debutó en la Fórmula 1 en 2001 con Sauber y rápidamente se ganó una reputación como un piloto veloz y sin rodeos. En 2007, ganó el campeonato mundial con Ferrari, dejando una marca perdurable. Su estilo de conducción agresivo y su personalidad tranquila lo convierten en un personaje único en la Fórmula 1. A lo largo de su carrera, ha competido para varios equipos, incluyendo Lotus y Alfa Romeo. Su legado como piloto de carreras sigue siendo admirado por fanáticos de todo el mundo.",
         "imageUrl": "./data/images/kimi_raikkonen.png",
         "facts": {
             "yearOfBirth": 1979,
@@ -479,8 +479,8 @@ export default [
     {
         "id": "stefan-bellof",
         "name": "Stefan Bellof",
-        "shortDescription": "Talento alemán de Fórmula 1 y resistencia",
-        "description": "El talento alemán de Fórmula 1 y resistencia, es recordado por su valentía en la pista y su récord de vuelta más rápida en Nürburgring. Su carrera fue truncada trágicamente en un accidente.",
+        "shortDescription": "Piloto alemán, es recordado por su destreza en la Fórmula 1 y su trágica muerte en un accidente.",
+        "description": "Dejó una marca imborrable en el mundo del automovilismo. Su carrera comenzó en la Fórmula 1 en la década de 1980, donde demostró su destreza en las pistas. Uno de sus momentos más memorables fue su récord de vuelta en el Nürburgring Nordschleife, que aún perdura. Competía para equipos como Tyrrell y Porsche, ganando el Campeonato Mundial de Resistencia. Trágicamente, su vida se vio truncada en un accidente en Spa-Francorchamps en 1985. A pesar de su corta vida, Bellof es recordado como uno de los pilotos más talentosos y valientes en la historia del automovilismo.",
         "imageUrl": "./data/images/stefan_bellof.png",
         "facts": {
             "yearOfBirth": 1957,
@@ -496,8 +496,8 @@ export default [
     {
         "id": "jean-alesi",
         "name": "Jean Alesi",
-        "shortDescription": "Carismático piloto francés de Fórmula 1",
-        "description": "El carismático piloto francés de Fórmula 1, es recordado por su pasión y amor por la Fórmula 1. Aunque nunca ganó un campeonato, su legado perdura en el deporte.",
+        "shortDescription": "Es admirado por su estilo agresivo y su pasión por las carreras.",
+        "description": "Es un nombre venerado en el automovilismo. Su carrera en la Fórmula 1 comenzó en 1989 con Tyrrell y lo llevó a competir para equipos icónicos como Ferrari y Benetton. Alesi era conocido por su estilo de conducción agresivo y su pasión innegable por las carreras. Aunque no ganó un campeonato mundial, dejó una huella duradera en el deporte con su tenacidad y dedicación. Su popularidad entre los fanáticos perdura, y su legado como uno de los pilotos más queridos en la Fórmula 1 es innegable.",
         "imageUrl": "./data/images/jean_alesi.png",
         "facts": {
             "yearOfBirth": 1964,
@@ -513,8 +513,8 @@ export default [
     {
       "id": "lance-stroll",
       "name": "Lance Stroll",
-      "shortDescription": "Joven piloto canadiense de Fórmula 1",
-      "description": "Joven piloto canadiense que compite en el equipo Aston Martin Racing. Ha demostrado su talento en la Fórmula 1.",
+      "shortDescription": "El joven piloto de Fórmula 1 es conocido por su participación en el equipo Aston Martin.",
+      "description": "Ha demostrado su valía en las pistas con su entrada en el equipo de Fórmula 1. Hijo de Lawrence Stroll, propietario del equipo Racing Point (ahora Aston Martin), Lance ingresó a la Fórmula 1 en 2017 con Williams y luego se unió al equipo de su familia. Su juventud y determinación lo han llevado a competir en un deporte altamente competitivo.Sigue evolucionando como piloto y su futuro en el deporte promete un potencial emocionante. Su participación en el equipo Aston Martin marca una nueva etapa en su carrera.",
       "imageUrl": "./data/images/lance_stroll.png",
       "facts": {
         "yearOfBirth": 1998,
@@ -530,8 +530,8 @@ export default [
       {
         "id": "valtteri-bottas",
         "name": "Valtteri Bottas",
-        "shortDescription": "Piloto finlandés de Fórmula 1",
-        "description": "Es un destacado piloto finlandés que ha competido en el equipo Mercedes. Aunque no ha ganado campeonatos, ha sido un fuerte contendiente en la Fórmula 1.",
+        "shortDescription": "Piloto que se ha destacado por su velocidad y determinación, compitiendo para Mercedes y siendo un contendiente en el campeonato.",
+        "description": "Piloto que ha dejado una marca significativa en el deporte. Desde su debut en 2013 con Williams, su velocidad y consistencia lo han convertido en un contendiente en el campeonato. En 2017, se unió al equipo Mercedes, donde ha luchado por victorias y contribuido al éxito del equipo. Es conocido por su mentalidad enfocada en los resultados y su habilidad para adaptarse a diferentes situaciones en las pistas. A pesar de competir contra algunos de los mejores pilotos, ha demostrado su valía como piloto de Mercedes. ",
         "imageUrl": "./data/images/valtteri_bottas.png",
         "facts": {
           "yearOfBirth": 1989,
@@ -547,8 +547,8 @@ export default [
       {
         "id": "guanyu-zhou",
         "name": "Guanyu Zhou",
-        "shortDescription": "Joven piloto chino de Fórmula 1",
-        "description": "Joven piloto chino que ha debutado en la Fórmula 1 con el equipo Alfa Romeo. Representa una promesa para el automovilismo chino.",
+        "shortDescription": "Piloto chino ha impactado en la Fórmula 1 con su participación en el equipo Alfa Romeo",
+        "description": "Talentoso piloto de Fórmula 1, ha dejado una impresión en el deporte con su participación en el equipo Alfa Romeo. Su carrera en la Fórmula 1 comenzó en 2022, convirtiéndose en el primer piloto chino en competir en la máxima categoría. Zhou ha demostrado su destreza en las pistas y su dedicación al automovilismo. Su paso por la Fórmula 2 lo preparó para la Fórmula 1, y su futuro en el deporte promete ser emocionante. Como un embajador del automovilismo chino, Zhou ha atraído la atención de fanáticos de todo el mundo.",
         "imageUrl": "./data/images/zhou_guanyu.png",
         "facts": {
           "yearOfBirth": 1999,
@@ -565,8 +565,8 @@ export default [
       {
         "id": "esteban-ocon",
         "name": "Esteban Ocon",
-        "shortDescription": "Joven piloto francés de Fórmula 1",
-        "description": "Piloto francés que compite en el equipo Alpine. Ha demostrado su talento en la Fórmula 1 desde temprana edad.",
+        "shortDescription": "Joven piloto francés, es un competidor destacado en el equipo Alpine.",
+        "description": "Talentoso piloto de Fórmula 1, ha demostrado su valía en las pistas compitiendo para el equipo Alpine. Desde su debut en la Fórmula 1 en 2016, Ocon ha forjado una carrera sólida, mostrando su habilidad y determinación en cada carrera. Su estilo de conducción enfocado en resultados y su capacidad para enfrentar desafíos lo han convertido en un competidor respetado. Con el respaldo de Alpine, Ocon tiene un futuro prometedor en el deporte y continúa siendo una figura destacada en la parrilla de la Fórmula 1. Su contribución al automovilismo ya es notable y su legado sigue creciendo.",
         "imageUrl": "./data/images/esteban_ocon.png",
         "facts": {
           "yearOfBirth": 1996,
@@ -582,7 +582,7 @@ export default [
       {
         "id": "pierre-gasly",
         "name": "Pierre Gasly",
-        "shortDescription": "Piloto francés de Fórmula 1",
+        "shortDescription": "Talentoso piloto de Fórmula 1, ha dejado su huella en el deporte con su participación en el equipo AlphaTauri. Desde su debut en la Fórmula 1 en 2017 con Scuderia Toro Rosso (ahora AlphaTauri), Su carrera incluye un emocionante triunfo en el Gran Premio de Italia en 2020, que lo convirtió en el primer piloto francés en ganar una carrera en más de dos décadas. Gasly es conocido por su tenacidad y su determinación para alcanzar el éxito. Su futuro en la Fórmula 1 es motivo de interés y su legado en el deporte del motor ya es notable.",
         "description": "Es un piloto francés que ha competido en equipos como Red Bull Racing y AlphaTauri. Ha logrado victorias y podios en su carrera.",
         "imageUrl": "./data/images/pierre_Gasly.png",
         "facts": {
@@ -599,8 +599,8 @@ export default [
       {
         "id": "carlos-sainz",
         "name": "Carlos Sainz",
-        "shortDescription": "Piloto español de Fórmula 1",
-        "description": "Experimentado piloto español que ha competido en equipos como McLaren y Ferrari. Es hijo del famoso piloto de rally Carlos Sainz.",
+        "shortDescription": "Experimentado piloto de Fórmula 1 ha competido en varios equipos, incluyendo Ferrari, y es conocido por su destreza en pista.",
+        "description": "Ha forjado una carrera impresionante compitiendo en varios equipos, incluyendo Ferrari. Su debut en la Fórmula 1 se produjo en 2015 con Scuderia Toro Rosso, y desde entonces ha demostrado su destreza en las pistas con su enfoque metódico y su capacidad para adaptarse a diferentes circunstancias. Conocido como: El Matador, ha enfrentado con valentía los desafíos de la Fórmula 1 y ha logrado múltiples podios y victorias. Su experiencia y habilidades lo han convertido en un competidor respetado en la parrilla. Su participación en Ferrari lo coloca en un equipo de élite.",
         "imageUrl": "./data/images/carlos_sainz.png",
         "facts": {
           "yearOfBirth": 1994,
@@ -616,8 +616,8 @@ export default [
       {
         "id": "kevin-magnussen",
         "name": "Kevin Magnussen",
-        "shortDescription": "Piloto danés de Fórmula 1",
-        "description": "Es un piloto danés que ha competido en la Fórmula 1 en equipos como Haas F1 Team. Ha demostrado su destreza en la pista.",
+        "shortDescription": "Piloto danés de Fórmula 1 es conocido por su versatilidad y experiencia en varios equipos.",
+        "description": "Es una figura versátil y experimentada en el deporte. Desde su debut en la Fórmula 1 en 2014 con McLaren, ha competido en varios equipos, incluyendo Renault y Haas. Su carrera ha estado marcada por su estilo de conducción agresivo y su capacidad para enfrentar desafíos en las pistas. Ha logrado podios y ha demostrado su valía como piloto en un deporte altamente competitivo. Su experiencia y habilidades lo convierten en un competidor respetado en la parrilla de la Fórmula 1. Su legado en el automovilismo sigue creciendo a medida que continúa enfrentando nuevas oportunidades y desafíos en el deporte.",
         "imageUrl": "./data/images/kevin_magnussen.png",
         "facts": {
           "yearOfBirth": 1992,
@@ -633,8 +633,8 @@ export default [
       {
         "id": "nico-hulkenberg",
         "name": "Nico Hulkenberg",
-        "shortDescription": "Piloto alemán de Fórmula 1",
-        "description": "Piloto alemán con experiencia en la Fórmula 1. Ha competido en varios equipos y ha sido conocido por sus habilidades bajo la lluvia.",
+        "shortDescription": "Piloto alemán ha demostrado su destreza en la Fórmula 1 con su participación en varios equipos.",
+        "description": "Ha dejado una marca indeleble en el deporte con su participación en varios equipos, incluyendo Force India, Renault y Racing Point. Desde su debut en 2010, ha demostrado su destreza en las pistas con su enfoque metódico y su habilidad para competir en un deporte altamente competitivo. Aunque no ha logrado un podio, su consistencia y habilidades lo han convertido en un piloto respetado en la parrilla. Su contribución al automovilismo es notable, y su futuro en la Fórmula 1 continúa siendo motivo de interés para los fanáticos de todo el mundo.",
         "imageUrl": "./data/images/nico_hulkenberg.png",
         "facts": {
           "yearOfBirth": 1987,
@@ -650,8 +650,8 @@ export default [
       {
         "id": "lando-norris",
         "name": "Lando Norris",
-        "shortDescription": "Joven piloto británico de Fórmula 1",
-        "description": "Talentoso piloto británico que compite en el equipo McLaren F1. Ha demostrado su destreza en la Fórmula 1 desde su debut.",
+        "shortDescription": "Joven piloto británico ha dejado una huella en la Fórmula 1 con su estilo audaz y su participación en McLaren.",
+        "description": "Piloto británico de Fórmula 1, es un nombre que ha emergido con audacia en el deporte. Desde su debut en 2019 con McLaren, Norris ha demostrado un talento especial en las pistas. Su estilo de conducción agresivo y su capacidad para enfrentar a pilotos más experimentados lo han convertido en un competidor emocionante. Aunque aún no ha logrado un campeonato, su juventud y determinación prometen un futuro brillante en la Fórmula 1. Su carisma y habilidades han ganado el corazón de los fanáticos, y su legado en el automovilismo está en constante crecimiento.",
         "imageUrl": "./data/images/lando_norris.png",
         "facts": {
           "yearOfBirth": 1999,
@@ -667,8 +667,8 @@ export default [
       {
         "id": "oscar-piastri",
         "name": "Oscar Piastri",
-        "shortDescription": "Joven piloto australiano de Fórmula 1",
-        "description": "Joven piloto australiano que ha debutado en la Fórmula 1 con el equipo McLaren. Es considerado una promesa en el automovilismo australiano.",
+        "shortDescription": "Joven piloto australiano ha impresionado en la Fórmula 1 con su ascenso meteórico.",
+        "description": "Joven piloto australiano, que ha sorprendido a todos con su ascenso meteórico en el mundo de la Fórmula 1. Su debut en el equipo Alpine en 2022 marcó el comienzo de una prometedora carrera en la máxima categoría del automovilismo. Antes de llegar a la Fórmula 1, Piastri se destacó en las categorías de monoplazas, demostrando su destreza en las pistas y su determinación por alcanzar la cima. Su futuro en el deporte es motivo de emoción y su legado en la Fórmula 1 está en proceso de crecimiento.",
         "imageUrl": "./data/images/oscar_piastri.png",
         "facts": {
           "yearOfBirth": 2001,
@@ -684,8 +684,8 @@ export default [
       {
         "id": "george-russell",
         "name": "George Russell",
-        "shortDescription": "Joven piloto británico de Fórmula 1",
-        "description": "Talentoso piloto británico que compite en el equipo Mercedes. Ha demostrado su habilidad y promesa en la Fórmula 1.",
+        "shortDescription": "Piloto británico ha ganado reconocimiento en la Fórmula 1 con su participación en el equipo Williams.",
+        "description": "Talentoso piloto británico de Fórmula 1, ha ganado reconocimiento en el deporte con su participación en el equipo Williams. Desde su debut en 2019, Russell ha demostrado su habilidad en las pistas y su capacidad para competir en un deporte altamente competitivo. Aunque su equipo ha enfrentado desafíos, Russell ha brillado en numerosas ocasiones y ha llamado la atención de equipos de élite. Su futuro en la Fórmula 1 es motivo de interés y su legado en el automovilismo está en constante crecimiento.",
         "imageUrl": "./data/images/george_russell.png",
         "facts": {
           "yearOfBirth": 1998,
@@ -701,8 +701,8 @@ export default [
       {
         "id": "sergio-perez",
         "name": "Sergio Pérez",
-        "shortDescription": "Piloto mexicano de Fórmula 1",
-        "description": "Es un experimentado piloto mexicano que compite en el equipo Red Bull Racing. Ha logrado varias victorias y es un destacado piloto de la Fórmula 1.",
+        "shortDescription": "Piloto mexicano es un competidor destacado en la Fórmula 1, con un historial impresionante en varios equipos.",
+        "description": "Experimentado piloto mexicano de Fórmula 1, ha dejado una marca indeleble en el deporte con su participación en varios equipos, incluyendo Sauber, McLaren, Force India, Racing Point y Red Bull Racing. Desde su debut en 2011, ha demostrado su destreza en las pistas con su estilo de conducción agresivo y su capacidad para competir en un deporte altamente competitivo. Pérez es conocido por su habilidad para cuidar los neumáticos y su capacidad para lograr podios y victorias en carreras desafiantes. Su experiencia y habilidades lo han convertido en un piloto respetado en la parrilla de la Fórmula 1. ",
         "imageUrl": "./data/images/sergio_perez.png",
         "facts": {
           "yearOfBirth": 1990,
@@ -718,8 +718,8 @@ export default [
       {
         "id": "daniel-ricciardo",
         "name": "Daniel Ricciardo",
-        "shortDescription": "Piloto australiano de Fórmula 1",
-        "description": "Es un carismático piloto australiano que ha competido en equipos como Red Bull Racing y Scuderia AlphaTauri. Es conocido por su sonrisa y estilo único.",
+        "shortDescription": "Carismático piloto australiano ha dejado su huella en la Fórmula 1 con su participación en equipos notables.",
+        "description": "Carismático piloto australiano de Fórmula 1, ha dejado una huella duradera en el deporte con su participación en equipos notables, incluyendo Red Bull Racing y McLaren. Desde su debut en 2011 con HRT, Ricciardo ha demostrado su destreza en las pistas con su estilo de conducción agresivo y su capacidad para competir en un deporte altamente competitivo. Su carisma y sonrisa inconfundible lo han convertido en un favorito de los fanáticos, y su historial incluye emocionantes victorias y podios. Su futuro en la Fórmula 1 es motivo de expectación y su legado en el automovilismo sigue creciendo.",
         "imageUrl": "./data/images/daniel_ricciardo.png",
         "facts": {
           "yearOfBirth": 1989,
@@ -735,8 +735,8 @@ export default [
       {
         "id": "yuki-tsunoda",
         "name": "Yuki Tsunoda",
-        "shortDescription": "Joven piloto japonés de Fórmula 1",
-        "description": "Joven piloto japonés que compite en el equipo Scuderia AlphaTauri. Ha sido parte del programa de jóvenes pilotos de Red Bull Racing.",
+        "shortDescription": "Piloto japonés que ha impresionado en la Fórmula 1 con su ascenso rápido y su participación en AlphaTauri.",
+        "description": "Joven piloto japonés de Fórmula 1, ha impresionado a todos con su ascenso rápido en el deporte. Su debut en AlphaTauri en 2021 marcó el inicio de una emocionante carrera en la máxima categoría del automovilismo. Antes de su llegada a la Fórmula 1, Tsunoda dejó su marca en las categorías de monoplazas, demostrando su destreza en las pistas y su determinación por alcanzar el éxito. Su futuro en el deporte es motivo de entusiasmo, y su legado en la Fórmula 1 sigue creciendo.",
         "imageUrl": "./data/images/yuki_tsunoda.png",
         "facts": {
           "yearOfBirth": 2000,
@@ -753,8 +753,8 @@ export default [
       {
         "id": "logan-sargeant",
         "name": "Logan Sargeant",
-        "shortDescription": "Piloto estadounidense de Fórmula 1",
-        "description": "Piloto estadounidense que compite en el equipo Williams. Es una promesa en el automovilismo estadounidense.",
+        "shortDescription": "joven piloto estadounidense de automovilismo con un futuro prometedor en la Fórmula 1.",
+        "description": "Talentoso piloto de automovilismo nacido en St. Petersburg, Florida, que ha llamado la atención con su ascendente carrera en el deporte. Sus inicios en el karting sentaron las bases de su éxito, y desde entonces ha demostrado su destreza en las categorías de monoplazas. Compitiendo en campeonatos como la Fórmula 3, Fórmula 2 y Formula 1, Sargeant ha acumulado experiencia y habilidades al volante. Su futuro promete seguir siendo brillante en el automovilismo, y muchos esperan verlo en la Fórmula 1 en un futuro cercano.",
         "imageUrl": "./data/images/logan_sargeant.png",
         "facts": {
           "yearOfBirth": 2000,
@@ -771,8 +771,8 @@ export default [
       {
         "id": "alexander-albon",
         "name": "Alexander Albon",
-        "shortDescription": "Piloto tailandés de Fórmula 1",
-        "description": "Piloto tailandés que ha competido en equipos como Red Bull Racing y Williams. Ha demostrado su destreza en la Fórmula 1.",
+        "shortDescription": "Piloto tailandés con experiencia en la Fórmula 1 y un futuro prometedor en el automovilismo.",
+        "description": "Destacado piloto tailandés con experiencia en la Fórmula 1 y un futuro prometedor en el automovilismo. Nacido el 23 de marzo de 1996 en Londres, Reino Unido, Albon ha demostrado su destreza en las pistas a lo largo de su carrera. Comenzó en el karting y luego progresó a las categorías de monoplazas, incluyendo la Fórmula 2. Su debut en la Fórmula 1 se produjo en 2019 con el equipo Scuderia Toro Rosso (hoy AlphaTauri), y más tarde se unió a Red Bull Racing en la misma temporada.",
         "imageUrl": "./data/images/alex_albon.png",
         "facts": {
           "yearOfBirth": 1996,

@@ -3,7 +3,7 @@ export default [
         "id": "ayrton-senna",
         "name": "Ayrton Senna",
         "shortDescription": "Ayrton Senna, el legendario piloto brasileño de Fórmula 1, un ícono del deporte con 3 campeonatos y 80 podios",
-        "description": "Ayrton Senna, el inolvidable piloto brasileño de Fórmula 1, nació en São Paulo en 1960 y dejó una huella imborrable en el automovilismo. Ampliamente considerado uno de los mejores pilotos de la historia, su destreza en la pista era legendaria. Con un carisma magnético, Senna no solo era un maestro detrás del volante, sino también un icono fuera de la pista. Durante su tiempo con el equipo McLaren, logró un asombroso récord de 80 podios y ganó tres campeonatos mundiales, asegurando su lugar en la historia de la Fórmula 1 como un verdadero campeón y una inspiración eterna para los amantes del automovilismo",
+        "description": "Ayrton Senna, el inolvidable piloto brasileño de Fórmula 1, nació en São Paulo en 1960 y dejó una huella imborrable en el automovilismo. Ampliamente considerado uno de los mejores pilotos de la historia, su destreza en la pista era legendaria. Con un carisma magnético, Senna no solo era un maestro detrás del volante, sino también un icono fuera de la pista. Durante su tiempo con el equipo McLaren, logró un asombroso récord de 80 podios y ganó tres campeonatos mundiales, asegurando su lugar en la historia de la Fórmula 1 como un verdadero campeón y una inspiración eterna para los amantes del automovilismo.",
         "imageUrl": "./data/images/ayrton_senna.png",
         "facts": {
             "yearOfBirth": 1960,
@@ -71,7 +71,7 @@ export default [
         "id": "michael-schumacher",
         "name": "Michael Schumacher",
         "shortDescription": "Icónico piloto alemán con 7 campeonatos mundiales y un legado duradero en la Fórmula 1.",
-        "description": "el legendario piloto alemán de Fórmula 1, es conocido por sus 7 campeonatos mundiales y su destacado paso por Ferrari, marcando una era dorada en la escudería italiana. Su regreso a la Fórmula 1 con Mercedes, aunque menos exitoso, resaltó su pasión por las carreras. Trágicamente, en 2013, sufrió un grave accidente de esquí que cambió su vida. Desde entonces, su salud es motivo de privacidad y preocupación. A pesar de las adversidades, Schumacher sigue siendo un símbolo de valentía y determinación, dejando un legado duradero como uno de los más grandes en la historia de la Fórmula 1.",
+        "description": "El legendario piloto alemán de Fórmula 1, es conocido por sus 7 campeonatos mundiales y su destacado paso por Ferrari, marcando una era dorada en la escudería italiana. Su regreso a la Fórmula 1 con Mercedes, aunque menos exitoso, resaltó su pasión por las carreras. Trágicamente, en 2013, sufrió un grave accidente de esquí que cambió su vida. Desde entonces, su salud es motivo de privacidad y preocupación. A pesar de las adversidades, Schumacher sigue siendo un símbolo de valentía y determinación, dejando un legado duradero como uno de los más grandes en la historia de la Fórmula 1.",
         "imageUrl": "./data/images/michael_shumacher.png",
         "facts": {
             "yearOfBirth": 1969,
@@ -263,7 +263,7 @@ export default [
         "facts": {
             "yearOfBirth": 1950,
             "yearOfDeath": 1982,
-            "placeOfBirth": "Saint-Jean-sur-Richelieu, Canadá",
+            "placeOfBirth": "Saint-Jean-sur-R., Canadá",
             "team": "Ferrari"
         },
         "extraInfo": {
@@ -366,7 +366,7 @@ export default [
         "facts": {
             "yearOfBirth": 1953,
             "yearOfDeath": "Sigue vivo",
-            "placeOfBirth": "Upton-upon-Severn, Reino Unido",
+            "placeOfBirth": "Upton-upon-S., Reino Unido",
             "team": "Williams"
         },
         "extraInfo": {
@@ -759,7 +759,7 @@ export default [
         "facts": {
           "yearOfBirth": 2000,
           "yearOfDeath": "Sigue vivo",
-          "placeOfBirth": "Fort Lauderdale, Estados Unidos",
+          "placeOfBirth": "Fort Lauderdale, EUA",
           "team": "Williams"
         },
         "extraInfo": {

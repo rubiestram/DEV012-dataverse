@@ -23,9 +23,6 @@ body{
     display: flex;
 }
 
-
-
-
 /* Aside */
 .cajaMenu {
     background: var(--grey-color);
@@ -138,13 +135,12 @@ body{
     height: 100vh; 
 }
 
-.title {
+header {
     height: 10%; 
     background-color: var(--red-color);
     color: var(--white-color);
     text-align: center;
-    font-size: 1.25em;
-    padding-top: 2%;
+    font-size: 1.2em;
 }
 
 .subtitle {
@@ -162,14 +158,14 @@ body{
     background-color: #37353588;
     color: var(--white-color);
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.1em;
 } 
 
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5%; 
+    height: 10%; 
     background-color: var(--red-color);
     color: var(--white-color);
     text-align: center;
@@ -179,7 +175,7 @@ body{
 #root {
     width: 100%;
     overflow: auto; 
-    height: 75%;
+    height: 70%;
 }
 
 /* HTML Dinámico */
@@ -233,7 +229,7 @@ ul {
         width: 80%;
         display: flex;
     }
-    .title{
+    header {
         height: auto;
     }
     .subtitle {
@@ -243,13 +239,9 @@ ul {
     .computeStats {
         height: auto;
     } 
-    
-    .footer{
-        height: auto; 
-    }
 
     div.cajaMenu>aside.menu>button{
-        margin-top:45vh;
+        margin-top:40vh;
         padding: 15px 5px;
     }
 
@@ -261,7 +253,6 @@ ul {
         margin-top: 4vh;
     }
 
-   
 }
 
 

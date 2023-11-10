@@ -9,7 +9,7 @@ export const renderItems = (data) => {
     li.setAttribute("data-id", element.id);
 
     li.innerHTML = `
-      <dl class="root-list">
+      <dl class="root-list" itemscope itemtype="PilotsF1">
         <img src="${element.imageUrl}" itemprop="image" />
         <dt></dt><dd itemprop="name">${element.name}</dd>
         <dt></dt><dd itemprop="placeOfBirth">${element.facts.placeOfBirth}</dd>

@@ -33,5 +33,5 @@ export const computeStats = (data) => {
   const averagePodiums = totalPodiums / data.length;
   // Redondea el promedio a dos decimales
   const roundedAveragePodiums = averagePodiums.toFixed(2);
-  return roundedAveragePodiums;
+  return Number(roundedAveragePodiums);
 };

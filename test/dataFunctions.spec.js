@@ -1,18 +1,20 @@
-import { example, anotherExample } from '../src/dataFunctions.js';
-import { data as fakeData } from './data.js';
+import {filterBy} from "../src/dataFunctions.js";
+import {data} from './data.js';
 
-console.log(fakeData);
+console.log(data);
 
-describe('example', () => {
-
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+describe('filterBy', () => {
+  it('debe filtrar los elementos correctamente', () => {
+    // Realiza las pruebas de filterBy aquí
+    // Ejemplo: 
+    const filteredData = filterBy(data, 'team', "Mercedes"); // Llama a la función filterBy con la data y un filtro
+    // Asegúrate de que el resultado sea el esperado
+    expect(filteredData("Mer")).toBe(2);
   });
 });
+// describe('anotherExample', () => {
 
-describe('anotherExample', () => {
-
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
-  });
-});
+//   it('returns `anotherExample`', () => {
+//     expect(anotherExample()).toBe('OMG');
+//   });
+// });

@@ -1,20 +1,15 @@
-import {filterBy} from "../src/dataFunctions.js";
-import {data} from './data.js';
+import { filterData } from './dataFunctions'; 
+import { data as fakeData } from "./data.js";
 
-console.log(data);
-
-describe('filterBy', () => {
-  it('debe filtrar los elementos correctamente', () => {
-    // Realiza las pruebas de filterBy aquí
-    // Ejemplo: 
-    const filteredData = filterBy(data, 'team', "Mercedes"); // Llama a la función filterBy con la data y un filtro
-    // Asegúrate de que el resultado sea el esperado
-    expect(filteredData("Mer")).toBe(2);
+describe('Data Functions', () => {
+  it('Filtrar por escuderia - Williams', () => {
+    const filteredData = filterData(fakeData, 'Williams');
+    expect(filteredData.every(driver => driver.facts.team === 'Williams')).toBe(true);
   });
-});
-// describe('anotherExample', () => {
 
-//   it('returns `anotherExample`', () => {
-//     expect(anotherExample()).toBe('OMG');
-//   });
-// });
+  it('Filtrar por escuderia - Mercedes', () => {
+    const filteredData = filterData(fakeData, 'Mercedes');
+    expect(filteredData.every(driver => driver.facts.team === 'Mercedes')).toBe(true);
+  });
+
+});

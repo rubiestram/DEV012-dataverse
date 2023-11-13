@@ -2,14 +2,14 @@ import { filterData, sortData, computeStats } from "./dataFunctions.js";
 import { renderItems } from "./view.js";
 import data from "./data/dataset.js";
 
-let arrayPilots = data;
+let arrayPilots = [...data];
 let sortOption = null; // Para mantener el estado de la opción de ordenamiento
 
 // HTML dinámico
 const containerRoot = document.querySelector("#root");
 containerRoot.appendChild(renderItems(arrayPilots));
 
-// Rubi: DOM Estadística inicial
+// DOM Estadística inicial
 updateAveragePodiums(arrayPilots);
 // Función para actualizar el promedio de podios
 function updateAveragePodiums(data) {
@@ -18,20 +18,28 @@ function updateAveragePodiums(data) {
   averagePodiumsElement.textContent = averagePodiums;
 }
 
+
+
 // DOM filtrar
 const filter = document.querySelector("#select-filter");
 filter.addEventListener("change", function (event) {
   const selectedValue = event.target.value;
-  arrayPilots = filterData(data, "team", selectedValue);
-  // Ordenar la data filtrada, si es necesario
+  if (selectedValue === "Todos") {
+    arrayPilots = [...data];
+  } else {
+    arrayPilots = filterData(data, "team", selectedValue);
+  }
   if (sortOption) {
     arrayPilots = sortData(arrayPilots, sortOption);
   }
   containerRoot.innerHTML = "";
   containerRoot.appendChild(renderItems(arrayPilots));
-  // Rubi: Probando estadistica
+
+  // Actualizar la estadística
   updateAveragePodiums(arrayPilots);
 });
+
+
 
 // DOM Order
 const order = document.querySelector("#sort-order");
@@ -48,9 +56,9 @@ const clearButton = document.querySelector('[data-testid="button-clear"]');
 clearButton.addEventListener("click", function () {
   // Restablece los filtros y ordenamientos
   filter.value = "Todos";
-  order.value = "sin ordenar";
+  order.value = "nonOrder";
 
-  arrayPilots = data;
+  arrayPilots = [...data];
   sortOption = null;
   containerRoot.innerHTML = "";
   containerRoot.appendChild(renderItems(arrayPilots));

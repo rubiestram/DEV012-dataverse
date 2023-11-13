@@ -31,7 +31,6 @@ export const computeStats = (data) => {
   const podiums = data.map((item) => item.extraInfo.podiums);
   const totalPodiums = podiums.reduce((acc, podium) => acc + podium, 0);
   const averagePodiums = totalPodiums / data.length;
-  // Redondea el promedio a dos decimales
-  const roundedAveragePodiums = averagePodiums.toFixed(2);
+  const roundedAveragePodiums = averagePodiums.toFixed(2); // Redondea el promedio a dos decimales
   return Number(roundedAveragePodiums);
 };

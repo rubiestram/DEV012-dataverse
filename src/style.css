@@ -31,21 +31,23 @@ body{
     align-items: center; 
     justify-content: center; 
     height: 100vh; 
+}
 
-    & .menu {
+.cajaMenu .menu {
         width: 75%; 
         height: 85%;
         background: var(--white-color); 
         color: var(--black-color); 
         padding: 30px 25px; 
         margin-bottom: 0;
+}
 
-        & label {
+.cajaMenu .menu label {
             margin-bottom: 25px;
             margin-top: 15px;
 
         }
-        & select {
+.cajaMenu .menu select {
             width: 100%;
             margin-bottom: 15px;
             background-color: var(--red-color);
@@ -55,7 +57,7 @@ body{
             border-radius: 10px;
             cursor: pointer;
         }
-        & button {
+.cajaMenu .menu button {
             width:100%;
             background-color: var(--grey-color);
             color: var(--white-color);
@@ -66,20 +68,18 @@ body{
             align-items: center;
             margin-top:40px;
         }
-        & button:hover {
+.cajaMenu .menu button:hover {
             box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
             font-weight: bold;
         }
-        & .imagen-footer {
+.cajaMenu .menu .imagen-footer {
             margin-top: 11vh;
             width: 100%;
             height: auto;
             bottom: 0;
             position: relative;
         }
-    }
-    
-}
+
 
 .noDisplay {
     display: none;

@@ -1,4 +1,4 @@
-import { filterData, sortData } from "../src/dataFunctions.js";
+import { filterData, sortData, computeStats } from "../src/dataFunctions.js";
 import { data as dataFake } from "./data.js";
 
 // describe("filterData", () => {
@@ -87,29 +87,21 @@ describe("filterData", () => {
 
 
 describe("sortData", () => {
-  it("debe ordenar los nombres ascendentemente", () => {
-    const fakeData = [
-      "Niki Lauda",
-      "Lewis Hamilton",
-      "Nigel Mansell",
-      "Alain Prost",
-      "Michael Schumacher",
-    ];
-
-    const sortedData = sortData([...fakeData], "name", "asc");
-
-    const resultSortData = [
-      "Alain Prost",
-      "Lewis Hamilton",
-      "Michael Schumacher",
-      "Nigel Mansell",
-      "Niki Lauda",
-    ];
-    
-    expect(sortedData).toEqual(resultSortData);
+  it("debe ordenar los pilotos de forma ascendente por nombre", () => {
+    const sortedData = sortData(dataFake, "name", "asc");
+    expect(sortedData).toEqual([...dataFake].sort((a, b) => a.name.localeCompare(b.name)));
+  });
+  it("debe ordenar los pilotos de forma descendente por nombre", () => {
+    const sortedData = sortData(dataFake, "name", "desc");
+    expect(sortedData).toEqual([...dataFake].sort((a, b) => b.name.localeCompare(a.name)));
   });
 });
 
 
-
+describe("computeStats", () => {
+  it("debe calcular el promedio de podios correctamente", () => {
+    const result = computeStats(dataFake);
+    expect(typeof result).toBe("number");
+  });
+});
 

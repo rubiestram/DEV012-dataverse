@@ -9,7 +9,7 @@ export default [
             "yearOfBirth": 1960,
             "yearOfDeath": 1994,
             "placeOfBirth": "São Paulo, Brasil",
-            "team": "McLaren"
+            "lastTeam": "McLaren"
         },
         "extraInfo": {
             "podiums": 80,
@@ -26,7 +26,7 @@ export default [
             "yearOfBirth": 1911,
             "yearOfDeath": 1995,
             "placeOfBirth": "Balcarce, Argentina",
-            "team": "Maserati"
+            "lastTeam": "Maserati"
         },
         "extraInfo": {
             "podiums": 35,
@@ -43,7 +43,7 @@ export default [
             "yearOfBirth": 1936,
             "yearOfDeath": 1968,
             "placeOfBirth": "Kilmany, Escocia",
-            "team": "Lotus"
+            "lastTeam": "Lotus"
         },
         "extraInfo": {
             "podiums": 25,
@@ -60,7 +60,7 @@ export default [
             "yearOfBirth": 1955,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Lorette, Francia",
-            "team": "Williams"
+            "lastTeam": "Williams"
         },
         "extraInfo": {
             "podiums": 106,
@@ -77,7 +77,7 @@ export default [
             "yearOfBirth": 1969,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Hürth-Hermülheim, Alemania",
-            "team": "Mercedes",
+            "lastTeam": "Mercedes",
         },
         "extraInfo": {
             "podiums": 155,
@@ -94,7 +94,7 @@ export default [
             "yearOfBirth": 1939,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Milton, Escocia",
-            "team": "Tyrrell",
+            "lastTeam": "Tyrrell",
         },
         "extraInfo": {
             "podiums": 43,
@@ -111,7 +111,7 @@ export default [
             "yearOfBirth": 1981,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Oviedo, España",
-            "team": "Aston Martin"
+            "lastTeam": "Aston Martin"
         },
         "extraInfo": {
             "podiums": 105,
@@ -128,7 +128,7 @@ export default [
             "yearOfBirth": 1997,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Hasselt, Bélgica",
-            "team": "Red Bull Racing"
+            "lastTeam": "Red Bull Racing"
         },
         "extraInfo": {
             "podiums": 77,
@@ -145,7 +145,7 @@ export default [
             "yearOfBirth": 1985,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Stevenage, Reino Unido",
-            "team": "Mercedes"
+            "lastTeam": "Mercedes"
         },
         "extraInfo": {
             "podiums": 196,
@@ -162,7 +162,7 @@ export default [
             "yearOfBirth": 1949,
             "yearOfDeath": 2019,
             "placeOfBirth": "Viena, Austria",
-            "team": "McLaren"
+            "lastTeam": "McLaren"
         },
         "extraInfo": {
             "podiums": 54,
@@ -179,7 +179,7 @@ export default [
             "yearOfBirth": 1987,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Heppenheim, Alemania",
-            "team": "Aston Martin"
+            "lastTeam": "Aston Martin"
         },
         "extraInfo": {
             "podiums": 122,
@@ -196,7 +196,7 @@ export default [
             "yearOfBirth": 1946,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "São Paulo, Brasil",
-            "team": "McLaren"
+            "lastTeam": "McLaren"
         },
         "extraInfo": {
             "podiums": 35,
@@ -213,7 +213,7 @@ export default [
             "yearOfBirth": 1929,
             "yearOfDeath": 2020,
             "placeOfBirth": "Londres, Reino Unido",
-            "team": "Mercedes"
+            "lastTeam": "Mercedes"
         },
         "extraInfo": {
             "podiums": 24,
@@ -230,7 +230,7 @@ export default [
             "yearOfBirth": 1952,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Río de Janeiro, Brasil",
-            "team": "Benetton"
+            "lastTeam": "Benetton"
         },
         "extraInfo": {
             "podiums": 60,
@@ -247,7 +247,7 @@ export default [
             "yearOfBirth": 1934,
             "yearOfDeath": 2017,
             "placeOfBirth": "Tatsfield, Reino Unido",
-            "team": "British Racing Motors"
+            "lastTeam": "British Racing Motors"
         },
         "extraInfo": {
             "podiums": 24,
@@ -264,7 +264,7 @@ export default [
             "yearOfBirth": 1950,
             "yearOfDeath": 1982,
             "placeOfBirth": "Saint-Jean-sur-R., Canadá",
-            "team": "Ferrari"
+            "lastTeam": "Ferrari"
         },
         "extraInfo": {
             "podiums": 13,
@@ -281,7 +281,7 @@ export default [
             "yearOfBirth": 1926,
             "yearOfDeath": 2014,
             "placeOfBirth": "Hurtsville, Australia",
-            "team": "Brabham"
+            "lastTeam": "Brabham"
         },
         "extraInfo": {
             "podiums": 31,
@@ -298,7 +298,7 @@ export default [
             "yearOfBirth": 1918,
             "yearOfDeath": 1955,
             "placeOfBirth": "Milán, Italia",
-            "team": "Lancia"
+            "lastTeam": "Lancia"
         },
         "extraInfo": {
             "podiums": 17,
@@ -315,7 +315,7 @@ export default [
             "yearOfBirth": 1940,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Montona, Italia",
-            "team": "Lotus"
+            "lastTeam": "Lotus"
         },
         "extraInfo": {
             "podiums": 19,
@@ -332,7 +332,7 @@ export default [
             "yearOfBirth": 1945,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Bruselas, Bélgica",
-            "team": "Ferrari"
+            "lastTeam": "Ferrari"
         },
         "extraInfo": {
             "podiums": 25,
@@ -349,7 +349,7 @@ export default [
             "yearOfBirth": 1929,
             "yearOfDeath": 1975,
             "placeOfBirth": "Londres, Reino Unido",
-            "team": "Lotus"
+            "lastTeam": "Lotus"
             
         },
         "extraInfo": {
@@ -367,7 +367,7 @@ export default [
             "yearOfBirth": 1953,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Upton-upon-S., Reino Unido",
-            "team": "Williams"
+            "lastTeam": "Williams"
         },
         "extraInfo": {
             "podiums": 59,
@@ -384,7 +384,7 @@ export default [
             "yearOfBirth": 1937,
             "yearOfDeath": 1970,
             "placeOfBirth": "Auckland, Nueva Zelanda",
-            "team": "McLaren"
+            "lastTeam": "McLaren"
         },
         "extraInfo": {
             "podiums": 27,
@@ -401,7 +401,7 @@ export default [
             "yearOfBirth": 1968,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Vantaa, Finlandia",
-            "team": "McLaren"
+            "lastTeam": "McLaren"
         },
         "extraInfo": {
             "podiums": 51,
@@ -418,7 +418,7 @@ export default [
             "yearOfBirth": 1997,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Montecarlo, Mónaco",
-            "team": "Ferrari"
+            "lastTeam": "Ferrari"
         },
         "extraInfo": {
             "podiums": 10,
@@ -435,7 +435,7 @@ export default [
             "yearOfBirth": 1980,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Frome, Reino Unido",
-            "team": "McLaren"
+            "lastTeam": "McLaren"
         },
         "extraInfo": {
             "podiums": 50,
@@ -452,7 +452,7 @@ export default [
             "yearOfBirth": 1985,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Wiesbaden, Alemania",
-            "team": "Mercedes"
+            "lastTeam": "Mercedes"
         },
         "extraInfo": {
             "podiums": 57,
@@ -469,7 +469,7 @@ export default [
             "yearOfBirth": 1979,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Espoo, Finlandia",
-            "team": "Alfa Romeo Racing"
+            "lastTeam": "Alfa Romeo Racing"
         },
         "extraInfo": {
             "podiums": 103,
@@ -486,7 +486,7 @@ export default [
             "yearOfBirth": 1957,
             "yearOfDeath": 1985,
             "placeOfBirth": "Gießen, Alemania",
-            "team": "Tyrrell"
+            "lastTeam": "Tyrrell"
         },
         "extraInfo": {
             "podiums": 0,
@@ -503,7 +503,7 @@ export default [
             "yearOfBirth": 1964,
             "yearOfDeath": "Sigue vivo",
             "placeOfBirth": "Aviñón, Francia",
-            "team": "Prost"
+            "lastTeam": "Prost"
         },
         "extraInfo": {
             "podiums": 32,
@@ -520,7 +520,7 @@ export default [
         "yearOfBirth": 1998,
         "yearOfDeath": "Sigue vivo",
         "placeOfBirth": "Montreal, Canadá",
-        "team": "Aston Martin"
+        "lastTeam": "Aston Martin"
       },
       "extraInfo": {
         "podiums": 3,
@@ -537,7 +537,7 @@ export default [
           "yearOfBirth": 1989,
           "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Nastola, Finlandia",
-          "team": "Alfa Romeo Racing"
+          "lastTeam": "Alfa Romeo Racing"
         },
         "extraInfo": {
           "podiums": 59,
@@ -554,7 +554,7 @@ export default [
           "yearOfBirth": 1999,
           "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Shanghái, China",
-          "team": "Alfa Romeo Racing"
+          "lastTeam": "Alfa Romeo Racing"
           
         },
         "extraInfo": {
@@ -572,7 +572,7 @@ export default [
           "yearOfBirth": 1996,
           "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Évreux, Francia",
-          "team": "Alpine"
+          "lastTeam": "Alpine"
         },
         "extraInfo": {
           "podiums": 1,
@@ -589,7 +589,7 @@ export default [
           "yearOfBirth": 1996,
           "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Rouen, Francia",
-          "team": "Alpine"
+          "lastTeam": "Alpine"
         },
         "extraInfo": {
           "podiums": 3,
@@ -606,7 +606,7 @@ export default [
           "yearOfBirth": 1994,
           "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Madrid, España",
-          "team": "Ferrari"
+          "lastTeam": "Ferrari"
         },
         "extraInfo": {
           "podiums": 18,
@@ -623,7 +623,7 @@ export default [
           "yearOfBirth": 1992,
           "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Roskilde, Dinamarca",
-          "team": "Haas"
+          "lastTeam": "Haas"
         },
         "extraInfo": {
           "podiums": 0,
@@ -640,7 +640,7 @@ export default [
           "yearOfBirth": 1987,
           "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Emmerich am Rhein, Alemania",
-          "team": "Haas"
+          "lastTeam": "Haas"
         },
         "extraInfo": {
           "podiums": 0,
@@ -657,7 +657,7 @@ export default [
           "yearOfBirth": 1999,
           "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Bristol, Reino Unido",
-          "team": "McLaren"
+          "lastTeam": "McLaren"
         },
         "extraInfo": {
           "podiums": 9,
@@ -674,7 +674,7 @@ export default [
           "yearOfBirth": 2001,
           "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Melbourne, Australia",
-          "team": "McLaren"
+          "lastTeam": "McLaren"
         },
         "extraInfo": {
           "podiums": 0,
@@ -691,7 +691,7 @@ export default [
           "yearOfBirth": 1998,
           "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "King's Lynn, Reino Unido",
-          "team": "Mercedes"
+          "lastTeam": "Mercedes"
         },
         "extraInfo": {
           "podiums": 0,
@@ -708,7 +708,7 @@ export default [
           "yearOfBirth": 1990,
           "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Guadalajara, México",
-          "team": "Red Bull Racing"
+          "lastTeam": "Red Bull Racing"
         },
         "extraInfo": {
           "podiums": 32,
@@ -725,7 +725,7 @@ export default [
           "yearOfBirth": 1989,
           "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Perth, Australia",
-          "team": "AlphaTauri"
+          "lastTeam": "AlphaTauri"
         },
         "extraInfo": {
           "podiums": 31,
@@ -742,7 +742,7 @@ export default [
           "yearOfBirth": 2000,
           "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Sagamihara, Japón",
-          "team": "AlphaTauri"
+          "lastTeam": "AlphaTauri"
           
         },
         "extraInfo": {
@@ -760,7 +760,7 @@ export default [
           "yearOfBirth": 2000,
           "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Fort Lauderdale, EUA",
-          "team": "Williams"
+          "lastTeam": "Williams"
         },
         "extraInfo": {
           "podiums": 0,
@@ -778,7 +778,7 @@ export default [
           "yearOfBirth": 1996,
           "yearOfDeath": "Sigue vivo",
           "placeOfBirth": "Londres, Reino Unido",
-          "team": "Williams"
+          "lastTeam": "Williams"
           
         },
         "extraInfo": {

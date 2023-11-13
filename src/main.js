@@ -19,7 +19,6 @@ function updateAveragePodiums(data) {
 }
 
 
-
 // DOM filtrar
 const filter = document.querySelector("#select-filter");
 filter.addEventListener("change", function (event) {
@@ -27,7 +26,7 @@ filter.addEventListener("change", function (event) {
   if (selectedValue === "Todos") {
     arrayPilots = [...data];
   } else {
-    arrayPilots = filterData(data, "team", selectedValue);
+    arrayPilots = filterData(data, "lastTeam", selectedValue);
   }
   if (sortOption) {
     arrayPilots = sortData(arrayPilots, sortOption);

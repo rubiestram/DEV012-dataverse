@@ -13,7 +13,7 @@ export const renderItems = (data) => {
         <img src="${element.imageUrl}" itemprop="image" />
         <dt></dt><dd itemprop="name">${element.name}</dd>
         <dt></dt><dd itemprop="placeOfBirth">${element.facts.placeOfBirth}</dd>
-        <dt></dt><dd itemprop="team">${element.facts.team}</dd>
+        <dt></dt><dd itemprop="lastTeam">${element.facts.lastTeam}</dd>
         <dt></dt><dd itemprop="championshipsWon">Campeonatos: ${element.extraInfo.championshipsWon}</dd>
       </dl>
     `;

@@ -94,4 +94,23 @@ export const data = [
       championshipsWon: 1,
     },
   },
+  {
+    id: "alain-prost",
+    name: "Alain Prost",
+    shortDescription:
+      "Piloto francés conocido como: El Profesor. Con 4 campeonatos mundiales, es una leyenda de la Fórmula 1.",
+    description:
+      "Apodado: El Profesor, este piloto legendario es ampliamente considerado uno de los mejores pilotos en la historia de la Fórmula 1. Con una astucia estratégica y un estilo de conducción calculado, ganó 4 campeonatos mundiales y es una verdadera leyenda del deporte. Su rivalidad con Ayrton Senna se ha convertido en un capítulo legendario en la historia del automovilismo. A lo largo de su carrera, demostró una habilidad excepcional para gestionar carreras y equipos, consolidando su estatus como una verdadera leyenda del deporte.",
+    imageUrl: "./data/images/alain_prost.png",
+    facts: {
+      yearOfBirth: 1955,
+      yearOfDeath: "Sigue vivo",
+      placeOfBirth: "Lorette, Francia",
+      team: "Williams",
+    },
+    extraInfo: {
+      podiums: 106,
+      championshipsWon: 4,
+    },
+  },
 ];

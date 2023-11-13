@@ -71,7 +71,7 @@ import { data as dataFake } from "./data.js";
 describe("filterData", () => {
   it("debe filtrar los pilotos por escudería - Williams", () => {
     const filteredData = filterData(dataFake, "team", "Williams");
-    expect(filteredData.length).toBe(2);
+    expect(filteredData.length).toBe(3);
   });
 
   it("debe filtrar los pilotos por escudería - Mercedes", () => {

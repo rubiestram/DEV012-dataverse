@@ -1,7 +1,7 @@
 # Dataverse Pilotos F1
 Nuestro proyecto es una página web diseñada para desplegar tarjetas informativas sobre los talentosos pilotos de la Fórmula 1. En la imagen adjunta, observarás cómo se construyo una interfaz amigable y fácil de entender. Nuestro proposito fue crear una plataforma web que no solo exhiba la información detallada sobre los pilotos, sino que también permita a los usuarios filtrarla, ordenarla y obtener el promedio de podios ganados por los pilotos. 
 
-![pagina-principal](https://github.com/XatAlcantara/DEV012-dataverse/raw/main/Gif-pagina-principal.webp)
+![pagina-principal](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/Pagina-inicio.png?raw=true)
 
 
 ## Indice
@@ -69,8 +69,8 @@ La aplicación web proporciona herramientas esenciales para manipular y analizar
 
 * La función filterData: Permite a los usuarios filtrar la información según una escudería específica, ayudándoles a centrarse en datos relevantes para un equipo en particular. 
 * La función sortData: Facilita la visualización de datos al permitir la ordenación ascendente o descendente de la información en función de un campo seleccionado, mejorando la legibilidad y comprensión de la información presentada.
-
-Además, la aplicación va más allá al ofrecer una función estadística con computeStats, la cual calcula el promedio de podios para los equipos en los datos proporcionados. Esta funcionalidad proporciona a los usuarios una visión general de los logros de cada escudería en términos de podios, agregando un elemento analítico valioso a la experiencia de usuario. 
+* La función estadística con computeStats, calcula el promedio de podios para los equipos en los datos proporcionados. Esta funcionalidad proporciona a los usuarios una visión general de los logros de cada escudería en términos de podios, agregando un elemento analítico valioso a la experiencia de usuario. 
+![pagina-principal](https://github.com/XatAlcantara/DEV012-dataverse/raw/main/Gif-pagina-principal.webp)
 
 ## Desarrollo
 

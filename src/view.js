@@ -1,9 +1,9 @@
 export const renderItems = (data) => {
   const ul = document.createElement("ul");
 
-  for (let i = 0; i < data.length; i++) {
-    const element = data[i];
+  data.forEach((element) => { 
     const li = document.createElement("li");
+    li.classList.add("list"); // Rubi: Agrega la clase "list" (Confirmar porque no funciona)
     li.setAttribute("itemscope", "");
     li.setAttribute("itemtype", "PilotsF1");
     li.setAttribute("data-id", element.id);
@@ -19,6 +19,7 @@ export const renderItems = (data) => {
     `;
 
     ul.appendChild(li);
-  }
+  });
+
   return ul;
 };

@@ -17,7 +17,7 @@
         <aside class="menu">
           <!-- Filtramos solo por escudería  -->
             <label for="select-filter">Filtra por:</label>
-            <select id="select-filter" data-testid="select-filter" name="type">
+            <select id="select-filter" data-testid="select-filter" name="lastTeam">
               <option value="Todos">Escuderias</option>
               <option value="Alfa Romeo Racing">Alfa Romeo Racing</option>
               <option value="AlphaTauri">AlphaTauri</option>
@@ -41,7 +41,7 @@
             
           <!-- Ordenar solo de forma ascendente y descendente -->
             <label for="sort-order"> Ordenar: </label>
-            <select id="sort-order" data-testid="select-sort" name="sort-order">
+            <select id="sort-order" data-testid="select-sort" name="name">
               <option value="nonOrder">Sin ordenar</option>
               <option value="asc">A - Z</option>
               <option value="desc">Z - A</option>
@@ -73,9 +73,7 @@
     
       <!-- HTML Dinámico -->
       <div id="root">
-        <ul>
-          <li></li>
-        </ul>
+       
       </div>
 
       <footer class="footer">

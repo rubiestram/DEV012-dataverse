@@ -186,6 +186,13 @@ ul {
     list-style: none;
   }
 
+.list { /* ERROR */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
 .root-list {
     display: flex;
     flex-direction: column;

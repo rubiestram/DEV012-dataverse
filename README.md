@@ -8,7 +8,7 @@ En la imagen adjunta, observarás cómo se construyo una interfaz amigable y fá
 
 ## Indice
 
-* [Historia de Usuaria](#Historia-de-usuario)
+* [Historia de Usuario](#Historia-de-usuario)
 * [Prototipos](#Prototipos)
 * [Generacion de Prompting](#Generacion-de-Prompting)
 * [Funcionalidades](#Funcionalidades)
@@ -19,12 +19,12 @@ En la imagen adjunta, observarás cómo se construyo una interfaz amigable y fá
 
 
 
-## Historias de Usuaria
-Las principales usuarias del producto serian aquellas personas con un interés genuino en conocer más detalles sobre los pilotos de la F1. Su objetivo principal es sumergirse en la carrera de cada piloto destacado, obteniendo una comprensión mas detallada de su historial y logros.
+## Historias de Usuario
+Las principales usuarios del producto serian aquellas personas con un interés genuino en conocer más detalles sobre los pilotos de la F1. 
 
-En cuanto a la interfaz, estas usuarias buscarian información clave como su fotografía, nombre, año de nacimiento, campeonatos y última escudería de cada piloto. La relevancia de estos datos radica en proporcionar una visión completa y rápida de la trayectoria de cada corredor.
+En cuanto a la interfaz, estoss usuarios buscarian información clave como su fotografía, nombre, nacionalidad, campeonatos y última escudería de cada piloto. La relevancia de estos datos radica en proporcionar una visión rápida de la trayectoria de cada corredor.
 
-El producto se utiliza en diversas situaciones, desde antes hasta después de un gran premio. Las usuarias pueden explorar la plataforma para entender las referencias y datos de los pilotos, brindándoles una perspectiva más rica y significativa al ver una carrera. 
+La pagina se podria utilizar en diversas situaciones, desde antes hasta después de un gran premio. Los usuarios pueden explorar la plataforma para entender las referencias y datos de los pilotos, brindándoles una perspectiva más rica y significativa al ver una carrera. 
 
 
 ## Prototipo de Baja y Alta Fidelidad 
@@ -80,7 +80,7 @@ Además, para los controles de usuario, como las cajas de texto y los menús des
 
 Obteniendo asi un diseño responsive para nuestra pagina, creando un menu desplegable con ayuda de iconos. 
 
-![Diseño-movile](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/Disens.png?raw=true)
+![Diseño-movile](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/Diseño-mobile.png?raw=true)
 
 
 ### src/main.js

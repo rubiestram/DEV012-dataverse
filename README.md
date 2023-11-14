@@ -1,9 +1,7 @@
 # Dataverse Pilotos F1
-Nuestro proyecto es una página web diseñada para desplegar tarjetas informativas sobre los talentosos pilotos de la Fórmula 1.
+Nuestro proyecto es una página web diseñada para desplegar tarjetas informativas sobre los talentosos pilotos de la Fórmula 1. En la imagen adjunta, observarás cómo se construyo una interfaz amigable y fácil de entender. Nuestro proposito fue crear una plataforma web que no solo exhiba la información detallada sobre los pilotos, sino que también permita a los usuarios filtrarla, ordenarla y obtener el promedio de podios ganados por los pilotos. 
 
-En la imagen adjunta, observarás cómo se construyo una interfaz amigable y fácil de entender. Nuestro proposito fue crear una plataforma web que no solo exhiba la información detallada sobre los pilotos, sino que también permita a los usuarios filtrarla, ordenarla y obtener al menos un dato estadísticos para tener una visión aún más completa.
-
-![pagina-principal](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/Pagina-inicio.png?raw=true)
+![pagina-principal](https://github.com/XatAlcantara/DEV012-dataverse/raw/main/Gif-pagina-principal.webp)
 
 
 ## Indice
@@ -20,7 +18,7 @@ En la imagen adjunta, observarás cómo se construyo una interfaz amigable y fá
 
 
 ## Historias de Usuario
-Las principales usuarios del producto serian aquellas personas con un interés genuino en conocer más detalles sobre los pilotos de la F1. 
+Los principales usuarios del producto serian aquellas personas con un interés genuino en conocer más detalles sobre los pilotos de la F1. 
 
 En cuanto a la interfaz, estoss usuarios buscarian información clave como su fotografía, nombre, nacionalidad, campeonatos y última escudería de cada piloto. La relevancia de estos datos radica en proporcionar una visión rápida de la trayectoria de cada corredor.
 
@@ -42,13 +40,19 @@ En cuanto a la elección de colores nos apoyamos en la pagina [ColorHunt](https:
 
 ![imagen-pantone](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/pantone.png?raw=true)
 
-![diseño-alta-fidelidad](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/Prototipo-alta-fidelidad.png?raw=true)
+![diseño-alta-fidelidad](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/Prototipo-alta.png?raw=true)
 
 
 ## Generación de Prompting
 
 ### Chat GPT 
+Con el propósito de agilizar la obtención de los datos, se empleó ChatGPT. Esta herramienta nos permitió evitar el proceso manual de recopilación biográfica de cada piloto, obteniendo rápidamente datos clave, así como breves descripciones de sus vidas. Logramos obtener información que abarca desde aspectos generales hasta detalles más precisos.
 
+Estas fueron las instrucciones que le dimos a la inteligencia artificial para que nos ayudara a generar la data que necesitabamos y el orden de esta. 
+![Promptings](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/Promptings.png?raw=true)
+
+Y esta fue la estructura y un ejemplo de los datos que nos proporciono:
+![Data-estructurada](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/imagen-promptin3.png?raw=true)
 La data obtenida se almaceno en ./src/data/dataset.js
 
 ### Imagenes

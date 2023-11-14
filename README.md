@@ -1,10 +1,13 @@
 # Dataverse Pilotos F1
+Nuestro proyecto es una página web diseñada para desplegar tarjetas informativas sobre los talentosos pilotos de la Fórmula 1.
+
+En la imagen adjunta, observarás cómo se construyo una interfaz amigable y fácil de entender. Nuestro proposito fue crear una plataforma web que no solo exhiba la información detallada sobre los pilotos, sino que también permita a los usuarios filtrarla, ordenarla y obtener al menos un dato estadísticos para tener una visión aún más completa.
+
 ![pagina-principal](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/Pagina-inicio.png?raw=true)
 
 
 ## Indice
 
-* [Introduccion](#Introduccion)
 * [Historia de Usuaria](#Historia-de-usuario)
 * [Prototipos](#Prototipos)
 * [Generacion de Prompting](#Generacion-de-Prompting)
@@ -14,11 +17,6 @@
 * [Tecnologias Utilizadas](#Tecnologias-Utilizadas)
 * [Desarrolladoras](#Desarrolladoras)
 
-
-## Introduccion 
-Según Forbes, el 90% de los datos existentes hoy en día se ha creado en los últimos dos años. Esta explosión de información nos lleva a la necesidad de estructurar y presentar estos datos de manera clara y comprensible. En este contexto, surge nuestro proyecto: una página web diseñada para desplegar tarjetas informativas sobre los talentosos pilotos de la Fórmula 1.
-
-En la imagen adjunta, observarás cómo se construyo una interfaz amigable y fácil de entender. Nuestra misión fue crear una plataforma web que no solo exhiba la información detallada sobre los pilotos, sino que también permita a los usuarios filtrarla, ordenarla y realizar cálculos estadísticos para obtener una visión aún más completa.
 
 
 ## Historias de Usuaria
@@ -35,16 +33,16 @@ El producto se utiliza en diversas situaciones, desde antes hasta después de un
 Al iniciar el desarrollo de nuestra página web, creamos dos prototipos de baja fidelidad para esbozar la disposición de las tarjetas y la ubicación general de los filtros de manera eficiente. Aunque se trate de un boceto inicial, también dimos un vistazo aproximado de cómo se adaptaría a dispositivos móviles. 
 
 
-![diseño-baja-fidelidad](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
+![diseño-baja-fidelidad](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/Prototipo-baja-fidelidad.png?raw=true)
 
 ### Diseño Alta Fidelidad:
 En la fase subsecuente del proyecto, nos dedicamos a desarrollar el prototipo de alta fidelidad, dedicando especial atención a la optimización del menú desplegable para dispositivos móviles. Nos hemos enfocado en perfeccionar esta función para garantizar una experiencia de usuario fluida y eficiente.
 
-En cuanto a la elección de colores, hemos seleccionado una paleta que evoca la asociación tradicional que las personas tienen con la Fórmula 1.
+En cuanto a la elección de colores nos apoyamos en la pagina [ColorHunt](https://colorhunt.co/), hemos seleccionado una paleta que evoca la asociación tradicional que las personas tienen con la Fórmula 1.
 
-![imagen-pantone](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
+![imagen-pantone](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/pantone.png?raw=true)
 
-![diseño-alta-fidelidad](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
+![diseño-alta-fidelidad](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/Prototipo-alta-fidelidad.png?raw=true)
 
 
 ## Generación de Prompting
@@ -58,29 +56,17 @@ Las fotografías de los pilotos fueron obtenidas de diversas fuentes en internet
 
 Este proceso contribuyó a la cohesión estética y presentación homogénea de las fotografías en el contexto del proyecto.
 
-![diseño-fondo-blanco](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
+![diseño-fondo-blanco](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/Fotografia-fondo-blanco.png?raw=true)
 
 Estas imagenes estan almacenadas en ./src/data/images
 
 ## Funcionalidades
+La aplicación web proporciona herramientas esenciales para manipular y analizar datos relacionados. 
 
-* `filterData(data, filterBy, value)`: esta función recibe tres parámetros.
-  El primer parámetro, `data`, nos entrega los datos.
-  El segundo parámetro, `filterBy`, nos dice con respecto a cuál de los campos de
-  la data se quiere filtrar.
-  El tercer parámetro, `value`, indica el valor de campo que queremos filtrar.
+* La función filterData: Permite a los usuarios filtrar la información según una escudería específica, ayudándoles a centrarse en datos relevantes para un equipo en particular. 
+* La función sortData: Facilita la visualización de datos al permitir la ordenación ascendente o descendente de la información en función de un campo seleccionado, mejorando la legibilidad y comprensión de la información presentada.
 
-* `sortData(data, sortBy, sortOrder)`: esta función `sort` u ordenar
-  recibe tres parámetros.
-  El primer parámetro, `data`, nos entrega los datos.
-  El segundo parámetro, `sortBy`, nos dice con respecto a cuál de los campos de
-  la data se quiere ordenar.
-  El tercer parámetro, `sortOrder`, indica si se quiere ordenar de manera
-  ascendente o descendente.
-
-* `computeStats(data)`: la función `compute` o calcular, nos permitirá hacer
-  cálculos estadísticos básicos para ser mostrados de acuerdo a la data
-  proporcionada, esta función debe usar el método reduce.
+Además, la aplicación va más allá al ofrecer una función estadística con computeStats, la cual calcula el promedio de podios para los equipos en los datos proporcionados. Esta funcionalidad proporciona a los usuarios una visión general de los logros de cada escudería en términos de podios, agregando un elemento analítico valioso a la experiencia de usuario. 
 
 ## Desarrollo
 
@@ -91,6 +77,10 @@ El diseño de nuestra página web se centra en hacer las cosas de manera organiz
 En la disposición general de la página, utilizamos flexbox para el elemento que contiene nuestros elementos clave, permitiéndonos ajustar dinámicamente su posición y distribución.
 
 Además, para los controles de usuario, como las cajas de texto y los menús desplegables, hemos creado un diseño que se ajusta a diferentes tamaños de pantalla. Esto garantiza que la experiencia de usuario sea igualmente atractiva en dispositivos móviles gracias al uso de media queries.
+
+Obteniendo asi un diseño responsive para nuestra pagina, creando un menu desplegable con ayuda de iconos. 
+
+![Diseño-movile](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/Disens.png?raw=true)
 
 
 ### src/main.js
@@ -123,7 +113,7 @@ Imagina esta función como un constructor de tarjetas informativas. Por cada pil
 ### test/dataFunctions.spec.js
 Evaluamos las funciones esenciales que impulsan la funcionalidad de la aplicación. Estas pruebas son esenciales para confirmar que estas funciones centrales operen sin problemas, garantizando así la confiabilidad y precisión de la aplicación en su conjunto. La función filterData se encarga de seleccionar pilotos según la escudería,  sortData organiza la información de los pilotos según diferentes criterios, permitiendo clasificarlos en orden ascendente o descendente,  computeStats realiza cálculos estadísticos, especialmente el cálculo del promedio de podios de los pilotos. 
 
-![Imagen-test-passed](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
+![Imagen-test-passed](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/passed-pruebas.png?raw=true)
 
 ## Tecnologías Utilizadas
 * JavaScript

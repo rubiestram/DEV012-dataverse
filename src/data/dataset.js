@@ -3,7 +3,7 @@ export default [
         "id": "ayrton-senna",
         "name": "Ayrton Senna",
         "shortDescription": "Ayrton Senna, el legendario piloto brasileño de Fórmula 1, un ícono del deporte con 3 campeonatos y 80 podios",
-        "description": "Ayrton Senna, el inolvidable piloto brasileño de Fórmula 1, nació en São Paulo en 1960 y dejó una huella imborrable en el automovilismo. Ampliamente considerado uno de los mejores pilotos de la historia, su destreza en la pista era legendaria. Con un carisma magnético, Senna no solo era un maestro detrás del volante, sino también un icono fuera de la pista. Durante su tiempo con el equipo McLaren, logró un asombroso récord de 80 podios y ganó tres campeonatos mundiales, asegurando su lugar en la historia de la Fórmula 1 como un verdadero campeón y una inspiración eterna para los amantes del automovilismo.",
+        "description": "Inolvidable piloto brasileño, nació en São Paulo en 1960 y dejó una huella imborrable en el automovilismo. Considerado uno de los mejores pilotos de la historia, su destreza en la pista era legendaria. Senna no solo era un maestro detrás del volante, sino también un icono fuera de la pista. Durante su tiempo con el equipo McLaren, logró un asombroso récord de 80 podios y ganó tres campeonatos mundiales, asegurando su lugar en la historia de la Fórmula 1 como un verdadero campeón y una inspiración eterna para los amantes del automovilismo.",
         "imageUrl": "https://github.com/rubiestram/DEV012-dataverse/blob/main/src/data/images/ayrton_senna.png?raw=true",
         "facts": {
             "yearOfBirth": 1960,
@@ -275,7 +275,7 @@ export default [
         "id": "jack-brabham",
         "name": "Jack Brabham",
         "shortDescription": "Piloto australiano con 3 campeonatos mundiales, influyó en las carreras de autos como piloto y constructor.",
-        "description": "Ganador de 3 campeonatos mundiales, su destreza en la pista lo convirtió en un verdadero campeón. Pero su legado va más allá, ya que también se destacó como constructor de autos de Fórmula 1, influyendo en el deporte de maneras significativas. Era conocido por su espíritu competitivo y su dedicación al automovilismo. Su contribución al deporte perdura, y su nombre es sinónimo de éxito y perseverancia en las carreras de autos. Brabham, con su enfoque innovador, cambió la forma en que se abordaba la ingeniería en la Fórmula 1 y estableció un legado duradero en el automovilismo. Su influencia como piloto y constructor sigue siendo relevante en la historia de las carreras.",
+        "description": "Ganador de 3 campeonatos mundiales, su destreza en la pista lo convirtió en un verdadero campeón. Era conocido por su espíritu competitivo y su dedicación al automovilismo. Su contribución al deporte perdura, y su nombre es sinónimo de éxito y perseverancia en las carreras de autos. Brabham, con su enfoque innovador, cambió la forma en que se abordaba la ingeniería en la Fórmula 1 y estableció un legado duradero en el automovilismo. Su influencia como piloto y constructor sigue siendo relevante en la historia de las carreras.",
         "imageUrl": "https://github.com/rubiestram/DEV012-dataverse/blob/main/src/data/images/jack_brabham.png?raw=true",
         "facts": {
             "yearOfBirth": 1926,
@@ -582,8 +582,8 @@ export default [
       {
         "id": "pierre-gasly",
         "name": "Pierre Gasly",
-        "shortDescription": "Talentoso piloto de Fórmula 1, ha dejado su huella en el deporte con su participación en el equipo AlphaTauri. Desde su debut en la Fórmula 1 en 2017 con Scuderia Toro Rosso (ahora AlphaTauri), Su carrera incluye un emocionante triunfo en el Gran Premio de Italia en 2020, que lo convirtió en el primer piloto francés en ganar una carrera en más de dos décadas. Gasly es conocido por su tenacidad y su determinación para alcanzar el éxito. Su futuro en la Fórmula 1 es motivo de interés y su legado en el deporte del motor ya es notable.",
-        "description": "Es un piloto francés que ha competido en equipos como Red Bull Racing y AlphaTauri. Ha logrado victorias y podios en su carrera.",
+        "shortDescription": "Piloto francés, ha competido en equipos como Red Bull Racing y AlphaTauri. Logrando victorias y podios en su carrera.",
+        "description": "Piloto de Fórmula 1, ha dejado su huella en el deporte con su participación en el equipo AlphaTauri. Su debut en la F1 en 2017 con Scuderia Toro Rosso (ahora AlphaTauri), Su carrera incluye un emocionante triunfo en el Gran Premio de Italia en 2020, que lo convirtió en el primer piloto francés en ganar una carrera en más de dos décadas. Gasly es conocido por su tenacidad y su determinación para alcanzar el éxito. Su futuro en la Fórmula 1 es motivo de interés y su legado en el deporte del motor ya es notable.",
         "imageUrl": "https://github.com/rubiestram/DEV012-dataverse/blob/main/src/data/images/pierre_Gasly.png?raw=true",
         "facts": {
           "yearOfBirth": 1996,

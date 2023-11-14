@@ -53,6 +53,7 @@ Estas fueron las instrucciones que le dimos a la inteligencia artificial para qu
 
 Y esta fue la estructura y un ejemplo de los datos que nos proporciono:
 ![Data-estructurada](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/imagen-promptin3.png?raw=true)
+
 La data obtenida se almaceno en ./src/data/dataset.js
 
 ### Imagenes
@@ -60,7 +61,7 @@ Las fotografías de los pilotos fueron obtenidas de diversas fuentes en internet
 
 Este proceso contribuyó a la cohesión estética y presentación homogénea de las fotografías en el contexto del proyecto.
 
-![diseño-fondo-blanco](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/Fotografia-fondo-blanco.png?raw=true)
+![diseño-fondo-blanco](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/Fotografia-fondo.png?raw=true)
 
 Estas imagenes estan almacenadas en ./src/data/images
 
@@ -84,7 +85,7 @@ Además, para los controles de usuario, como las cajas de texto y los menús des
 
 Obteniendo asi un diseño responsive para nuestra pagina, creando un menu desplegable con ayuda de iconos. 
 
-![Diseño-movile](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/Diseño-mobile.png?raw=true)
+![Diseño-movile](https://github.com/XatAlcantara/DEV012-dataverse/blob/main/Diseno-responsive.png?raw=true)
 
 
 ### src/main.js
